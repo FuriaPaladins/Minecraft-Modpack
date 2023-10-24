@@ -1,0 +1,14 @@
+name = "Nvidium"
+filename = "nvidium-0.2.1-beta.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/SfMw2IZN/versions/ysJnbtbv/nvidium-0.2.1-beta.jar"
+hash-format = "sha512"
+hash = "69f0f699fa006586d0b33f27359b0ab9a7c6a6386ec9b3d302d71ca6c839cd175cfa845427151785ed956aebec3527262318ef39af684b06de17f67d3b9d7fa5"
+
+[update]
+[update.modrinth]
+mod-id = "SfMw2IZN"
+version = "ysJnbtbv"

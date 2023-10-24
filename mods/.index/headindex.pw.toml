@@ -1,0 +1,14 @@
+name = "Head Index"
+filename = "headindex-1.1.3.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/mEPmyd7J/versions/NhgIDWvL/headindex-1.1.3.jar"
+hash-format = "sha512"
+hash = "8a363ea95c6b4a3e715eed3fc85404695d53b3a91fee7ef475384d24c40500d593b80104e3ed3c612a99ed04f3db39c1a667cad34575ad03c5638ebbec4a5d76"
+
+[update]
+[update.modrinth]
+mod-id = "mEPmyd7J"
+version = "NhgIDWvL"

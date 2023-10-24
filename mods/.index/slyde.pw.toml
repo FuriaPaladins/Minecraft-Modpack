@@ -1,0 +1,14 @@
+name = "Slyde"
+filename = "slyde-1.7.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/diCZrsch/versions/KxoLHYhE/slyde-1.7.2.jar"
+hash-format = "sha512"
+hash = "31e2db3c5d65e6ef52949ec75b372486ef1621c735770bf1893dbed23b954a34b61e13539f98cb245da581665bb4266556571d1e4f886b643c062731272e10de"
+
+[update]
+[update.modrinth]
+mod-id = "diCZrsch"
+version = "KxoLHYhE"

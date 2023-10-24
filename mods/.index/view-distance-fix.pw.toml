@@ -1,0 +1,14 @@
+name = "View Distance Fix"
+filename = "viewdistancefix-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/nxrXbh5K/versions/WFF27Odi/viewdistancefix-1.20.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "1a4bc5c4e4e4affac5f2f3ccfe46b597b5952187bae649672343d87235a2b6d8033c3813681e67a830d054d6df4d56c041d0f9612b0eedae770e50805f11c1d7"
+
+[update]
+[update.modrinth]
+mod-id = "nxrXbh5K"
+version = "WFF27Odi"

@@ -1,0 +1,14 @@
+name = "Amplified Nether"
+filename = "Amplified_Nether_1.20.2_v1.2.3.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/wXiGiyGX/versions/LGRU0B5J/Amplified_Nether_1.20.2_v1.2.3.jar"
+hash-format = "sha512"
+hash = "83924ff463eb3e0db8eafea30801feef4dbfe69136e38dd296ed4200ceacba524a4685ddd5622ef128ba01374dcb4c05d88d6996f3bfedd4dc3ebc153f9f2566"
+
+[update]
+[update.modrinth]
+mod-id = "wXiGiyGX"
+version = "LGRU0B5J"

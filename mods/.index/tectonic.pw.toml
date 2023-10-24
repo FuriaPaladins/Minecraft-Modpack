@@ -1,0 +1,14 @@
+name = "Tectonic"
+filename = "tectonic-mod-mc1.19.3+-v2.1.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/lWDHr9jE/versions/aZXeWJ3r/tectonic-mod-mc1.19.3%2B-v2.1.1.jar"
+hash-format = "sha512"
+hash = "1dc38b46d4d708c0506c8af49761268fddbec7a565870bab5abe212bf79e016dc72992be2fb30696462b89df0391797c62430035778ca7b0592743a13cd2389c"
+
+[update]
+[update.modrinth]
+mod-id = "lWDHr9jE"
+version = "aZXeWJ3r"

@@ -1,0 +1,14 @@
+name = "TAB"
+filename = "TAB v4.0.7.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/gG7VFbG0/versions/DPSOl7s9/TAB v4.0.7.jar"
+hash-format = "sha512"
+hash = "90ecbc4172deec5f64b15bd9a4122990a089356b71469a6b835567f7754a7afb8922df8d78c6bba40607b29a4867e91bd2f58d9c6faaf2dbfc2c450d33d6246f"
+
+[update]
+[update.modrinth]
+mod-id = "gG7VFbG0"
+version = "DPSOl7s9"

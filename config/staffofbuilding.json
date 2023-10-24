@@ -1,0 +1,16 @@
+{
+  "woodenEnabled": true,
+  "woodenSize": 3,
+  "stoneEnabled": true,
+  "stoneSize": 6,
+  "ironEnabled": true,
+  "ironSize": 9,
+  "goldenEnabled": true,
+  "goldenSize": 12,
+  "diamondEnabled": true,
+  "diamondSize": 16,
+  "netheriteEnabled": true,
+  "netheriteSize": 32,
+  "infiniteEnabled": true,
+  "infiniteSize": 64
+}

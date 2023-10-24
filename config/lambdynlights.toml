@@ -1,0 +1,105 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+				player = true
+				item = true
+				bat = true
+				creeper = true
+				zombie = true
+				glow_squid = true
+				cave_spider = true
+				skeleton = true
+				enderman = true
+				spider = true
+				squid = true
+				villager = true
+				pig = true
+				cat = true
+				iron_golem = true
+				camel = true
+				horse = true
+				tropical_fish = true
+				experience_orb = true
+				zombie_villager = true
+				drowned = true
+				pufferfish = true
+				allay = true
+				area_effect_cloud = true
+				armor_stand = true
+				arrow = true
+				axolotl = true
+				bee = true
+				blaze = true
+				block_display = true
+				boat = true
+				chest_boat = true
+				chest_minecart = true
+				chicken = true
+				cod = true
+				command_block_minecart = true
+				cow = true
+				dolphin = true
+				donkey = true
+				dragon_fireball = true
+				egg = true
+				elder_guardian = true
+				end_crystal = true
+				ender_dragon = true
+				ender_pearl = true
+				endermite = true
+				evoker = true
+				evoker_fangs = true
+				experience_bottle = true
+				eye_of_ender = true
+				falling_block = true
+				firework_rocket = true
+				fox = true
+				frog = true
+				furnace_minecart = true
+				ghast = true
+				giant = true
+				goat = true
+				husk = true
+				rabbit = true
+				item_frame = true
+				witch = true
+				slime = true
+
+			[light_sources.settings.entities.naturalist]
+				lizard = true
+				tortoise = true
+				snail = true
+				coral_snake = true
+				bass = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+
+			[light_sources.settings.entities.dummmmmmy]
+				target_dummy = true
+
+			[light_sources.settings.entities.fennecfox]
+				fennecfox = true
+
