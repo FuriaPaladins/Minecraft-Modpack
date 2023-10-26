@@ -53,8 +53,6 @@ Simply click on the "Add Microsoft"/"Add Mojang" buttons and follow the instruct
 - Select "Download ZIP"  
 ![Download modpack zip](src/download_github.png)
 
-Note: If you get stuck in the "Getting the assets files from Mojang" part, just press "abort" and restart.   
-![Fix stuck asset issue](src/abort_asset_files.png)
 
 # 6. Now you can add the modpack as a new instance in Prism
 - Click on "Add instance"
@@ -76,8 +74,11 @@ Note: If you get stuck in the "Getting the assets files from Mojang" part, just 
 # 8. You can now launch!
 -  (First launch will typically take a while, this is completely normal)
 
-# Notes:
-- Do not worry if a very large amount of mods show up in the title menu. Most mods just have in-built dependencies that fabric counts separately.
+- Note: If you get stuck in the "Getting the assets files from Mojang" part, just press "abort" and restart.   
+![Fix stuck asset issue](src/abort_asset_files.png)
+
+# Other Notes:
+- Do not worry if a very large amount of mods show up in the title menu. Most mods just have in-built dependencies that fabric counts separately.  
 ![Many mods](src/many_mods.png)
 - Most optifine features like what [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) need are added in by other mods, no optifine required.
 - On that note, PLEASE DO NOT INSTALL OPTIFINE INTO THIS MODPACK. The modpack is running on [Sodium and it's suite of mods](https://modrinth.com/mod/sodium) that are typically better for performance, and Optifine is much more prone to breaking.  
