@@ -59,6 +59,7 @@ Simply click on the "Add Microsoft"/"Add Mojang" buttons and follow the instruct
 - Go to "Import" and find the ZIP file you downloaded from the step above  
 - *You can now setup a custom name, group and icon. If you'd like the custom Kraken Gang icon that I've made, you can [download it from here](https://github.com/FuriaPaladins/Minecraft-Modpack/tree/main/src/kraken_icon.png)*  
 <img src="src/kraken_icon.png" alt="drawing" width="64"/>  
+
 ![Add modpack](src/add_modpack.png)
 
 # 7. (Optional)
