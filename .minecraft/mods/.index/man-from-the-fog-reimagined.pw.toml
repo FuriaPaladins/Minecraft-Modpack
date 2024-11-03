@@ -1,0 +1,13 @@
+filename = 'man-from-the-fog-0.6.2.jar'
+name = 'Man From The Fog Reimagined'
+side = 'both'
+
+[download]
+hash = '83ef3f4bfd7e6381a7942b9b0a148d250e8207fbe2a32215f3dd1610dc5c0c991c667488c03369661d9007fd9563db7a0cec147ec5930d74ff84eb8911065ffb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jac2HdQt/versions/Nf3BbcbP/man-from-the-fog-0.6.2.jar'
+
+[update.modrinth]
+mod-id = 'jac2HdQt'
+version = 'Nf3BbcbP'

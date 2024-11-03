@@ -1,0 +1,13 @@
+filename = 'yacg-2024.5.3.jar'
+name = 'Yet Another Cobblestone Generator'
+side = 'both'
+
+[download]
+hash = '6f56d40ad03e9fb14ded63fddf41afc2615658ab8406641c2019333354fc619b0e62afc28d8add6757a48f12838c65b234df749788ff1596d9b5f87d2a4c767f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xPsKRMUF/versions/YFWX5i0Q/yacg-2024.5.3.jar'
+
+[update.modrinth]
+mod-id = 'xPsKRMUF'
+version = 'YFWX5i0Q'

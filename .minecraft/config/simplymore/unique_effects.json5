@@ -1,0 +1,139 @@
+{
+	// Black Pearl
+	"cannonballCooldown": 180,
+	"plunderChance": 10,
+	// Blade of the Grotesque
+	"solidifySelfStunTime": 50,
+	"solidifyAttackerStunTime": 90,
+	"grotesqueHeldArmorBuff": 3,
+	"solidifySelfStunnedArmorBuff": 10,
+	"solidifyAttackerStunnedArmorBuff": 10,
+	"solidifyCooldown": 500,
+	// Boa's Fang
+	"suffocationChance": 50,
+	"suffocationTime": 50,
+	"spitSpeedTime": 80,
+	"spitCooldown": 600,
+	"spitPoisonTime": 80,
+	"spitDamage": 5.0,
+	"spitSelfKnockback": 2.0,
+	// Earthshatter
+	"armorCrunchChance": 15,
+	"slamCooldown": 600,
+	"slamEffectTime": 160,
+	// Glimmerstep
+	"mountedBlindnessChance": 30,
+	"unmountedBlindnessChance": 5,
+	"blindnessTime": 5,
+	"teleportWindUpTime": 60,
+	"teleportDistance": 30,
+	"teleportCooldown": 1200,
+	// Grandfrost
+	"chillingChance": 25,
+	"chillingTime": 140,
+	"blizzardRange": 5,
+	"blizzardStrength": 3.5,
+	"blizzardEffectTime": 200,
+	"blizzardCooldown": 500,
+	// Great Slither
+	"slitherPoisonTime": 90,
+	"slitherPoisonChance": 25,
+	"slitherFangsRange": 7,
+	"slitherFangsDamage": 4.0,
+	"slitherFangsVenomTime": 90,
+	"slitherFangsCooldown": 200,
+	// Lustrous Moxie
+	"radiantMarkChance": 20,
+	"radiantTeleportCooldown": 400,
+	"radiantTeleportStunTime": 30,
+	"radiantTeleportRange": 20,
+	"radiantTeleportAOERange": 5,
+	"radiantTeleportAOEKnockback": 2.0,
+	"radiantTeleportTargetDamage": 15.0,
+	"radiantTeleportAOEDamage": 10.0,
+	// Matterbane
+	"levitationChance": 15,
+	"levitationTime": 20,
+	"riftCooldown": 1200,
+	// Mimi-cry
+	"purityHitsNeeded": 5,
+	"twistedHitsNeeded": 4,
+	"purityEffectTime": 250,
+	"twistedEffectTime": 250,
+	// Molten Flare
+	"eruptionChance": 20,
+	"eruptionRadius": 4,
+	"eruptionRadiusEmpowered": 7,
+	"executingSliceSwingSpeedBonus": 0.6000000238418579,
+	"executingSliceCooldown": 300,
+	// Ruyi Jingu Bang
+	"ruyiCooldown": 700,
+	// Scarab Roller
+	"rollCooldown": 200,
+	"rollSpeed": 1.0,
+	"rollDamage": 5.0,
+	"rollMaxDuration": 300,
+	"resistanceChance": 15,
+	"resistanceTime": 100,
+	// Serpentine Valor
+	"poisonBoltCooldown": 700,
+	"poisonBoltLifespan": 10,
+	"poisonBoltDamage": 2.0,
+	"poisonVenomTime": 160,
+	"poisonedTargetDamageBuff": 4.0,
+	// The Pan
+	"bonkChance": 30,
+	"bonkStrength": 20.0,
+	// Idols
+	"spreadAuraChance": 15,
+	"curseDamageMultiplier": 1.5,
+	"curseNegativeAdditionsTime": 100,
+	"blessingHeal": 4.0,
+	"darksentCooldown": 800,
+	"holylightCooldown": 800,
+	// Smoldering Ruin
+	"ruinCooldown": 800,
+	"witherChance": 25,
+	"witherTime": 100,
+	// Soul Foreseer
+	"foreseenTime": 160,
+	"foreseenChance": 30,
+	"judgeTeleportRange": 20,
+	"judgeTeleportNegativeEffectTime": 80,
+	// Stasis
+	"lightningCooldown": 700,
+	"stagnationTime": 80,
+	"stagnationChance": 20,
+	"lightningDamage": 16.0,
+	"lightningWindup": 60,
+	"lightningRange": 4,
+	// The Blood Harvester
+	"harvestCooldown": 1800,
+	"harvestTime": 300,
+	"harvestWitherTime": 80,
+	"harvesterLifesteal": 0.10000000149011612,
+	"harvesterHarvestLifesteal": 0.20000000298023224,
+	// The Vessel Breach
+	"rageCooldown": 1800,
+	"vesselLifesteal": 0.10000000149011612,
+	"vesselRageLifesteal": 0.2800000011920929,
+	"rageTime": 200,
+	"rageStartupDamagePercentage": 0.30000001192092896,
+	// Tidebreaker
+	"insanityTeleportCooldown": 400,
+	"insanityCloudChance": 25,
+	"insanityCloudDuration": 300,
+	"insanityTeleportMaxDistance": 15,
+	"insanityTeleportMaxTime": 200,
+	// Timekeeper
+	"timekeeperBaseCooldown": 400,
+	"nightActiveSlownessTime": 100,
+	"dayActiveBlindnessTime": 100,
+	"nightPassiveEffectTime": 70,
+	"dayPassiveEffectTime": 70,
+	"nightDamage": 2.0,
+	"dayDamage": 6.0,
+	"timekeeperOnHitChance": 20,
+	// Viper's Call
+	"chakramCooldown": 1200
+}

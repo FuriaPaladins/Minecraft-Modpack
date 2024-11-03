@@ -1,0 +1,13 @@
+filename = 'FactoryAPI-1.20.1-2.1.4-fabric.jar'
+name = 'Factory API'
+side = 'both'
+
+[download]
+hash = 'f643ee161c3c912ab7bbdefb62b83cfb03bf56cedd0d1602675f4e014a1a4a19e436a1aeaf0bdcadf6ba3eae71406d4300bf9ebf909493c0eff514cc77b55ef3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nkTZHOLD/versions/Z9jBmGZS/FactoryAPI-1.20.1-2.1.4-fabric.jar'
+
+[update.modrinth]
+mod-id = 'nkTZHOLD'
+version = 'Z9jBmGZS'

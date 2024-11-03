@@ -1,0 +1,5 @@
+[generation]
+	#Should the Christmas Forest generate?
+	christmasForestGeneration = true
+	#Should the Spooky Oak Forest generate?
+	spookyOakForestGeneration = true

@@ -1,0 +1,13 @@
+filename = 'spellbladenext-1.21.3+1.20.1.jar'
+name = 'Spellblades and Such'
+side = 'both'
+
+[download]
+hash = 'c9214cd5ac3375b601423fc9c14051d454b0dacc6ca3aeaad99ba90d890bbde8c01d83cd56273cd2e02e79168ac7eea101432d29c07b5666af7941da05bd0ef2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VJkx9nDN/versions/id8i8ceJ/spellbladenext-1.21.3%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'VJkx9nDN'
+version = 'id8i8ceJ'

@@ -1,0 +1,24 @@
+{
+  "name": "singularity.avaritia.aluminum",
+  "colors": [
+    "caccda",
+    "9a9ca6"
+  ],
+  "timeRequired": 240,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:item_tags_populated",
+        "values": [
+          "c:aluminum_ingots"
+        ]
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "c:aluminum_ingots"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

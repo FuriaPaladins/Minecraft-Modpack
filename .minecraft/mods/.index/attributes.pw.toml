@@ -1,0 +1,13 @@
+filename = 'puffish_attributes-0.6.0-1.20-fabric.jar'
+name = "Pufferfish's Attributes"
+side = 'both'
+
+[download]
+hash = '816821d9645f7216a28df32f7e06b81a94519103c4481299aca5524d743a600edc3e36d6c91381047766f3927e1802d4142d80bbccb4ef1e06e507de81ed77b4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FCFcFw09/versions/DeaKOqto/puffish_attributes-0.6.0-1.20-fabric.jar'
+
+[update.modrinth]
+mod-id = 'FCFcFw09'
+version = 'DeaKOqto'

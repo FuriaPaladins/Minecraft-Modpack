@@ -1,0 +1,13 @@
+filename = 'simplymore-1.0.2+1.20.1.jar'
+name = 'Simply More'
+side = 'both'
+
+[download]
+hash = 'a11f0443f79703c9fcdfc783fb5a0472e0477ec4544bdac4afacf63912644b3a60df0f92b0260f09f5fdd0efb81fb23f95e74e43e9d28075ecd44006d8ca32d5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zhpyD8Y0/versions/8Ue4NbBQ/simplymore-1.0.2%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'zhpyD8Y0'
+version = '8Ue4NbBQ'

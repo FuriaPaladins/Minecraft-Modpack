@@ -1,0 +1,13 @@
+filename = 'kevsequipmentsets-1.0.5.jar'
+name = "Kev's Equipment Sets"
+side = 'both'
+
+[download]
+hash = '8c236f454ee60c6690aac86a2fab2d5543cb7e552ede2d6551f3af33c7b747c6e45bbe3205dbe0b2243be461a0616a77dff56572b41e3860522c88937eba92cc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZSeB6n9M/versions/HGvWNPM4/kevsequipmentsets-1.0.5.jar'
+
+[update.modrinth]
+mod-id = 'ZSeB6n9M'
+version = 'HGvWNPM4'

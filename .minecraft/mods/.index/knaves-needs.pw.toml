@@ -1,0 +1,13 @@
+filename = 'knavesneeds-fabric-2.0.1+1.20.1.jar'
+name = "Knaves' Needs"
+side = 'both'
+
+[download]
+hash = 'ff6f123fb143e33e18feaf80c1f01142641de33981139b895c0bd9537b1967ad9544f43e8ddd5b13d3c8d76a920d69bec195c032eea3bb84591643f588618b74'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/znkjY5Gb/versions/CUGv9CnF/knavesneeds-fabric-2.0.1%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'znkjY5Gb'
+version = 'CUGv9CnF'

@@ -1,0 +1,13 @@
+filename = 'majrusz-library-fabric-1.20.1-7.0.8.jar'
+name = 'Majrusz Library'
+side = 'both'
+
+[download]
+hash = 'd3f0b815441a140ea66569807d42e9fe58b4c8e0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5301915
+project-id = 437409

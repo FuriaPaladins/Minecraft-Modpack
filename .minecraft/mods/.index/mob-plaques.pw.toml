@@ -1,0 +1,13 @@
+filename = 'MobPlaques-v8.0.1-1.20.1-Fabric.jar'
+name = 'Mob Plaques'
+side = 'client'
+
+[download]
+hash = '5bb046322d9a62488b0c6a680ea79253e0c33a1a5b825bf1f5a668690e9208e837b7d4c4cfd5c95401fb4d137a7a5fe69a37ca4236c81fd3388c3f876dae87b7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3b1CFIR5/versions/bcQFG4g7/MobPlaques-v8.0.1-1.20.1-Fabric.jar'
+
+[update.modrinth]
+mod-id = '3b1CFIR5'
+version = 'bcQFG4g7'

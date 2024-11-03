@@ -1,0 +1,13 @@
+filename = 'Shimmer-fabric-1.20.1-0.2.4.jar'
+name = 'Shimmer'
+side = 'client'
+
+[download]
+hash = '93080ebaa5380489dbfdf6a3284a734a76012a40f7ec2431d7e776a213d0fc12d4257af7135a4f44bf59dd0d9ad3d209d86e41c5db9f54064cbef8f3500268e0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uBKACKpl/versions/VEc2s37H/Shimmer-fabric-1.20.1-0.2.4.jar'
+
+[update.modrinth]
+mod-id = 'uBKACKpl'
+version = 'VEc2s37H'

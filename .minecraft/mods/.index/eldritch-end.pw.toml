@@ -1,0 +1,13 @@
+filename = 'Eldritch_End-FABRIC-MC1.20.1-0.3.2.jar'
+name = 'Eldritch End'
+side = 'both'
+
+[download]
+hash = 'f2c54843ff64988951b3aa549c45cefc68b8fa17cd50f1704920ac78c21aea43b70de2dbad36b0ae16742c53713c0447b87e4492539cd97c67838355252e97af'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nBaXIQY9/versions/lfUfoDvh/Eldritch_End-FABRIC-MC1.20.1-0.3.2.jar'
+
+[update.modrinth]
+mod-id = 'nBaXIQY9'
+version = 'lfUfoDvh'

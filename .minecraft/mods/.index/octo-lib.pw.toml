@@ -1,0 +1,13 @@
+filename = 'OctoLib-FABRIC-0.4.2+1.20.1.jar'
+name = 'OctoLib'
+side = 'both'
+
+[download]
+hash = '6c868d1abc4466800412b0281632ffdd95ec694c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5644696
+project-id = 916747

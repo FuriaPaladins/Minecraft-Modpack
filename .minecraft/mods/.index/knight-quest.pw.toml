@@ -1,0 +1,13 @@
+filename = 'knightquest-1.7.0-fabric.jar'
+name = 'Knight Quest'
+side = 'both'
+
+[download]
+hash = '983b25cd5a6508450fbe0a4c2633c223f3c122c340b114f1f20fc2d077fdb3e1faa5fb500e7323b34419181ef55094356d6871db10fb8e5dd8c8f53060650851'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VEOQ4Jz4/versions/UlwORISx/knightquest-1.7.0-fabric.jar'
+
+[update.modrinth]
+mod-id = 'VEOQ4Jz4'
+version = 'UlwORISx'

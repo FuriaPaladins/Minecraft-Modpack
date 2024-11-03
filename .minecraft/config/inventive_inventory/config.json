@@ -1,0 +1,15 @@
+{
+  "sorting": "enabled",
+  "sorting_mode": "name",
+  "cursor_stack_behaviour": "aok_dependent",
+  "automatic_refilling": "enabled",
+  "automatic_refilling_mode": "automatic",
+  "tool_replacement_behaviour": "break_tool",
+  "tool_replacement_priority": "material",
+  "automatic_refilling_ignore_locked_slots": "true",
+  "profiles": "enabled",
+  "fast_load": "true",
+  "profiles_ignore_locked_slots": "true",
+  "pickup_into_locked_slots": "false",
+  "quick_move_into_locked_slots": "false"
+}

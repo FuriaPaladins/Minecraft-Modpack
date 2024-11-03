@@ -1,0 +1,13 @@
+filename = 'BetterAdvancements-Fabric-1.20.1-0.4.2.10.jar'
+name = 'Better Advancements'
+side = 'client'
+
+[download]
+hash = 'a8281b46c961f5f5216b966cec99353cbc2ad080802de457165d2af809ddd73584cda6c29d2d847b5be9324a006bdba2f599ad9526756ecfbba8306ca9abae4f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Q2OqKxDG/versions/aefjQSuD/BetterAdvancements-Fabric-1.20.1-0.4.2.10.jar'
+
+[update.modrinth]
+mod-id = 'Q2OqKxDG'
+version = 'aefjQSuD'

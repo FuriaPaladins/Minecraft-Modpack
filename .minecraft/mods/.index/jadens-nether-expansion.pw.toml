@@ -1,0 +1,13 @@
+filename = 'Jadens-Nether-Expansion-2.0.2-Fabric.jar'
+name = "Jaden's Nether Expansion"
+side = 'both'
+
+[download]
+hash = '95ce8169542bf853221e2dde698c35b92aa192ed22ed30450f134c3eaf442c4fbc05939764ab3ead50aec1000345e23c54e5a9bff0f6b354087d27ed6131b8a4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/v3UlehfS/versions/QcYi061I/Jadens-Nether-Expansion-2.0.2-Fabric.jar'
+
+[update.modrinth]
+mod-id = 'v3UlehfS'
+version = 'QcYi061I'

@@ -1,0 +1,13 @@
+filename = 'batsgalore-fabric-1.20.1-1.2.3.jar'
+name = 'Bats Galore'
+side = 'both'
+
+[download]
+hash = '73f2301f264d46346b34f101d9dfdfb8fc37939f3ffabbdfb075595915269b5d1c498a5751c82a1202eb8fb32ad418e87ff97e85c291a49d47d373bdea5095aa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SNIKP4CT/versions/YheMuyZ6/batsgalore-fabric-1.20.1-1.2.3.jar'
+
+[update.modrinth]
+mod-id = 'SNIKP4CT'
+version = 'YheMuyZ6'

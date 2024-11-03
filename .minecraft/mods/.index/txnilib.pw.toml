@@ -1,0 +1,13 @@
+filename = 'txnilib-fabric-1.0.19-1.20.1.jar'
+name = 'TxniLib'
+side = 'both'
+
+[download]
+hash = '6d95f84b151c4fd3cd8c52aa8703dddd5823a064'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5758761
+project-id = 1104882

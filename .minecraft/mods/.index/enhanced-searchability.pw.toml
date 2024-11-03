@@ -1,0 +1,13 @@
+filename = 'enhanced_searchability-mc1.20-1.0.0-build.3.jar'
+name = 'Enhanced Searchability'
+side = 'client'
+
+[download]
+hash = 'f9d0b4b6e82a87c9dfb0ea77423018e212cfa7bef4ad9802670a59798f49f3d1ec7d39a15d6f751bd97ad6f27a1cc0343584a27b244e034506cf74c35e3113f6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Scg0CNUt/versions/In3doVKu/enhanced_searchability-mc1.20-1.0.0-build.3.jar'
+
+[update.modrinth]
+mod-id = 'Scg0CNUt'
+version = 'In3doVKu'

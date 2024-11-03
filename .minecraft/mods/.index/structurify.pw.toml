@@ -1,0 +1,13 @@
+filename = 'structurify-fabric-mc1.20.1-1.0.8.jar'
+name = 'Structurify'
+side = 'both'
+
+[download]
+hash = '56be903da02153409fcf78bf5b0b7a3b9a97626c6d9693a40196f56219344caacba2a3de6ec315f269e3e0387881dbbb185e103781acbe043d6e755b54858693'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yz7AM2zx/versions/zWWAGMAs/structurify-fabric-mc1.20.1-1.0.8.jar'
+
+[update.modrinth]
+mod-id = 'yz7AM2zx'
+version = 'zWWAGMAs'

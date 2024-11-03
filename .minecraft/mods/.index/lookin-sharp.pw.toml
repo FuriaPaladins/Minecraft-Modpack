@@ -1,0 +1,13 @@
+filename = 'lookinsharp-fabric-1.20.1-1.0.2.jar'
+name = "Lookin' sharp"
+side = 'both'
+
+[download]
+hash = '176448d8249ad50f8300f8216c60db290abfc1a630c0f755ab86dd5f8d25782459f81e6d7ee4ba161cdc42590a13890bd062188f6e2fbc394cf06819922d2d86'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RLMXoOXH/versions/PkfegkuC/lookinsharp-fabric-1.20.1-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'RLMXoOXH'
+version = 'PkfegkuC'

@@ -1,0 +1,13 @@
+filename = 'profundis-1.6.2.jar'
+name = 'Profundis: Nine New Quality Cave Biomes'
+side = 'server'
+
+[download]
+hash = '2fed4cdd30b509d374546ae02b018ef5675e42458da3bae9b1c9fc3b347bd169d90e428534ff9e0193dd60bcc5f6fbea1320ea541e22c9029743c3ad62b68d25'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aucz7XCt/versions/qX0iNakQ/profundis-1.6.2.jar'
+
+[update.modrinth]
+mod-id = 'aucz7XCt'
+version = 'qX0iNakQ'

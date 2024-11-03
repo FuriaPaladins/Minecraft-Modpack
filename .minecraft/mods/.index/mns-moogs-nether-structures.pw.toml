@@ -1,0 +1,13 @@
+filename = 'mns-1.0.1-1.20-fabric.jar'
+name = "MNS - Moog's Nether Structures"
+side = 'server'
+
+[download]
+hash = 'fbef2ed5e5c7bca85b8bab242c84a0d3dbc72335318c8df9d696aa52617d9fb28a8396a3fecf9554e8aa265a157eee232f7d6e1bc7235c04c89ee3a1695f4abe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nGUXvjTa/versions/PTf5Y56P/mns-1.0.1-1.20-fabric.jar'
+
+[update.modrinth]
+mod-id = 'nGUXvjTa'
+version = 'PTf5Y56P'

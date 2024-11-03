@@ -1,0 +1,24 @@
+{
+  "name": "singularity.avaritia.invar",
+  "colors": [
+    "bcc5bb",
+    "5d7877"
+  ],
+  "timeRequired": 240,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:item_tags_populated",
+        "values": [
+          "c:invar_ingots"
+        ]
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "c:invar_ingots"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

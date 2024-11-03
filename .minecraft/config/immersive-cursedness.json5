@@ -1,0 +1,12 @@
+{ 
+	"horizontalSendLimit": 70,
+	// Should usually be atmosphereRadius+2
+	"portalDepth": 30,
+	// Measured in chunks
+	"renderDistance": 3,
+	"debugParticles": false,
+	// Whether Immersive Cursedness is on by default
+	"defaultEnabled": true,
+	// The radius where the outer block of the atmosphere should be
+	"atmosphereRadius": 28
+}

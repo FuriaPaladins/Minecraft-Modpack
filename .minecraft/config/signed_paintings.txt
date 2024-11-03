@@ -1,0 +1,13 @@
+- Blocked Painting URLs -
+- Allowed URL Domains -
+https://i.imgur.com/
+https://iili.io/
+https://i.ibb.co/
+- Detailed Logs -
+false
+- Rendering Toggles -
+true
+true
+true
+false
+true

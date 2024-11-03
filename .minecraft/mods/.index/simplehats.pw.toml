@@ -1,0 +1,13 @@
+filename = 'simplehats-fabric-1.20.1-0.3.2.jar'
+name = 'Simple Hats'
+side = 'both'
+
+[download]
+hash = 'd5bb4206550343d100b08b40ad8fc66309c12fac'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5603826
+project-id = 631990

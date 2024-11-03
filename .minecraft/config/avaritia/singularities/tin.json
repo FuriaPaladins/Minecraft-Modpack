@@ -1,0 +1,24 @@
+{
+  "name": "singularity.avaritia.tin",
+  "colors": [
+    "a0bebd",
+    "527889"
+  ],
+  "timeRequired": 240,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:item_tags_populated",
+        "values": [
+          "c:tin_ingots"
+        ]
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "c:tin_ingots"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

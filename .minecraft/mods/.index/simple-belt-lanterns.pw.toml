@@ -1,0 +1,13 @@
+filename = 'bug_beltlanterns-1.0.1.jar'
+name = 'Simple Belt Lanterns'
+side = 'both'
+
+[download]
+hash = '9436bcb10145ec7348225646736432f19532730a26c83db814b0b76613163b4245ea686629563938606b4f3d1b6f82c69bcf7498df5e7c3a2fd652f08d2bf079'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QgFr5VFQ/versions/ytKLsCp6/bug_beltlanterns-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'QgFr5VFQ'
+version = 'ytKLsCp6'

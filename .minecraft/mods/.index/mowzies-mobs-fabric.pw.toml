@@ -1,0 +1,13 @@
+filename = 'MowziesMobs-Fabric-0.2.jar'
+name = "Mowzie's Mobs Unofficial"
+side = 'both'
+
+[download]
+hash = 'cbf7ca01081ac664ea6ea5f5c785cad2bf047943'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5829588
+project-id = 1115535

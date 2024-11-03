@@ -1,0 +1,13 @@
+filename = 'additional_rpg_jewelry-1.0.6.jar'
+name = 'Additional RPG Jewelry (More RPG Content)'
+side = 'both'
+
+[download]
+hash = '73421fa070593afa88e061613236a27f79e68418361fe81c5052e82afc8c25fa2143c2536574479b50f77b1c7b9ed3c6ca3e1099b8444e161b4fedccf823b7b5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rULzJh3O/versions/RqcAN3Fn/additional_rpg_jewelry-1.0.6.jar'
+
+[update.modrinth]
+mod-id = 'rULzJh3O'
+version = 'RqcAN3Fn'

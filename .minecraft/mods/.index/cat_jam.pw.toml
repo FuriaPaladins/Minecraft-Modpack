@@ -1,0 +1,13 @@
+filename = 'cat_jam-fabric-mc1.20-1.2.2.jar'
+name = 'cat_jam'
+side = 'client'
+
+[download]
+hash = '0478dae350fae7dee887fcd749302fcbbf454f58357ee4d6d200640d1855e9c7e8534f42e64a4cafc18a6a53d7bb69ca0c802e33d537ce6cd66cf1186ff5be40'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/x3s69afN/versions/yL4xn8Kt/cat_jam-fabric-mc1.20-1.2.2.jar'
+
+[update.modrinth]
+mod-id = 'x3s69afN'
+version = 'yL4xn8Kt'

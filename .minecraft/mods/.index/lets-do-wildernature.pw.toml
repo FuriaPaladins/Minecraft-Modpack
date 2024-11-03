@@ -1,0 +1,13 @@
+filename = 'letsdo-wildernature-fabric-1.0.2.jar'
+name = "[Let's Do] WilderNature"
+side = 'both'
+
+[download]
+hash = '680a567968da493e7e00bbf34c975d73cd616ce01e7c118efebba354dbeaad086129cf78b1e524196846ee373705eb3f4dfbb707f00c8d63d656ddf8aff33807'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AAiRU4aQ/versions/O84Ab1Bd/letsdo-wildernature-fabric-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'AAiRU4aQ'
+version = 'O84Ab1Bd'

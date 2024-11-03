@@ -1,0 +1,13 @@
+filename = 'mod_sets-1.9.2.jar'
+name = 'Mod Sets'
+side = 'both'
+
+[download]
+hash = 'e2a3dbc411ec62b64e45dd16c7f64df02cebbbdaec54c940ed32322c092b9369f1134ffcac538db0189b4903531b25b814944112f66f6d175a50b8532864d3a9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/b313lC4Y/versions/FGkPdB19/mod_sets-1.9.2.jar'
+
+[update.modrinth]
+mod-id = 'b313lC4Y'
+version = 'FGkPdB19'

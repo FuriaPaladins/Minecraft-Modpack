@@ -1,0 +1,13 @@
+filename = 'witchmobility-1.4.3-1.20.1.jar'
+name = 'Witch Mobility [Forge & Fabric]'
+side = 'both'
+
+[download]
+hash = '90032d05e4e72cb52f689bbc370674f84a81c2bb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5724739
+project-id = 782330

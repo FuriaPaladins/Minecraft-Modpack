@@ -1,0 +1,13 @@
+filename = 'archers-expansion-0.1.2-1.20.1.jar'
+name = 'Archers Expansion (More RPG Classes)'
+side = 'both'
+
+[download]
+hash = '9f00900d6f7ae863d1c6d90fa5b179ecd3a8da357ff1b6db21cab18346ae68dc39e01a14552a5b97606a4515c71ec6debd47d469774af8feaf018fe96fc61f9e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1BHIIm4m/versions/DiwkGVbv/archers-expansion-0.1.2-1.20.1.jar'
+
+[update.modrinth]
+mod-id = '1BHIIm4m'
+version = 'DiwkGVbv'

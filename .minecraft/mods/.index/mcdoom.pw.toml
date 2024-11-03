@@ -1,0 +1,13 @@
+filename = 'MCDoom-fabric-1.20.1-7.0.13.jar'
+name = 'MCDoom'
+side = 'both'
+
+[download]
+hash = 'aff8ed703ce38be4a02a344328e0979a06fbb87ff02c487fa4d92b3b9dbb100c667764d37bb1ec13968b7cc1447c58506fe1db536c17656e72df772c22fa01a3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Mfo4FiDF/versions/YQc5vSQ6/MCDoom-fabric-1.20.1-7.0.13.jar'
+
+[update.modrinth]
+mod-id = 'Mfo4FiDF'
+version = 'YQc5vSQ6'

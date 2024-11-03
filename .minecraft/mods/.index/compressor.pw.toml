@@ -1,0 +1,13 @@
+filename = 'Compressor-Fabric-0.3.3+01.jar'
+name = 'Compressor'
+side = 'both'
+
+[download]
+hash = 'be95979c89939d2cc6f1af583551b3da778da80f77c5af3d4017f663437c95b7a2eb6e7c80e56f58398cb88c2376a82a661048dfd2c677171ef9153e4d2ca1e1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Np7s41ut/versions/PpLnqPur/Compressor-Fabric-0.3.3%2B01.jar'
+
+[update.modrinth]
+mod-id = 'Np7s41ut'
+version = 'PpLnqPur'

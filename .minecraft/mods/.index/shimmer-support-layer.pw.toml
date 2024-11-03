@@ -1,0 +1,13 @@
+filename = 'shimmer-support-layer-0.9.4-dev.jar'
+name = 'Shimmer Support Layer'
+side = 'client'
+
+[download]
+hash = '2c5c64a60b9d7f6cfc4ca644eedcb6a61cf7f3f72f0eac91e8745f9d716109c447d078ea847587d7a78bdf4b8eb3bd76723b5f76b2ddfb3f6d2f8823ad3bdebb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mEJD8Jss/versions/UWhIngB8/shimmer-support-layer-0.9.4-dev.jar'
+
+[update.modrinth]
+mod-id = 'mEJD8Jss'
+version = 'UWhIngB8'

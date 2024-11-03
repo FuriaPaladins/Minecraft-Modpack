@@ -1,0 +1,13 @@
+filename = 'immersivelanterns-fabric-1.0.3-1.20.1.jar'
+name = 'Immersive Lanterns'
+side = 'both'
+
+[download]
+hash = '480e8977378e69abbd790917e998820ee8ef7178'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5801496
+project-id = 1116812

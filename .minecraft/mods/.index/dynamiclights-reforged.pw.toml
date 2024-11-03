@@ -1,0 +1,13 @@
+filename = 'sodiumdynamiclights-fabric-1.0.9-1.20.1.jar'
+name = 'Sodium Dynamic Lights'
+side = 'both'
+
+[download]
+hash = '51115efc9f116dbde1e8e1ab8b187e2e29bbdb3f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5807539
+project-id = 551736

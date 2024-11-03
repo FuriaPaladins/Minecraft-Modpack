@@ -1,0 +1,13 @@
+filename = 'Corgilib-Fabric-1.20.1-4.0.3.2.jar'
+name = 'CorgiLib'
+side = 'both'
+
+[download]
+hash = '5009aa369a3ae935673a887d790b1528f695e92fee72393a28c8fd27fd3a58734dc48ee8c6dd43e8ff8a0149fe810fa4d6938898919ff7b1669d4bbd8d0b922a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ziOp6EO8/versions/CtEbg5dY/Corgilib-Fabric-1.20.1-4.0.3.2.jar'
+
+[update.modrinth]
+mod-id = 'ziOp6EO8'
+version = 'CtEbg5dY'

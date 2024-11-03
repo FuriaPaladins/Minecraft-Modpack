@@ -1,0 +1,13 @@
+filename = 'nyfsspiders-fabric-1.20.1-2.1.1.jar'
+name = "Nyf's Spiders"
+side = 'both'
+
+[download]
+hash = '57cdc24074718f0a1caab73d3936255891ffa3ca'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4728360
+project-id = 686058

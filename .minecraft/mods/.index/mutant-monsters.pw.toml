@@ -1,0 +1,13 @@
+filename = 'MutantMonsters-v8.0.7-1.20.1-Fabric.jar'
+name = 'Mutant Monsters'
+side = 'both'
+
+[download]
+hash = '8b432a01ec4937c905a9f6a1c976ae80b029ff5438b0a82a76eefd16779cdda9e43cf83af48615d7312b8d6328ce83372e27fd4d4aa09984fc2e9a75f17a666f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/derP0ten/versions/GEdQkhpr/MutantMonsters-v8.0.7-1.20.1-Fabric.jar'
+
+[update.modrinth]
+mod-id = 'derP0ten'
+version = 'GEdQkhpr'

@@ -1,0 +1,24 @@
+{
+  "name": "singularity.avaritia.steel",
+  "colors": [
+    "565656",
+    "232323"
+  ],
+  "timeRequired": 240,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:item_tags_populated",
+        "values": [
+          "c:steel_ingots"
+        ]
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "c:steel_ingots"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

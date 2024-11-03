@@ -1,0 +1,13 @@
+filename = 'Lunar-fabric-1.20.1-0.2.0.jar'
+name = 'Lunar'
+side = 'both'
+
+[download]
+hash = '357518b216dd3b1b082e52a2a1ad51fad19f3d52e9f7f1449f370ee1a31f52df8bcbc7d90ec61dce63fe1c3c344dc7bba4fde0fb9c3de97b585cffe6ee20c00d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PwhlJMsW/versions/jiDx61Rl/Lunar-fabric-1.20.1-0.2.0.jar'
+
+[update.modrinth]
+mod-id = 'PwhlJMsW'
+version = 'jiDx61Rl'

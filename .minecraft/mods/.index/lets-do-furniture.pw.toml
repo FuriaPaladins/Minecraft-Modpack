@@ -1,0 +1,13 @@
+filename = 'letsdo-furniture-fabric-1.0.2.jar'
+name = "[Let's Do] Furniture"
+side = 'both'
+
+[download]
+hash = '6f1b43c2db34434af874ec59826c7af71df49b2d6dc622be8aaefc0a4d7611d3e76cc0b5ffcabadaa033b4db5b8de6001a4b74894e63c3e83475fc22f43ee22c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3JQDJrYW/versions/sxsgBlNp/letsdo-furniture-fabric-1.0.2.jar'
+
+[update.modrinth]
+mod-id = '3JQDJrYW'
+version = 'sxsgBlNp'

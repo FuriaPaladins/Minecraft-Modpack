@@ -1,0 +1,13 @@
+filename = 'torchesntrinkets-0.2.1-1.20.1-4.jar'
+name = "Torches 'n' Trinkets"
+side = 'both'
+
+[download]
+hash = '83395016d61578f7f3ba70a5b8e3460234697df1b7685163769f51790486dd9f1296d9f9821f1491f917fa1752bb6433c7363ab3db1fef8ab7978656bbe96a73'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bItnQGg6/versions/P7ejhAzR/torchesntrinkets-0.2.1-1.20.1-4.jar'
+
+[update.modrinth]
+mod-id = 'bItnQGg6'
+version = 'P7ejhAzR'

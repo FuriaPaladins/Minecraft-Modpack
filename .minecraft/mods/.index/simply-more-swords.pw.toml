@@ -1,0 +1,13 @@
+filename = 'simplymoreswords-1.0.jar'
+name = 'Simply More Swords'
+side = 'both'
+
+[download]
+hash = '9325e93a1e8cf3e2baee8f555d7d221160c8646427ef783403f4be34ff16f4a37aa17ff04358bf14372c0c4fbc068ff52f80292f4a3ce8aea4cfe73de25f106b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Z0qC9s2S/versions/EpGhA92w/simplymoreswords-1.0.jar'
+
+[update.modrinth]
+mod-id = 'Z0qC9s2S'
+version = 'EpGhA92w'

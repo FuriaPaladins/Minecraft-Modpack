@@ -1,0 +1,13 @@
+filename = 'TAB v4.1.9.jar'
+name = 'TAB'
+side = 'server'
+
+[download]
+hash = 'fcb1b4894710872b7f2b829e8df47144b9d4af264267a9cbe350f19a35384a6ac1a2d7645bdf53cd2c0fbd6aa795d2209e8ee932a7da6b6a62b9541cf7534d30'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gG7VFbG0/versions/FGytXp23/TAB v4.1.9.jar'
+
+[update.modrinth]
+mod-id = 'gG7VFbG0'
+version = 'FGytXp23'

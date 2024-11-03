@@ -1,0 +1,13 @@
+filename = 'chatplus-fabric-2.1.1.jar'
+name = 'Chat Plus'
+side = 'client'
+
+[download]
+hash = 'e2984a7df81d5c4d6bcb4a50fba05ef5eec7997cd59a9920c85bb8de1cca8bf01da97d1f54abfbd9b61056f4b9ea4608955c6d9a33b1408e19f1ed37a49cce25'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cJlZ132G/versions/IWlVyJkh/chatplus-fabric-2.1.1.jar'
+
+[update.modrinth]
+mod-id = 'cJlZ132G'
+version = 'IWlVyJkh'

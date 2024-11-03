@@ -1,0 +1,13 @@
+filename = 'structurecredits-1.6.jar'
+name = 'Structure Credits'
+side = 'both'
+
+[download]
+hash = 'fd2a33de9236f609c66c97f1b52c4016dc18dc28464fef42d75c5abb52ce04c41d4dad0969d51137337b9d11fda56930958c23c79fa27931b27d88ce6d765c3b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9VEHG3zg/versions/doyWpvYp/structurecredits-1.6.jar'
+
+[update.modrinth]
+mod-id = '9VEHG3zg'
+version = 'doyWpvYp'

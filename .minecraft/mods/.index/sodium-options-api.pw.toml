@@ -1,0 +1,13 @@
+filename = 'sodiumoptionsapi-fabric-1.0.3-1.20.1.jar'
+name = 'Sodium Options API'
+side = 'both'
+
+[download]
+hash = 'f0d03d0186d4afd5d85c35fadade25f247a6bc94'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5807574
+project-id = 1103431

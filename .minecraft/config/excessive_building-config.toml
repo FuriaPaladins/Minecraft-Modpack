@@ -1,0 +1,65 @@
+["Excessive Building Config"]
+	["Excessive Building Config"."Content Toggles"]
+		#Should vertical stairs be enabled? (default: true)
+		enableVerticalStairs = true
+		#Should ancient saplings be enabled (and to extension their content)? (default: true)
+		enableAncientSaplings = true
+		#Should Excessive Building's pottery sherds be enabled? (default: true)
+		enableEBPotterySherds = true
+		#Disabling these will make the corresponding feature unobtainable/unusable
+		#Should asphalt be enabled? (default: true)
+		enableAsphalt = true
+		#Should ladder variants be enabled? (default: true)
+		enableLadderVariants = true
+		#Should Excessive Building items with special interactions have custom tooltips? (default: true)
+		enableCustomTooltips = true
+		#Should blocks made out of resources (gold, diamond, etc) be enabled? (default: true)
+		enableResourceBricks = true
+		#Should crafting table variants be enabled? (default: true)
+		enableCraftingTableVariants = true
+		#Should shelf variants be enabled? (default: true)
+		enableShelfVariants = true
+		#Should gloom seeds be enabled (and to extension their content)? (default: true)
+		enableGloomSeeds = true
+		#Should new candles that produce particles when lit be enabled? (default: true)
+		enableParticleCandles = true
+		#Should small decoration blocks (jars, mugs, etc) be enabled? (default: true)
+		enableDecoratives = true
+		#Should decorative shelf blocks be enabled? (default: true)
+		enableDecorativeShelves = true
+	["Excessive Building Config"."Balance Configuration"]
+		#How long should the fatigued potion last in ticks? (default: 3000)
+		#Range: 0 ~ 72000
+		fatiguedDuration = 3000
+		#What level of mining fatigue should the strong fatigued potion grant? (default: 1)
+		#Range: 0 ~ 255
+		strongFatiguedAmplifier = 1
+		#What level of haste should the ancient fruit grant? (default: 1)
+		#Range: 0 ~ 255
+		ancientFruitAmplifier = 1
+		#What level of haste should the reaching potion grant? (default: 0)
+		#Range: 0 ~ 255
+		hastyAmplifier = 0
+		#What level of mining fatigue should the fatigued potion grant? (default: 0)
+		#Range: 0 ~ 255
+		fatiguedAmplifier = 0
+		#How long should the hasty potion last in ticks? (default: 6000)
+		#Range: 0 ~ 72000
+		hastyDuration = 6000
+		#How long should the long hasty potion last in ticks? (default: 12000)
+		#Range: 0 ~ 72000
+		longHastyDuration = 12000
+		#How long should the ancient fruit's haste last in ticks? (default: 600)
+		#Range: 0 ~ 72000
+		ancientFruitDuration = 600
+		#How long should the long fatigued potion last in ticks? (default: 6000)
+		#Range: 0 ~ 72000
+		longFatiguedDuration = 6000
+		#What level of haste should the strong hasty potion grant? (default: 1)
+		#Range: 0 ~ 255
+		strongHastyAmplifier = 1
+		#Configuration for features that may impact gameplay in a large way
+		#Should Excessive Building add new trade offers to villagers? (default: true)
+		enableEBVillagerTrades = true
+		#Should soul magma bubble columns be toggled with redstone? (default: true)
+		enableSoulMagmaColumnToggle = true

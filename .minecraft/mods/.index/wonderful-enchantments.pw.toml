@@ -1,0 +1,13 @@
+filename = 'majruszs-enchantments-fabric-1.20.1-1.10.8.jar'
+name = "Majrusz's Enchantments"
+side = 'both'
+
+[download]
+hash = '84df6ac619f8cc189909863ad43fe6e84703bd10'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5293479
+project-id = 417439

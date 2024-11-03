@@ -1,0 +1,13 @@
+filename = 'fantasy_weapons-fabric-0.2-1.20.1.jar'
+name = 'Fantasy Weapons (Medieval Series)'
+side = 'both'
+
+[download]
+hash = '6263cd781cf80b906be463dae8e49c23281fba509e1804ff99689056d0a5ec8b63fc1a9cbe123559c560855ee5d13cd9b4ba5535018fe0ea2656cdfd77dc799e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rsBLWxD0/versions/R2OYkzI2/fantasy_weapons-fabric-0.2-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'rsBLWxD0'
+version = 'R2OYkzI2'

@@ -1,0 +1,11 @@
+{
+  //Sapphire Percent Damage
+  "sapphire_damage_percent": 5,
+  //Material Modifications
+  "ametrine_damage": 4,
+  "aquamarine_damage": 4,
+  "jade_damage": 4,
+  "ruby_damage": 4,
+  "sapphire_damage": 4,
+  "topaz_damage": 4.5
+}

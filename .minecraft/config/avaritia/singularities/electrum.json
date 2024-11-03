@@ -1,0 +1,24 @@
+{
+  "name": "singularity.avaritia.electrum",
+  "colors": [
+    "f5f18e",
+    "9e8d3e"
+  ],
+  "timeRequired": 240,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:item_tags_populated",
+        "values": [
+          "c:electrum_ingots"
+        ]
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "c:electrum_ingots"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}

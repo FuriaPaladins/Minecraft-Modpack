@@ -1,0 +1,13 @@
+filename = 'thermoo-2.3.2.jar'
+name = 'Thermoo'
+side = 'both'
+
+[download]
+hash = '1aec869f1e351b82b293198722017fea260497f5dd0e6f981317a1e4d043ebbca8d5640527117327afdc887064034824e05ea1aee9b27c5f9b36dd4995d0e854'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9TbXlAut/versions/KZmBDwIl/thermoo-2.3.2.jar'
+
+[update.modrinth]
+mod-id = '9TbXlAut'
+version = 'KZmBDwIl'

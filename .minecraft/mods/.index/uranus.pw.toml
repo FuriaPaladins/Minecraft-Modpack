@@ -1,0 +1,13 @@
+filename = 'Uranus-1.7.1.jar'
+name = 'Uranus'
+side = 'both'
+
+[download]
+hash = '7ee19776d42fde5b72778e9f8a1e3a280b68c56d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5822109
+project-id = 1010827

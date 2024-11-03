@@ -1,0 +1,13 @@
+filename = 'kevslibrary-1.1.0.jar'
+name = "Kev's Library"
+side = 'both'
+
+[download]
+hash = '5fa8a4656624281ea0c5dc85d5d9ec23d99d60e87e3f5a30e0540e653b4d8d56e22685f5433364134cea8c582b6ccd0e9a394f908c0b423b801459739695af68'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jq6pHt0U/versions/L6vTMKdJ/kevslibrary-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'jq6pHt0U'
+version = 'L6vTMKdJ'

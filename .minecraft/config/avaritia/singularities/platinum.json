@@ -1,0 +1,24 @@
+{
+  "name": "singularity.avaritia.platinum",
+  "colors": [
+    "6feaef",
+    "57b8bc"
+  ],
+  "timeRequired": 240,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:not",
+      "value": {
+        "condition": "fabric:item_tags_populated",
+        "values": [
+          "c:platinum_ingots"
+        ]
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "c:platinum_ingots"
+  },
+  "enabled": true,
+  "recipeDisabled": false
+}
