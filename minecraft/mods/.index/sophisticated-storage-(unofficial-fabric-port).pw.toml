@@ -1,0 +1,16 @@
+filename = 'sophisticatedstorage-1.20.1-0.11.3.1.73.jar'
+name = 'Sophisticated Storage (Unofficial Fabric port)'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1faffd2bd26e70929bd63265f9bc6c5c83ef4e59c41293c402f19bf445599db8cfaa3cbcec4f81753f47417f6f5be3772bfd5d2cac35440074946b1556ebb54f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iHtpVwJL/versions/YSSNL8GL/sophisticatedstorage-1.20.1-0.11.3.1.73.jar'
+
+[update.modrinth]
+mod-id = 'iHtpVwJL'
+version = 'YSSNL8GL'

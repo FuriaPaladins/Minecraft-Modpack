@@ -1,0 +1,16 @@
+filename = 'appliedenergistics2-fabric-15.3.2-beta.jar'
+name = 'Applied Energistics 2'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'e3093ac454b666fce6497ad9e4431de23f7f7bfa3145ad7fb23a9ba478cfb34e3e405b1d2897f3f02fb2624eb42b7d5285256ea3130d0b6dd4d06293a82dbdf0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XxWD5pD3/versions/gQGsxQoZ/appliedenergistics2-fabric-15.3.2-beta.jar'
+
+[update.modrinth]
+mod-id = 'XxWD5pD3'
+version = 'gQGsxQoZ'

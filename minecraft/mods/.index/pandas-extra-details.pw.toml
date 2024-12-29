@@ -1,0 +1,16 @@
+filename = 'extra_details-0.3.1-beta-1.20.1.jar'
+name = "Panda's Extra Details"
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'e3f1e5825264d5a44d42baad91f75c3cf133813a6cf10988a3772d31b2ee258d84c6fa04d631e3170927ba2b59c461f6563197b8ff578a9d2a1f2cf19de369e7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RQ7OrTFx/versions/uoG8kZOu/extra_details-0.3.1-beta-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'RQ7OrTFx'
+version = 'uoG8kZOu'

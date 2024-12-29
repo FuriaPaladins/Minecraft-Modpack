@@ -1,0 +1,16 @@
+filename = 'chrysalis-0.1.8.jar'
+name = 'Chrysalis'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8462dfb68b2af01b7b75984f594b225a33184adf61da93497a0204be09421c124a46c48627f7bd448111e8ecc37475f1afd2b93a3f371057ecf8c41cc6ac176c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rlnjZCZJ/versions/b94UqQWd/chrysalis-0.1.8.jar'
+
+[update.modrinth]
+mod-id = 'rlnjZCZJ'
+version = 'b94UqQWd'

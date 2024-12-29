@@ -1,0 +1,16 @@
+filename = 'kinecraft-serialization-1.16.1.jar'
+name = 'Kinecraft Serialization'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19.4', '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6', '1.21' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5ee9e58672d8c9f199a1b586d7d044241a5eee6d08b9024578c20913f9390fd49f858942130137f0750f99a1b9f09c432edffb3aaf2b7bfb04dadf6f69ad51e7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/epmEbmF0/versions/y5larKlJ/kinecraft-serialization-1.16.1.jar'
+
+[update.modrinth]
+mod-id = 'epmEbmF0'
+version = 'y5larKlJ'

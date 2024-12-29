@@ -1,0 +1,16 @@
+filename = 'letsdo-bakery-fabric-2.0.3.jar'
+name = "[Let's Do] Bakery - Farm&Charm Compat"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '40ec3cf6fff8dbcc9627e6d6f256525c3d444db5f6d2bfa0510e9ada4dea8ed6f10bde1fd5cc280af2be3700ebbb53ad6bb1948bc4594d9d5edd3ae739902b66'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oNB5jhlA/versions/xDgS8MD5/letsdo-bakery-fabric-2.0.3.jar'
+
+[update.modrinth]
+mod-id = 'oNB5jhlA'
+version = 'xDgS8MD5'

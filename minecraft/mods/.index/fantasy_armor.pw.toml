@@ -1,0 +1,16 @@
+filename = 'fantasy_armor-fabric-0.5-1.20.1.jar'
+name = 'Fantasy Armor (Medieval Series)'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '49e16d0751f681fe8e1117554ccf971db708a7f9687c95f4a3665160bb321514a64d822b3678cf73c1148cf7ef15a1c84e30f51b3a1dba9a6e37658e2b56b610'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oVmpjYQ5/versions/V1dZNY52/fantasy_armor-fabric-0.5-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'oVmpjYQ5'
+version = 'V1dZNY52'

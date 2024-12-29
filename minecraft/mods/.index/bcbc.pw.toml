@@ -1,0 +1,16 @@
+filename = 'Better-Combat-Bewitchment-Compat.jar'
+name = 'Better Combat Bewitchment Compatibility (BCBC)'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4ac405b45b831c1c5bec2f2047950b6e716078099ce8dbfd8142274e68f22cd93d83530b85482f5fae9cef5a009a56abb506d185c506365bc244df51e16e46c8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rqv8E8n5/versions/H2Pw4WTr/Better-Combat-Bewitchment-Compat.jar'
+
+[update.modrinth]
+mod-id = 'rqv8E8n5'
+version = 'H2Pw4WTr'

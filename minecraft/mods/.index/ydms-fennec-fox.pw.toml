@@ -1,0 +1,16 @@
+filename = 'fennecfox-fabric-1.20.1-1.0.0.jar'
+name = "YDM's Fennec Fox"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '62a990f4388a99e4ba55e07e2b4fe8e29ec78919afd91d2fd13d1b80ea8b60a47b4fd7f7c198f72137291fdf0f4f70132b66c76c64295a844ab35decf09d6372'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NIDdwWhd/versions/ihk6JMnp/fennecfox-fabric-1.20.1-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'NIDdwWhd'
+version = 'ihk6JMnp'

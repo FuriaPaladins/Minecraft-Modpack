@@ -1,0 +1,16 @@
+filename = 'lavender-0.1.9+1.20.jar'
+name = 'Lavender'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4387b7d2934c8d420fb5cba7570f9a9475322c864e47022f57398dbc184dd19a4f3d1471ae9728299b46eb5ad6001957e03baec88072c20fa4051ebf5774d748'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/D5h9NKNI/versions/nJIAf9uL/lavender-0.1.9%2B1.20.jar'
+
+[update.modrinth]
+mod-id = 'D5h9NKNI'
+version = 'nJIAf9uL'

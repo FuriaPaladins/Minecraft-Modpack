@@ -1,0 +1,16 @@
+filename = 'skinrestorer-2.2.1+1.20-fabric.jar'
+name = 'Skin Restorer'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '88ce7ab97e1bee0a2a2a587de03c88ea8b5c1b59d28afdab8dd822032f1140c5616a264b78f0e2e57f1d28f6d4dcb1272a935254e248db72baaaa7fd013f320e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ghrZDhGW/versions/NYAVBAQy/skinrestorer-2.2.1%2B1.20-fabric.jar'
+
+[update.modrinth]
+mod-id = 'ghrZDhGW'
+version = 'NYAVBAQy'

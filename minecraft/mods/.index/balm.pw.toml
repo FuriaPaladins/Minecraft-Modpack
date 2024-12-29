@@ -1,0 +1,16 @@
+filename = 'balm-fabric-1.20.1-7.3.10.jar'
+name = 'Balm'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e46647572e2fcbe6c0a3006016c5d104c35d23849707ea6c1d1af1b98c6335dc3d6c845ed720a309b4c5cd37a137a1c3ef9e5ca535cfeb991f844de602a1fd24'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MBAkmtvl/versions/SdRZPngG/balm-fabric-1.20.1-7.3.10.jar'
+
+[update.modrinth]
+mod-id = 'MBAkmtvl'
+version = 'SdRZPngG'

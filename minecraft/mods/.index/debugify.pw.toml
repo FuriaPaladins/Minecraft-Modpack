@@ -1,0 +1,16 @@
+filename = 'Debugify-1.20.1+2.0.jar'
+name = 'Debugify'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ca859180ad2b57856fbcc8db4995c1871a7d556c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4632961
+project-id = 596224

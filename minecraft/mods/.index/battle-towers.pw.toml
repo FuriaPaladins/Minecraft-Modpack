@@ -1,0 +1,16 @@
+filename = 'battle-towers-1.2.0.jar'
+name = 'Battle Towers'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '739c558c6c6c147b8d909b76dfb121e3960c221b15296bebf979ea4a364e570e57c738fad5f5a14c9de5a1bad0a069e51d6633372624543b5c1618a3bf71753b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LSxfjfLO/versions/OAnComjU/battle-towers-1.2.0.jar'
+
+[update.modrinth]
+mod-id = 'LSxfjfLO'
+version = 'OAnComjU'

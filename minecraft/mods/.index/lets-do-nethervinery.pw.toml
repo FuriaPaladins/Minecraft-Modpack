@@ -1,0 +1,16 @@
+filename = 'letsdo-nethervinery-fabric-1.2.16.jar'
+name = "[Let's Do] NetherVinery"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4293af7796baae547caa8475294bb09057cadcf8cc3acb900856158ce058716e27cc5309162663763e8c48881a12650efcfabdd26c7d3dfddf0d8d099202fce5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4TTDxtOx/versions/3Fi5gZsc/letsdo-nethervinery-fabric-1.2.16.jar'
+
+[update.modrinth]
+mod-id = '4TTDxtOx'
+version = '3Fi5gZsc'

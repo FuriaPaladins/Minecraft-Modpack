@@ -1,0 +1,16 @@
+filename = 'mc249136-1.0.2.jar'
+name = 'MC-249136 Fix'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '79bc00f9802bf186ecf9938b8383e8c7257e63afc7379e4e0ce74dcf162ed1ff920e5adbc960b674e37a19a687434e178fcc4aa74062f0c4aea709b61eddc795'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QzMW0gl4/versions/fL69krwO/mc249136-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'QzMW0gl4'
+version = 'fL69krwO'

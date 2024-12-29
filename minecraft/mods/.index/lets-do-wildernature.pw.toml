@@ -1,0 +1,16 @@
+filename = 'letsdo-wildernature-fabric-1.0.4.jar'
+name = "[Let's Do] WilderNature"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'b3bba4a5bbafc27d8b6af051269ae162ea941f554b48e01565c3a0c75205d79165a40a7574d082d40d0124a75b9793febbe8b6589171cdbd53324599e852d425'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AAiRU4aQ/versions/NUbZiKpN/letsdo-wildernature-fabric-1.0.4.jar'
+
+[update.modrinth]
+mod-id = 'AAiRU4aQ'
+version = 'NUbZiKpN'

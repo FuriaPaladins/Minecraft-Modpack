@@ -1,0 +1,16 @@
+filename = 'Death_Knights-0.6.1beta+1.20.1.jar'
+name = 'Death Knights (RPG Series)'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '1b78283e6946b8d573414c707c8ea8c401a1312fe06bb9cb25b98d732d222f75aa5fe19a590cb86d614ff5da401d842964dbbf75fbaf77b01469b23e7f3c9c49'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2EQER1gD/versions/r8RBaosG/Death_Knights-0.6.1beta%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = '2EQER1gD'
+version = 'r8RBaosG'

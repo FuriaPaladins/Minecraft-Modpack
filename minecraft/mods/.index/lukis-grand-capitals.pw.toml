@@ -1,0 +1,33 @@
+filename = 'lukis-grand-capitals-1.1.1.jar'
+name = "Luki's Grand Capitals"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '022691a5d2e0cdea13ab6f5c44a7b66f2aa7e2ff88a19f2b0e06377b1090f84f90285f5eb182ae88ca93ae2f69c64e318a303ad1fe595c16ec3ebcaa2346951e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8Lw09aLb/versions/mjleQ2qg/lukis-grand-capitals-1.1.1.jar'
+
+[update.modrinth]
+mod-id = '8Lw09aLb'
+version = 'mjleQ2qg'

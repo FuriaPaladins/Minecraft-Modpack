@@ -1,0 +1,16 @@
+filename = 'fabric-medievalend-1.0.1.jar'
+name = 'Medieval Buildings [End Edition]'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4e67707f5dca1ef6041d39c2fb1391101ec379cb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5270719
+project-id = 976817

@@ -1,0 +1,11 @@
+#Most configs are moved to /serverconfig/fluxnetworks-server.toml
+placeholder = true
+
+#Jade
+[Jade]
+	#Displays: Network Name, Live Transfer Rate & Internal Buffer
+	enableJadeBasicInfo = true
+	#Displays: Transfer Limit, Priority, Chunk Loading
+	enableJadeAdvancedInfo = true
+	#Display Advanced Info only when sneaking
+	enableJadeSneaking = true

@@ -1,0 +1,173 @@
+{
+  "config_version": "1.0.11",
+  "general": {
+    "min_structure_distance_from_world_center": 0,
+    "disable_all_structures": false,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 1.65
+  },
+  "structures": [
+    {
+      "name": "iceandfire:myrmex_hive_desert",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "iceandfire:myrmex_hive_jungle",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    }
+  ],
+  "structure_sets": [
+    {
+      "name": "ae2:meteorite",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 28,
+      "separation": 12
+    },
+    {
+      "name": "battle_towers:overworld",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 64,
+      "separation": 24
+    },
+    {
+      "name": "betterdungeons:small_dungeons",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 16,
+      "separation": 10
+    },
+    {
+      "name": "betterdungeons:spider_dungeons",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 55,
+      "separation": 25
+    },
+    {
+      "name": "betterfortresses:fortress",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 32,
+      "separation": 20
+    },
+    {
+      "name": "betternether:altars",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 50,
+      "separation": 22
+    },
+    {
+      "name": "bloomingnature:cave",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 16,
+      "separation": 12
+    },
+    {
+      "name": "dungeonnowloading:labyrinth",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 60,
+      "separation": 15
+    },
+    {
+      "name": "formationsnether:common",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 8,
+      "separation": 2
+    },
+    {
+      "name": "formationsnether:ore_shards",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 8,
+      "separation": 1
+    },
+    {
+      "name": "formationsoverworld:rafts",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 26,
+      "separation": 16
+    },
+    {
+      "name": "iceandfire:fire_dragon_cave",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 15
+    },
+    {
+      "name": "iceandfire:fire_dragon_roost",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 25,
+      "separation": 15
+    },
+    {
+      "name": "iceandfire:ice_dragon_cave",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 35,
+      "separation": 15
+    },
+    {
+      "name": "iceandfire:ice_dragon_roost",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 25,
+      "separation": 15
+    },
+    {
+      "name": "iceandfire:lightning_dragon_cave",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 35,
+      "separation": 15
+    },
+    {
+      "name": "iceandfire:lightning_dragon_roost",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 25,
+      "separation": 15
+    },
+    {
+      "name": "mes:astral_hideaway",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 30,
+      "separation": 15
+    },
+    {
+      "name": "minecells:overworld_portal",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 46,
+      "separation": 20
+    },
+    {
+      "name": "profundis:amethyst_dungeon",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 22,
+      "separation": 14
+    },
+    {
+      "name": "profundis:cabin",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 9,
+      "separation": 5
+    },
+    {
+      "name": "ribbits:ribbit_village",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 26,
+      "separation": 8
+    },
+    {
+      "name": "wetlands:medium_mechanism",
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 6,
+      "separation": 3
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				chicken = true
+				axolotl = true
+				bee = true
+				donkey = true
+				cow = true
+				chest_minecart = true
+				fox = true
+				tropical_fish = true
+				pig = true
+				slime = true
+				pillager = true
+				skeleton = true
+				iron_golem = true
+				bat = true
+				cat = true
+				zombie = true
+				armor_stand = true
+				drowned = true
+				sheep = true
+				experience_orb = true
+				player = true
+				dolphin = true
+				stray = true
+				item = true
+				villager = true
+				wolf = true
+				skeleton_horse = true
+				salmon = true
+				wither_skeleton = true
+				wandering_trader = true
+				tnt_minecart = true
+				zombie_villager = true
+				polar_bear = true
+				horse = true
+				vindicator = true
+				painting = true
+				cave_spider = true
+				glow_squid = true
+				witch = true
+				cod = true
+				glow_item_frame = false
+				squid = true
+				spider = true
+				creeper = true
+				enderman = true
+
+			[light_sources.settings.entities.tide]
+				bass = true
+				tuna = true
+				ocean_perch = true
+				bluegill = true
+				barracuda = true
+				yellow_perch = true
+				mackerel = true
+
+			[light_sources.settings.entities.bewitchment]
+				ghost = true
+				raven = true
+				owl = true
+				snake = true
+
+			[light_sources.settings.entities.endermanoverhaul]
+				savanna_enderman = true
+				cave_enderman = true
+				snowy_enderman = true
+
+			[light_sources.settings.entities.mutantmonsters]
+				mutant_enderman = true
+				mutant_creeper = true
+				mutant_skeleton = true
+
+			[light_sources.settings.entities.wildernature]
+				deer = true
+				raccoon = true
+				squirrel = true
+				hedgehog = true
+				cassowary = true
+				pelican = true
+				bison = true
+				penguin = true
+				flamingo = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				snowy_creeper = true
+				ocean_creeper = true
+				dripstone_creeper = true
+				cave_creeper = true
+				beach_creeper = true
+				savannah_creeper = true
+
+			[light_sources.settings.entities.variantsandventures]
+				gelid = true
+				murk = true
+
+			[light_sources.settings.entities.knightquest]
+				ratman = true
+				eldknight = true
+				ghosty = true
+				swampman = true
+				eldbomb = true
+				lizzy = true
+
+			[light_sources.settings.entities.iceandfire]
+				pixie = true
+				ice_dragon = true
+				lightning_dragon = true
+				hippocampus = true
+				dragon_multipart = true
+				troll = true
+				fire_dragon = true
+
+			[light_sources.settings.entities.naturalist]
+				deer = true
+				rattlesnake = true
+				zebra = true
+				snail = true
+				canary = true
+				firefly = true
+				rhino = true
+				coral_snake = true
+				snake = true
+				cardinal = true
+				lion = true
+				vulture = true
+				robin = true
+				boar = true
+				butterfly = true
+				giraffe = true
+				duck = true
+				bear = true
+				sparrow = true
+				lizard = true
+				elephant = true
+				finch = true
+
+			[light_sources.settings.entities.ribbits]
+				ribbit = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				glare = true
+				mauler = true
+				crab = true
+				rascal = true
+
+			[light_sources.settings.entities.dungeonnowloading]
+				spawner_carrier = true
+				chaos_spawner = true
+
+			[light_sources.settings.entities.yungscavebiomes]
+				sand_snapper = true
+				ice_cube = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+

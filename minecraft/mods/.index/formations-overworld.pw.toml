@@ -1,0 +1,16 @@
+filename = 'formationsoverworld-1.0.4.jar'
+name = 'Formations Overworld'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4ef9a05e37f1277c801541d0750168bce5dcf8f56a306ffd31aee05bcb1eb11d6f2e4538937c0150128aadbf9bff3538062d572e40df7dbb8b3ded9e3a20aabf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KX1XC0Oo/versions/APtZazrk/formationsoverworld-1.0.4.jar'
+
+[update.modrinth]
+mod-id = 'KX1XC0Oo'
+version = 'APtZazrk'

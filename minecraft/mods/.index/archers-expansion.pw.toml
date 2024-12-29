@@ -1,0 +1,16 @@
+filename = 'archers-expansion-0.1.3-1.20.1.jar'
+name = 'Archers Expansion (More RPG Classes)'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '5029e4f64f2d23a971945f3c410bb93d42a936b3d11c54808916624bdad70c1dcfd1f24ac8e8cdb8f7e9eb0d76215a7dc2b555a71212b5e3b946eb19557ef4e6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1BHIIm4m/versions/UsUxInoU/archers-expansion-0.1.3-1.20.1.jar'
+
+[update.modrinth]
+mod-id = '1BHIIm4m'
+version = 'UsUxInoU'

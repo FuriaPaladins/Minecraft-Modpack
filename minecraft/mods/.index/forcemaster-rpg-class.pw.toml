@@ -1,0 +1,16 @@
+filename = 'forcemaster-class-mod-1.1.3-1.20.1.jar'
+name = 'Forcemaster (More RPG Classes)'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '591d08a14dd99224bdc82f6a7faf3d393cabcff72e2690886d624522ac8100c76106205342c66b3ea8e350483947309fa044138a20896de9612f31526075a4a6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/K3yHebFL/versions/oCR21XZK/forcemaster-class-mod-1.1.3-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'K3yHebFL'
+version = 'oCR21XZK'

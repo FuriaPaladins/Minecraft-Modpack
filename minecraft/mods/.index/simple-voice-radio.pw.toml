@@ -1,0 +1,16 @@
+filename = 'SimpleRadio-fabric-1.20.1-2.4.6.1.jar'
+name = 'Simple Voice Radio'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '51df76705b2bb49237194f1abdbf64a425a250db369b0bff00bd53ede7d55622d701cb7645fd50d2238a304a71c51b6940304165847993c2b4ce1094ef9235ca'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/S7b8mMXS/versions/jRK9rzce/SimpleRadio-fabric-1.20.1-2.4.6.1.jar'
+
+[update.modrinth]
+mod-id = 'S7b8mMXS'
+version = 'jRK9rzce'

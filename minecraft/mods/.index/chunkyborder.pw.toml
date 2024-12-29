@@ -1,0 +1,16 @@
+filename = 'ChunkyBorder-1.1.53.jar'
+name = 'Chunky Border'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b8d0b37cc4dd9dc7e53338cab075cd7ca74a50b571b793421f13b13f9d5229c7cf9c5f471581cdce8b0d1520b373c55015c4ee821d2456d8ba1502c4a4996034'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/s86X568j/versions/74w5ono0/ChunkyBorder-1.1.53.jar'
+
+[update.modrinth]
+mod-id = 's86X568j'
+version = '74w5ono0'

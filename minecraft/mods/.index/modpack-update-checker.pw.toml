@@ -1,0 +1,16 @@
+filename = 'modpack-update-checker-1.20.1-fabric-0.15.3.jar'
+name = 'Modpack Update Checker'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'a22dbe70d93874b3f228c07f34368f1942f6eb656733b8b3bbfec93270ce4c5c6162f84d290dab8e6e95fcbf25a7dbba642569f9a2220b3e2f134c7d17a2afa1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rR4tY6Cw/versions/Qcl1PmH5/modpack-update-checker-1.20.1-fabric-0.15.3.jar'
+
+[update.modrinth]
+mod-id = 'rR4tY6Cw'
+version = 'Qcl1PmH5'

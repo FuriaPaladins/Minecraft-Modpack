@@ -1,0 +1,16 @@
+filename = 'expandedstorage-10.3.0-beta.5+1.20.1-fabric.jar'
+name = 'Expanded Storage'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '3814836caff4d181af654f3ca95557175b3bd105c7edfc1898eb031e1c1d657f34d02421e73e31a0600a7e7507c5b89289f2619d27c5bb4647ad4f2e71ccc4c4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jCCPlP3c/versions/l6RPIDLK/expandedstorage-10.3.0-beta.5%2B1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'jCCPlP3c'
+version = 'l6RPIDLK'

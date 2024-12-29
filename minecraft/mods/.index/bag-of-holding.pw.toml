@@ -1,0 +1,16 @@
+filename = 'BagOfHolding-v8.0.2-1.20.1-Fabric.jar'
+name = 'Bag Of Holding'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5630243264eff702ed614d5cfd462256a6ad53daa7259af8e49c8c389519e0c256948be58d33267975a332a50327d9fb8e0ae8b1da07cc61545f1e961d07b61d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qbqWvc0D/versions/sxjgmBCY/BagOfHolding-v8.0.2-1.20.1-Fabric.jar'
+
+[update.modrinth]
+mod-id = 'qbqWvc0D'
+version = 'sxjgmBCY'

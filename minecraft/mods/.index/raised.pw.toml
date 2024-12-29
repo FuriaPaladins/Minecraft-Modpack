@@ -1,0 +1,35 @@
+filename = 'raised-fabric-1.20.1-4.0.1.jar'
+name = 'Raised'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20-pre1',
+    '1.20-pre2',
+    '1.20-pre3',
+    '1.20-pre4',
+    '1.20-pre5',
+    '1.20-pre6',
+    '1.20-pre7',
+    '1.20-rc1',
+    '1.20.1',
+    '1.20.1-rc1',
+    '23w12a',
+    '23w13a',
+    '23w13a_or_b',
+    '23w14a',
+    '23w16a',
+    '23w17a',
+    '23w18a'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '401da1764b05e510291041b031bfd55c4f5158ba98c871bd7f0fb3487bd8d1bf3c42489a0e9e96a5073f7bf697c604f73a2665c86625544b22ba13e8ee32ac45'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nCQRBEiR/versions/rJuvV8zU/raised-fabric-1.20.1-4.0.1.jar'
+
+[update.modrinth]
+mod-id = 'nCQRBEiR'
+version = 'rJuvV8zU'

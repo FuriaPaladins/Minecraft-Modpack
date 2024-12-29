@@ -1,0 +1,16 @@
+filename = 'connected-doors-1.2+1.20.jar'
+name = 'Connected Doors'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e53d38384de0925febd564fae4ed0b867319a207ec6c634a15bb82c09ca295ab6f508825432772e27de08c7ccbceb0738a998a7585134f3d9f4818f85aa79279'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3KwAcCSv/versions/tnuNyIy1/connected-doors-1.2%2B1.20.jar'
+
+[update.modrinth]
+mod-id = '3KwAcCSv'
+version = 'tnuNyIy1'

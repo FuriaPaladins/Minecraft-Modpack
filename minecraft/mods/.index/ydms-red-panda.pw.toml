@@ -1,0 +1,16 @@
+filename = 'redpanda-fabric-1.20.1-1.0.4.jar'
+name = "YDM's Red Panda"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd98e0a7a74afefffad35b453aa86de98ec5749c7afdc84574e9093e87117a5ce2eebeefe1dd66b1591b4f70965b4c22207eddbe4bffb4bb41821ea2be154956e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1l7Rzc6k/versions/DuibpfMK/redpanda-fabric-1.20.1-1.0.4.jar'
+
+[update.modrinth]
+mod-id = '1l7Rzc6k'
+version = 'DuibpfMK'

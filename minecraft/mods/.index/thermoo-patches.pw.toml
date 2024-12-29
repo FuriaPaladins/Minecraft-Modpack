@@ -1,0 +1,16 @@
+filename = 'thermoo-patches-1.0.3.jar'
+name = 'Thermoo Patches'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9798a123b7879cdf345571cb38846e6a87be61d901ce9a985c64aad016edc6286b067937b556c777e439e50039a7e43bc94ca83f6fc9bd261d008949f4a462bb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TYRF9nUy/versions/2AjO0Vy9/thermoo-patches-1.0.3.jar'
+
+[update.modrinth]
+mod-id = 'TYRF9nUy'
+version = '2AjO0Vy9'

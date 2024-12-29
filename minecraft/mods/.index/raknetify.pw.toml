@@ -1,0 +1,39 @@
+filename = 'raknetify-fabric-0.1.0+alpha.5.142-all.jar'
+name = 'Raknetify'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-mc-versions = [
+    '1.17',
+    '1.17.1',
+    '1.18',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4'
+]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '083fdbbdd00341a628ab3992bd6ce9b35748852bfdf92b1bf83795eb364acd5403e3145762358d22dd10d4ea511403b1d64dd1ac627e4a93a90ce988a448ff45'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5IovSY3u/versions/ywJ2Z0ds/raknetify-fabric-0.1.0%2Balpha.5.142-all.jar'
+
+[update.modrinth]
+mod-id = '5IovSY3u'
+version = 'ywJ2Z0ds'

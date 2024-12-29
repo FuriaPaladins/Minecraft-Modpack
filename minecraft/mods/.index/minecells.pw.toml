@@ -1,0 +1,16 @@
+filename = 'minecells-1.9.1.jar'
+name = 'Mine Cells - Dead Cells Mod'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '343d3c7b5bbdc6e816d67039ef209f19695532e7c9d0905fc5be5b3e8eda512a3d7f4c7db40e24114584349a4046eb9670f1458135e3eb42909071c33fa1d2ee'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9Qdvz1OV/versions/S0VMBU26/minecells-1.9.1.jar'
+
+[update.modrinth]
+mod-id = '9Qdvz1OV'
+version = 'S0VMBU26'

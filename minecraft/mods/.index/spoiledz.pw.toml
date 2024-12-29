@@ -1,0 +1,16 @@
+filename = 'spoiledz-1.0.10.jar'
+name = 'SpoiledZ'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a60a4198bc485f2ee0a12d405d7637c01b33e64f09174c284939ec1cf50aa003d6460b38d8a2096f994639c38a3d4a920b50dfc336c40d0e675e4cb5fe353768'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WBzldFmc/versions/Vh6j7Y0P/spoiledz-1.0.10.jar'
+
+[update.modrinth]
+mod-id = 'WBzldFmc'
+version = 'Vh6j7Y0P'

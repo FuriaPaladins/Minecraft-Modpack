@@ -1,0 +1,16 @@
+filename = 'spectrum-1.8.3.jar'
+name = 'Spectrum'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3905ac5dd34455cb5d0a5e1e6cf8dc642eebef9bb3708612212f5faa97f2342f161359f335d20c8775d0abdfb09f81cea42165c7712bffaaa7610549eba0bbb9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3rc31Hgo/versions/uaqSt7Ze/spectrum-1.8.3.jar'
+
+[update.modrinth]
+mod-id = '3rc31Hgo'
+version = 'uaqSt7Ze'

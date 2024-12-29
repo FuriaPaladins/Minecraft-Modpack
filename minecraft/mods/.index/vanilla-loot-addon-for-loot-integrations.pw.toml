@@ -1,0 +1,16 @@
+filename = 'lootintegrations_vanilla-1.1.jar'
+name = 'Loot Integrations: Randomized Loot Compatibility'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e4c23e95f3b0c0a4c8fb9106ce1780b13d4868a2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5851183
+project-id = 1128055

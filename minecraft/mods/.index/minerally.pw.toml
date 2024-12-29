@@ -1,0 +1,16 @@
+filename = 'minerally-1.20.2-1.3.jar'
+name = 'Minerally'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'aef2cbc7e4843c834efe991db7f6d81a5ad672ede0ce8b67752dfae6d03c1d2a3cecfcc0c8036302d2bde91bc825a71a78611f99e7ac9a1a0bc8d24e6a55057d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DKG1CVAt/versions/JVOkvnuS/minerally-1.20.2-1.3.jar'
+
+[update.modrinth]
+mod-id = 'DKG1CVAt'
+version = 'JVOkvnuS'
