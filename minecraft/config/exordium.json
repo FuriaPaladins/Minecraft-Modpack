@@ -12,7 +12,7 @@
   },
   "debugScreenSettings": {
     "enabled": true,
-    "maxFps": 10,
+    "maxFps": 60,
     "forceBlend": false,
     "forceUpdates": false
   },

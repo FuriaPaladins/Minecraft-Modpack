@@ -15,7 +15,7 @@
       "weapon_attributes": "bettercombat:double_axe"
     },
     {
-      "item_id_regex": "scythe",
+      "item_id_regex": "scythe|dragons_doom|reaper",
       "weapon_attributes": "bettercombat:scythe"
     },
     {
@@ -79,11 +79,11 @@
       "weapon_attributes": "bettercombat:wand"
     },
     {
-      "item_id_regex": "mace|hammer|flail",
+      "item_id_regex": "mace|hammer|flail|club",
       "weapon_attributes": "bettercombat:mace"
     },
     {
-      "item_id_regex": "axe",
+      "item_id_regex": "axe|chainsaw",
       "weapon_attributes": "bettercombat:axe"
     },
     {
@@ -99,7 +99,7 @@
       "weapon_attributes": "bettercombat:cutlass"
     },
     {
-      "item_id_regex": "sword|blade",
+      "item_id_regex": "sword|blade|nanosaber",
       "weapon_attributes": "bettercombat:sword"
     }
   ],

@@ -5,7 +5,7 @@
     "renderDripParticles": true,
     "disableFrostOverlayWhenWearingFrostologyCloak": true,
     "shakeHandWhenShivering": true,
-    "handShakeIntensity": 1.0
+    "handShakeIntensity": 0.5
   },
   "updateConfig": {
     "currentConfigVersion": 2,

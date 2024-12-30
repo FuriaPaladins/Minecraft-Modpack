@@ -22,68 +22,91 @@ mode = "fancy"
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
-				chicken = true
+				zombie_horse = true
 				axolotl = true
 				bee = true
-				donkey = true
+				arrow = true
 				cow = true
-				chest_minecart = true
-				fox = true
-				tropical_fish = true
 				pig = true
-				slime = true
-				pillager = true
 				skeleton = true
-				iron_golem = true
 				bat = true
-				cat = true
-				zombie = true
+				husk = true
+				frog = true
+				rabbit = true
 				armor_stand = true
 				drowned = true
-				sheep = true
 				experience_orb = true
-				player = true
 				dolphin = true
 				stray = true
 				item = true
-				villager = true
-				wolf = true
-				skeleton_horse = true
 				salmon = true
 				wither_skeleton = true
 				wandering_trader = true
-				tnt_minecart = true
-				zombie_villager = true
-				polar_bear = true
+				piglin_brute = true
+				goat = true
+				item_frame = true
 				horse = true
 				vindicator = true
-				painting = true
-				cave_spider = true
+				phantom = true
 				glow_squid = true
-				witch = true
-				cod = true
 				glow_item_frame = false
 				squid = true
-				spider = true
+				parrot = true
 				creeper = true
 				enderman = true
+				chicken = true
+				donkey = true
+				chest_minecart = true
+				fox = true
+				tropical_fish = true
+				slime = true
+				pillager = true
+				iron_golem = true
+				zombified_piglin = true
+				cat = true
+				zombie = true
+				guardian = true
+				sheep = true
+				fireball = true
+				player = true
+				illusioner = true
+				villager = true
+				wolf = true
+				skeleton_horse = true
+				tnt_minecart = true
+				zombie_villager = true
+				elder_guardian = true
+				polar_bear = true
+				painting = true
+				cave_spider = true
+				witch = true
+				cod = true
+				spider = true
 
 			[light_sources.settings.entities.tide]
-				bass = true
 				tuna = true
 				ocean_perch = true
 				bluegill = true
+				pike = true
 				barracuda = true
-				yellow_perch = true
+				trout = true
+				guppy = true
+				clayfish = true
 				mackerel = true
+				catfish = true
+				bass = true
+				sailfish = true
+				yellow_perch = true
+				mint_carp = true
 
-			[light_sources.settings.entities.bewitchment]
-				ghost = true
-				raven = true
-				owl = true
-				snake = true
+			[light_sources.settings.entities.grapplemod]
+				grapplehook = true
+
+			[light_sources.settings.entities.man_of_many_planes]
+				economy_plane = true
 
 			[light_sources.settings.entities.endermanoverhaul]
+				mushroom_fields_enderman = true
 				savanna_enderman = true
 				cave_enderman = true
 				snowy_enderman = true
@@ -92,29 +115,13 @@ mode = "fancy"
 				mutant_enderman = true
 				mutant_creeper = true
 				mutant_skeleton = true
-
-			[light_sources.settings.entities.wildernature]
-				deer = true
-				raccoon = true
-				squirrel = true
-				hedgehog = true
-				cassowary = true
-				pelican = true
-				bison = true
-				penguin = true
-				flamingo = true
-
-			[light_sources.settings.entities.creeperoverhaul]
-				snowy_creeper = true
-				ocean_creeper = true
-				dripstone_creeper = true
-				cave_creeper = true
-				beach_creeper = true
-				savannah_creeper = true
+				mutant_zombie = true
 
 			[light_sources.settings.entities.variantsandventures]
 				gelid = true
 				murk = true
+				verdant = true
+				thicket = true
 
 			[light_sources.settings.entities.knightquest]
 				ratman = true
@@ -124,14 +131,8 @@ mode = "fancy"
 				eldbomb = true
 				lizzy = true
 
-			[light_sources.settings.entities.iceandfire]
-				pixie = true
-				ice_dragon = true
-				lightning_dragon = true
-				hippocampus = true
-				dragon_multipart = true
-				troll = true
-				fire_dragon = true
+			[light_sources.settings.entities.galosphere]
+				sparkle = true
 
 			[light_sources.settings.entities.naturalist]
 				deer = true
@@ -141,6 +142,8 @@ mode = "fancy"
 				canary = true
 				firefly = true
 				rhino = true
+				hippo = true
+				bluejay = true
 				coral_snake = true
 				snake = true
 				cardinal = true
@@ -157,14 +160,15 @@ mode = "fancy"
 				elephant = true
 				finch = true
 
+			[light_sources.settings.entities.wetlands]
+				elder_gear_golem = true
+
+			[light_sources.settings.entities.immersive_aircraft]
+				airship = true
+				bullet = true
+
 			[light_sources.settings.entities.ribbits]
 				ribbit = true
-
-			[light_sources.settings.entities.friendsandfoes]
-				glare = true
-				mauler = true
-				crab = true
-				rascal = true
 
 			[light_sources.settings.entities.dungeonnowloading]
 				spawner_carrier = true
@@ -174,6 +178,73 @@ mode = "fancy"
 				sand_snapper = true
 				ice_cube = true
 
+			[light_sources.settings.entities.meadow]
+				wooly_cow = true
+				water_buffalo = true
+
 			[light_sources.settings.entities.artifacts]
 				mimic = true
+
+			[light_sources.settings.entities.bewitchment]
+				ghost = true
+				raven = true
+				owl = true
+				snake = true
+
+			[light_sources.settings.entities.bakery]
+				wandering_baker = true
+
+			[light_sources.settings.entities.wildernature]
+				deer = true
+				cassowary = true
+				owl = true
+				pelican = true
+				flamingo = true
+				boar = true
+				raccoon = true
+				squirrel = true
+				red_wolf = true
+				hedgehog = true
+				turkey = true
+				minisheep = true
+				bison = true
+				dog = true
+				penguin = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				snowy_creeper = true
+				ocean_creeper = true
+				dripstone_creeper = true
+				cave_creeper = true
+				beach_creeper = true
+				savannah_creeper = true
+				hills_creeper = true
+				spruce_creeper = true
+
+			[light_sources.settings.entities.iceandfire]
+				pixie = true
+				cockatrice = true
+				ice_dragon = true
+				lightning_dragon = true
+				ghost = true
+				hippocampus = true
+				hippogryph = true
+				dragon_multipart = true
+				troll = true
+				ice_dragon_charge = true
+				dragon_skull = true
+				fire_dragon = true
+
+			[light_sources.settings.entities.smallships]
+				cog = true
+
+			[light_sources.settings.entities.supplementaries]
+				rope_arrow = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				glare = true
+				copper_golem = true
+				mauler = true
+				crab = true
+				rascal = true
 

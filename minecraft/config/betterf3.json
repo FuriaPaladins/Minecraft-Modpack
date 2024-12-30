@@ -117,7 +117,9 @@
 				"underground_water_creature": true,
 				"water_creature": true,
 				"water_ambient": true,
-				"misc": true
+				"misc": true,
+				"glares": true,
+				"rascals": true
 			}
 		}
 	],
@@ -126,6 +128,8 @@
 			"name": "system",
 			"name_color": 16755200,
 			"value_color": 5636095,
+			"memory_color_toggle": true,
+			"time_format": "HH:mm:ss",
 			"enabled": true,
 			"lines": {
 				"time": false,
@@ -158,7 +162,7 @@
 				"targeted_block": true,
 				"id_block": true,
 				"block_states": true,
-				"block_tags": true,
+				"block_tags": false,
 				"nothing": true,
 				"targeted_fluid": true,
 				"id_fluid": true,
