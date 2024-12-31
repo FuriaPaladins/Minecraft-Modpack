@@ -16,21 +16,15 @@ Go through the installation process as you would with any other app.
 
 ![alt text](src/prism_page.png "Prism Launcher page")
 
-## 2. Before starting Prism Launcher, you may want to go to https://adoptium.net/ to download a java JDK.  
-You can then click on "Latest LTS Release" and it'll take you to a download page.  
-Install this as normal.  
+## 2. Before starting Prism Launcher, you may want to go to download GraalVM.
+If you wish to install GraalVM manually [you can follow the steps here](https://www.graalvm.org/latest/getting-started/windows/)  
 *(This JDK is typically better optimised than the default ones you may have installed with minecraft.)*
 
-![alt text](src/adoptium_page.png "Prism Launcher page")
+Otherwise, you can easily install GraalVM through [Chocolatey](https://chocolatey.org/install), which is a package manager.  
+After installing Chocolatey through the link above, you can get GraalVM through [this chocolatey link](https://community.chocolatey.org/packages/graalvm) 
 
 
-## 3. Start Prism Launcher, and in the Quick Setup, select the Eclipse Adoptium JDK you installed.  
-*Note: If this menu doesn't show up, scroll down to see how to do this in the settings page.*  
-Here you can also setup your min/max memory allocations but we can set those up for our specific minecraft instance later.  
-
-![alt text](src/prism_launcher_setup_java.png "Prism Setup Java page")
-
-## 4. We will now setup the settings in Prism.  
+## 3. We will now setup the settings in Prism.  
 
 ![Get to settings](src/pl_settings.png)
 
@@ -44,6 +38,7 @@ Simply click on the "Add Microsoft"/"Add Mojang" buttons and follow the instruct
 ### - Here you can also setup your Java path and min/max memory.  
 (I recommend setting up RAM per-instance rather than globally, but it does not really matter. Around 8GB (8192 MB) is recommended for most modpacks, although try not to alocate over around 60% of your total RAM.)  
 **NB: Since we're running a new Java version, please remember to check "Skip Java compatability checks"**   
+***This is where you set GraalVM if you've followed the installation***
 ![Java and memory settings](src/plauncher_java_and_memory.png)
 
 # 5. To setup our instance, first we need to download the modpack off github.
