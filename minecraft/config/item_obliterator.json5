@@ -2,13 +2,13 @@
   // -----------------------------------------------------------
   //              Item Obliterator by ElocinDev
   // -----------------------------------------------------------
-  //  
+  //
   // How to add items?
   //   - They are json strings, so you need to separate each
   //     entry with a comma, except the last
   //   - If you start an entry with !, it will be treated as a regular expression
   //     Example: "!minecraft:.*_sword" to disable all swords
-  //  
+  //
   // -----------------------------------------------------------
   // Do not touch this
   "configVersion": 2,
@@ -31,14 +31,96 @@
     "toms_storage:ts.paint_kit",
     "toms_storage:ts.item_filter",
     "toms_storage:ts.polymorphic_item_filter",
-    "toms_storage:ts.tag_item_filter"
+    "toms_storage:ts.tag_item_filter",
+
+    "galosphere:silver_ore",
+    "galosphere:raw_silver",
+    "galosphere:raw_silver_block",
+    "bewitchment:silver_ore",
+    "bewitchment:raw_silver",
+    "iceandfire:sapphire_ore",
+    "iceandfire:sapphire_gem",
+    "iceandfire:sapphire_block",
+
+    "iceandfire:myrmex_jungle_helmet",
+    "iceandfire:myrmex_jungle_chestplate",
+    "iceandfire:myrmex_jungle_leggings",
+    "iceandfire:myrmex_jungle_boots",
+    "iceandfire:myrmex_desert_helmet",
+    "iceandfire:myrmex_desert_chestplate",
+    "iceandfire:myrmex_desert_leggings",
+    "iceandfire:myrmex_desert_boots",
+    "iceandfire:deathworm_red_helmet",
+    "iceandfire:deathworm_red_chestplate",
+    "iceandfire:deathworm_red_leggings",
+    "iceandfire:deathworm_red_boots",
+    "iceandfire:deathworm_white_helmet",
+    "iceandfire:deathworm_white_chestplate",
+    "iceandfire:deathworm_white_leggings",
+    "iceandfire:deathworm_white_boots",
+    "iceandfire:deathworm_yellow_helmet",
+    "iceandfire:deathworm_yellow_chestplate",
+    "iceandfire:deathworm_yellow_leggings",
+    "iceandfire:deathworm_yellow_boots",
+    "iceandfire:deathworm_chitin_yellow",
+    "iceandfire:deathworm_chitin_white",
+    "iceandfire:deathworm_chitin_red",
+    "iceandfire:deathworm_egg",
+    "iceandfire:deathworm_egg_giant",
+    "iceandfire:deathworm_tongue",
+    "iceandfire:deathworm_gauntlet_yellow",
+    "iceandfire:deathworm_gauntlet_white",
+    "iceandfire:deathworm_gauntlet_red",
+    "iceandfire:myrmex_desert_egg",
+    "iceandfire:myrmex_jungle_egg",
+    "iceandfire:myrmex_desert_resin",
+    "iceandfire:myrmex_jungle_resin",
+    "iceandfire:myrmex_desert_chitin",
+    "iceandfire:myrmex_jungle_chitin",
+    "iceandfire:myrmex_stinger",
+    "iceandfire:myrmex_desert_sword",
+    "iceandfire:myrmex_desert_sword_venom",
+    "iceandfire:myrmex_desert_shovel",
+    "iceandfire:myrmex_desert_pickaxe",
+    "iceandfire:myrmex_desert_axe",
+    "iceandfire:myrmex_desert_hoe",
+    "iceandfire:myrmex_jungle_sword",
+    "iceandfire:myrmex_jungle_sword_venom",
+    "iceandfire:myrmex_jungle_shovel",
+    "iceandfire:myrmex_jungle_pickaxe",
+    "iceandfire:myrmex_jungle_axe",
+    "iceandfire:myrmex_jungle_hoe",
+    "iceandfire:myrmex_desert_staff",
+    "iceandfire:myrmex_jungle_staff",
+    "iceandfire:myrmex_desert_swarm",
+    "iceandfire:myrmex_jungle_swarm",
+    "iceandfire:spawn_egg_myrmex_worker",
+    "iceandfire:spawn_egg_myrmex_soldier",
+    "iceandfire:spawn_egg_myrmex_sentinel",
+    "iceandfire:spawn_egg_myrmex_royal",
+    "iceandfire:spawn_egg_myrmex_queen",
+    "iceandfire:myrmex_resin_desert",
+    "iceandfire:myrmex_resin_sticky_desert",
+    "iceandfire:myrmex_resin_jungle",
+    "iceandfire:myrmex_resin_sticky_jungle",
+    "iceandfire:desert_myrmex_cocoon",
+    "iceandfire:jungle_myrmex_cocoon",
+    "iceandfire:myrmex_desert_biolight",
+    "iceandfire:myrmex_jungle_biolight",
+    "iceandfire:myrmex_desert_resin_block",
+    "iceandfire:myrmex_jungle_resin_block",
+    "iceandfire:myrmex_desert_resin_glass",
+    "iceandfire:myrmex_jungle_resin_glass",
+    "iceandfire:deathworm_tongue",
+
+    "tide:vanilla_fishing_rod"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
   // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
-  // 	
+  //
   // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
-  // 	
+  //
   // 	 You can also use regular expressions by starting the value with !
   "blacklisted_nbt": [],
   // -----------------------------------------------------------
@@ -63,7 +145,7 @@
   // If true, the mod will use a hashset to handle the blacklisted items
   // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
   // If you just have a small amount of items blacklisted, keep this false
-  //  
+  //
   // [!] Enabling this will disable all regular expressions
   // [!] Does not apply to NBT, only item blacklist / interaction / attack
   "use_hashmap_optimizations": false

@@ -55,6 +55,7 @@ mode = "fancy"
 				creeper = true
 				enderman = true
 				chicken = true
+				trader_llama = true
 				donkey = true
 				chest_minecart = true
 				fox = true
@@ -90,6 +91,7 @@ mode = "fancy"
 				pike = true
 				barracuda = true
 				trout = true
+				fishing_bobber = true
 				guppy = true
 				clayfish = true
 				mackerel = true
@@ -109,6 +111,7 @@ mode = "fancy"
 				mushroom_fields_enderman = true
 				savanna_enderman = true
 				cave_enderman = true
+				flower_fields_enderman = true
 				snowy_enderman = true
 
 			[light_sources.settings.entities.mutantmonsters]
@@ -116,6 +119,7 @@ mode = "fancy"
 				mutant_creeper = true
 				mutant_skeleton = true
 				mutant_zombie = true
+				mutant_arrow = true
 
 			[light_sources.settings.entities.variantsandventures]
 				gelid = true
@@ -170,6 +174,9 @@ mode = "fancy"
 			[light_sources.settings.entities.ribbits]
 				ribbit = true
 
+			[light_sources.settings.entities.frostiful]
+				frost_tipped_arrow = true
+
 			[light_sources.settings.entities.dungeonnowloading]
 				spawner_carrier = true
 				chaos_spawner = true
@@ -187,6 +194,7 @@ mode = "fancy"
 
 			[light_sources.settings.entities.bewitchment]
 				ghost = true
+				werewolf = true
 				raven = true
 				owl = true
 				snake = true
@@ -224,16 +232,18 @@ mode = "fancy"
 			[light_sources.settings.entities.iceandfire]
 				pixie = true
 				cockatrice = true
-				ice_dragon = true
 				lightning_dragon = true
-				ghost = true
 				hippocampus = true
 				hippogryph = true
-				dragon_multipart = true
 				troll = true
 				ice_dragon_charge = true
-				dragon_skull = true
 				fire_dragon = true
+				ice_dragon = true
+				ghost = true
+				deathworm = true
+				multipart = true
+				dragon_multipart = true
+				dragon_skull = true
 
 			[light_sources.settings.entities.smallships]
 				cog = true
@@ -244,7 +254,11 @@ mode = "fancy"
 			[light_sources.settings.entities.friendsandfoes]
 				glare = true
 				copper_golem = true
+				moobloom = true
 				mauler = true
 				crab = true
 				rascal = true
+
+			[light_sources.settings.entities.bloomingnature]
+				wandering_gardener = true
 

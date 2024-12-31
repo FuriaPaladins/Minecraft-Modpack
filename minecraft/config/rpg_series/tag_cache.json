@@ -34,8 +34,8 @@
       "wizards:staff_ruby_fire",
       "wizards:staff_crystal_arcane",
       "wizards:staff_smaragdant_frost",
-      "forcemaster_rpg:aeternium_knuckle",
-      "forcemaster_rpg:ruby_knuckle"
+      "forcemaster_rpg:ruby_knuckle",
+      "forcemaster_rpg:aeternium_knuckle"
     ],
     "rpg_series:tier_1_armors": [
       "archers:archer_armor_chest",

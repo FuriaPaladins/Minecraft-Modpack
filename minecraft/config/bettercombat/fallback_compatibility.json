@@ -3,7 +3,7 @@
   "blacklist_item_id_regex": "pickaxe",
   "fallback_compatibility": [
     {
-      "item_id_regex": "claymore|great_sword|greatsword",
+      "item_id_regex": "claymore|great_sword|greatsword|kingslayer|cursed_blade|",
       "weapon_attributes": "bettercombat:claymore"
     },
     {
@@ -11,7 +11,7 @@
       "weapon_attributes": "bettercombat:hammer"
     },
     {
-      "item_id_regex": "double_axe|doubleaxe|war_axe|waraxe|great_axe|greataxe",
+      "item_id_regex": "double_axe|doubleaxe|war_axe|waraxe|great_axe|greataxe|fury_of_the_storm",
       "weapon_attributes": "bettercombat:double_axe"
     },
     {
@@ -35,7 +35,7 @@
       "weapon_attributes": "bettercombat:lance"
     },
     {
-      "item_id_regex": "anchor",
+      "item_id_regex": "anchor|weapon_column|weapon_col|weapon_trunk",
       "weapon_attributes": "bettercombat:anchor"
     },
     {
@@ -51,7 +51,7 @@
       "weapon_attributes": "bettercombat:fist"
     },
     {
-      "item_id_regex": "trident|javelin|impaled",
+      "item_id_regex": "trident|javelin|impaled|fork",
       "weapon_attributes": "bettercombat:trident"
     },
     {
@@ -63,7 +63,7 @@
       "weapon_attributes": "bettercombat:rapier"
     },
     {
-      "item_id_regex": "sickle",
+      "item_id_regex": "sickle|life_stealer",
       "weapon_attributes": "bettercombat:sickle"
     },
     {
@@ -83,7 +83,7 @@
       "weapon_attributes": "bettercombat:mace"
     },
     {
-      "item_id_regex": "axe|chainsaw",
+      "item_id_regex": "axe|chainsaw|hatchet",
       "weapon_attributes": "bettercombat:axe"
     },
     {
@@ -99,7 +99,7 @@
       "weapon_attributes": "bettercombat:cutlass"
     },
     {
-      "item_id_regex": "sword|blade|nanosaber",
+      "item_id_regex": "sword|blade|nanosaber|fates_beacon|macuahuitl|tentacle|fin_cutter",
       "weapon_attributes": "bettercombat:sword"
     }
   ],
