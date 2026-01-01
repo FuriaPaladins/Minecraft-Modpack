@@ -1,16 +1,16 @@
-filename = 'hearth_and_home-fabric-1.20.1-2.0.3.jar'
+filename = 'hearth_and_home-forge-1.20.1-2.0.3.jar'
 name = 'Hearth & Home'
-side = 'server'
-x-prismlauncher-loaders = [ 'fabric' ]
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '7dc683cf14d86e20f2f90d6f64ec5476abbe306c'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '931939d195e0691621a5dcd3b31101040839314a8ab8dc7a6beb4026bed9e221f9fd7686c151d5182e03ce4d911c92147016164f38a5869db116853c1485f96c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ePCzRQkj/versions/tLGvZFeu/hearth_and_home-forge-1.20.1-2.0.3.jar'
 
-[update.curseforge]
-file-id = 5310270
-project-id = 849364
+[update.modrinth]
+mod-id = 'ePCzRQkj'
+version = 'tLGvZFeu'

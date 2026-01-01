@@ -1,16 +1,16 @@
-filename = 'knightlib-fabric-1.20.1-1.1.0.jar'
+filename = 'knightlib-forge-1.20.1-1.3.1.jar'
 name = 'Knight Lib'
 side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'b5182b07c63151638dc35b5b759c2378d511b0fa9ee966aa171d0f09fd816288ff331af78c7640aaae5fc7160911f61b413bf5819c4b2e5c3abc7661e0246cd7'
+hash = '10fa6a3ddd62b3d51dd6b5c37014f112c6b367f91ce1660d9dcffb4b0cf6972a79299a4c59987efffe1a38838e5aef9a8a2fd2632b6810b2e94066f1c33fad5b'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/hAnl9nbm/versions/2JLBAa8Q/knightlib-fabric-1.20.1-1.1.0.jar'
+url = 'https://cdn.modrinth.com/data/hAnl9nbm/versions/WZsp9Z8s/knightlib-forge-1.20.1-1.3.1.jar'
 
 [update.modrinth]
 mod-id = 'hAnl9nbm'
-version = '2JLBAa8Q'
+version = 'WZsp9Z8s'

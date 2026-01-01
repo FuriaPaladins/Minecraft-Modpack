@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/furnaces/furnace",
+	"criteria": {
+		"furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"ironfurnaces:copper_furnace"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Copper Furnace",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "ironfurnaces:copper_furnace"
+		},
+		"show_toast": true,
+		"title": "Smelting Sidegrade!"
+	},
+	"requirements": [
+		[
+			"furnace"
+		]
+	]
+}

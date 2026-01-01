@@ -1,0 +1,27 @@
+{
+	"parent": "custom:oddities/root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": {
+			"text": "A few tweaks to how enchanting works."
+		},
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:enchanting_table"
+		},
+        "title": [
+            "Enchanting!"
+		]
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

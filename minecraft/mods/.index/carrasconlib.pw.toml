@@ -1,0 +1,16 @@
+filename = 'carrasconlib-forge-1.20.1-0.1.jar'
+name = '#CarrasconLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '04d39caecdab40f7785cbec82aab42fd402fc1822f8755c916ccadb921c246fb06ddb43f9c74740803ea641a2b63ebc50aeebdba60c88806d7f60cdaba0f3f06'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QpsOhpBa/versions/DudxDdYO/carrasconlib-forge-1.20.1-0.1.jar'
+
+[update.modrinth]
+mod-id = 'QpsOhpBa'
+version = 'DudxDdYO'

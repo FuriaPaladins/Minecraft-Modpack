@@ -1,0 +1,44 @@
+{
+  "parent": "custom:adventuring/skyarena/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:packed_ice"
+    },
+    "title": {
+        "translate": "advancement.skyarena.ice_arena.title"
+      },
+    "description": [
+      {
+      "translate": "advancement.skyarena.ice_arena.description"
+      },
+      "\n\nYou can use an ",
+      {
+				"text": "Eye of Ice",
+				"color": "white",
+				"bold": true
+			},
+      " to find the Ice Arena."
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "common": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "skyarena:ice_arena"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "common"
+    ]
+  ]
+}

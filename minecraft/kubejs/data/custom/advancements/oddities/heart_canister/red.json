@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/heart_canister/amulet",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["bhc:red_heart_canister"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Red Heart Canister",
+				"color": "white",
+				"bold": true
+			},
+			", to increase your health when put in a Heart Amulet"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "bhc:red_heart_canister"
+		},
+		"show_toast": true,
+		"title": "A steady heart supply"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

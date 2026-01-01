@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/transport/land_trains",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["immersive_machinery:tunnel_digger"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Crafting a ",
+			{
+				"text": "Tunnel Digger",
+				"color": "white",
+				"bold": true
+			},
+			" lets you... y'know, dig tunnels. It also has a fairly large inventory for the blocks it mines"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "immersive_machinery:tunnel_digger"
+		},
+		"show_toast": true,
+		"title": "Tunnel Digger"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

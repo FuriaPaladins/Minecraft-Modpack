@@ -1,0 +1,42 @@
+{
+  "parent": "custom:storage/ae2/custom/wireless_terminal",
+  "criteria": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:wireless_crafting_terminal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "Crafting a ",
+      {
+				"text": "Wireless Crafting Terminal",
+				"color": "white",
+				"bold": true
+			},
+      " using your normal Wireless Terminal allows you to craft on the go!"
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "ae2:wireless_crafting_terminal"
+    },
+    "show_toast": true,
+    "title": "Wireless Crafting!"
+  },
+  "requirements": [
+    [
+      "certus"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

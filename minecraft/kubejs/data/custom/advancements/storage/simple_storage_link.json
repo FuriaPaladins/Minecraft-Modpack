@@ -1,0 +1,41 @@
+{
+	"parent": "custom:storage/simple_storage_access",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"storagenetwork:storage_kabel"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Without a ",
+			{
+				"text": "Link Cable",
+				"color": "white",
+				"bold": true
+			},
+			", you cannot actually link your Simple Storage Network to any chests that aren't directly adjacent to the network, so you can use these cables to do that!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "storagenetwork:storage_kabel"
+		},
+		"show_toast": true,
+		"title": "And now we've got linking!"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

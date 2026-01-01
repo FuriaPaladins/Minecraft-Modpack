@@ -1,0 +1,47 @@
+{
+  "parent": "custom:combat/cataclysm/find_ancient_factory",
+  "criteria": {
+    "pyramid": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "cataclysm:cursed_pyramid"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "You can craft an ",
+      {
+        "text": "Eye of Desert",
+        "color": "white",
+        "bold": true
+      },
+      " to help you locate the Cursed Pyramid. This Pyramid is a fairly large dungeon, being comprised by mazes, traps, libraries as well as treasure. But be warned, the Pyramid is crawling with Koboleton.\n\nAt the bottom of the Pyramid, you will face off against the Ancient Remnant, a giant skeletal Dinosaur"
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cataclysm:desert_eye"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.cataclysm.cursed_pyramid.title"
+    }
+  },
+  "requirements": [
+    [
+      "pyramid"
+    ]
+  ]
+}

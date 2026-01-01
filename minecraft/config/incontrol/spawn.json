@@ -1,0 +1,28 @@
+[  
+  {
+    "mincount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true
+    },
+    "hostile": true,
+    "result": "deny",
+    "random": 0.25,
+    "spawntype": ["natural"]
+  },
+  {
+    "mob": "born_in_chaos_v1:maggot",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:void_worm",
+    "when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:farseer",
+    "when": "onjoin",
+    "result": "deny"
+  }
+]

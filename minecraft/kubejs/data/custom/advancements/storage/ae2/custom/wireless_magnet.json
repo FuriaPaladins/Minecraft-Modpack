@@ -1,0 +1,42 @@
+{
+  "parent": "custom:storage/ae2/custom/wireless_boosters",
+  "criteria": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2wtlib:magnet_card"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "Crafting a ",
+      {
+				"text": "Magnet Card",
+				"color": "white",
+				"bold": true
+			},
+      " and inserting it into your Wireless Terminal lets you pull items around you to your inventory."
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "ae2wtlib:magnet_card"
+    },
+    "show_toast": true,
+    "title": "Come to my storage system"
+  },
+  "requirements": [
+    [
+      "certus"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

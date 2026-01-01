@@ -1,0 +1,38 @@
+{
+	"parent": "custom:storage/sophisticated_3",
+	"criteria": {
+		"chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["sophisticatedstorage:diamond_chest"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Relatively large storage. Craft a ",
+			{
+				"text": "Diamond Chest",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "sophisticatedstorage:diamond_chest"
+		},
+		"show_toast": true,
+		"title": "Diamond Storage"
+	},
+	"requirements": [
+		[
+			"chest"
+		]
+	]
+}

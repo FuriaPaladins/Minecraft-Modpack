@@ -1,0 +1,16 @@
+filename = 'fancytoasts-forge-1.20.1-1.4.1.jar'
+name = 'Fancy Toasts | Better Advancements'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8c83bb6e5a3861bb75d66edab908be665816fcf51348c3a0ca22db36fcbd8db2658dcbe456ae1dbf85187dde945b9138ab15db38fb0224412459ae414e373eb0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/eUziWqPC/versions/4rX26Tkn/fancytoasts-forge-1.20.1-1.4.1.jar'
+
+[update.modrinth]
+mod-id = 'eUziWqPC'
+version = '4rX26Tkn'

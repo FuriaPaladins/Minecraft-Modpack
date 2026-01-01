@@ -1,16 +1,16 @@
-filename = 'toofast-fabric-1.20-1.2.0.jar'
+filename = 'toofast-1.20-0.4.3.5.jar'
 name = 'Too Fast'
 side = 'server'
-x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'b7f133d04a990f5b03c6cd5b19c2008b6f8e4a40fcd0342f561db2e651f9e4331770ace52ffa40d3d94d3cc7e1e0d1614d682faf24f25fc95c33c38db4677ab9'
+hash = '722b6788724c813978d468100f85532ea5a9f07830d4a0475aa6050434bef5da3e51ccd235ed7158b6797d938ab10b9b3f79422e72517c2e20761dd923c5d602'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/w6JSkKSH/versions/ZyY2Xraw/toofast-fabric-1.20-1.2.0.jar'
+url = 'https://cdn.modrinth.com/data/w6JSkKSH/versions/2pix3xrW/toofast-1.20-0.4.3.5.jar'
 
 [update.modrinth]
 mod-id = 'w6JSkKSH'
-version = 'ZyY2Xraw'
+version = '2pix3xrW'

@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/backpacks/sophisticated_4",
+	"criteria": {
+		"backpack": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"sophisticatedbackpacks:netherite_backpack"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Netherite Backpack",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "goal",
+		"hidden": false,
+		"icon": {
+			"item": "sophisticatedbackpacks:netherite_backpack"
+		},
+		"show_toast": true,
+		"title": "Netherite Backpack"
+	},
+	"requirements": [
+		[
+			"backpack"
+		]
+	]
+}

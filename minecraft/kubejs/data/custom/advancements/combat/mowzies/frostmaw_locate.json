@@ -1,0 +1,53 @@
+{
+  "parent": "custom:combat/mowzies/umvuthi_locate",
+  "display": {
+    "icon": {
+      "item": "mowzies_cataclysm:frostmaw_eye"
+    },
+    "title": [
+        "Locate: Frostmaw"
+    ],
+    "description": [
+        "You can craft an ",
+        {
+            "text": "Eye of Frost",
+            "color": "white",
+            "bold": true
+        },
+        " to help locate the ",
+        {
+            "text": "Frostmaw",
+            "color": "white",
+            "bold": true
+        }, 
+        " which spawns in cold biomes."
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mowziesmobs:frostmaw_spawn"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

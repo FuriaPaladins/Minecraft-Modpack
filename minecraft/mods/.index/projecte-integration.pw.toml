@@ -1,0 +1,16 @@
+filename = 'ProjectE_Integration-1.20.1-7.2.5.jar'
+name = 'ProjectE Integration'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '106b08e6d5f4806a1ae210262ec19c5df68e722019124b776cca86ef8278ba12f9e23725d00e2723f2737568316e96c74547d72c938ec2fd353cc8c7ffbf0f37'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/V8sT0HfM/versions/MxlyJleI/ProjectE_Integration-1.20.1-7.2.5.jar'
+
+[update.modrinth]
+mod-id = 'V8sT0HfM'
+version = 'MxlyJleI'

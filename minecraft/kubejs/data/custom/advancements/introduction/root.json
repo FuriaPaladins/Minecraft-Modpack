@@ -1,0 +1,32 @@
+{
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+		"description": {
+			"text": "Welcome to the Pack! Advancements have been tailored to help introduce you to some of the main and useful mods in the pack.\n\nAdvancements do not have to be completed in order. Some advancements look like they need other Advancements done just to reduce the ugly vertical advancements stack!\nNote: You can click on advancements in chat in order to find them in the advancements tab quickly.\n\nNot all mods will have comprehensive guides\nHave fun!"
+		},
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:crafting_table"
+		},
+        "title": [
+			"Let the ",
+			{
+				"text": "(two week Minecraft phase)",
+				"strikethrough": true
+			},
+            " Modpack Begin!"
+		]
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

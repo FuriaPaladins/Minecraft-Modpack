@@ -1,0 +1,48 @@
+{
+  "parent": "custom:storage/ae2/crafting_terminal",
+  "criteria": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2:wireless_terminal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "Crafting a ",
+      {
+				"text": "Wireless Terminal",
+				"color": "white",
+				"bold": true
+			},
+      " allows you to access your AE2 network from almost everywhere after linking it using a ",
+      {
+				"text": "ME Wireless Access Point",
+				"color": "white",
+				"bold": true
+			},
+      "!"
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "ae2:wireless_terminal"
+    },
+    "show_toast": true,
+    "title": "Mass Storage on the go"
+  },
+  "requirements": [
+    [
+      "certus"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

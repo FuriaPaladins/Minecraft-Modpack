@@ -1,0 +1,41 @@
+{
+  "parent": "create:andesite_alloy",
+  "criteria": {
+    "criterion": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mechanical_botany:mechanical_composter"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "Creating a ",
+      {
+				"text": "Mechanical Composter",
+				"color": "white",
+				"bold": true
+			},
+      " lets you turn different organic materials into compost, which acts as bone meal. Click U on the block in EMI to view it's uses."
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mechanical_botany:mechanical_composter"
+    },
+    "show_toast": true,
+    "title": "Composting"
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ],
+}

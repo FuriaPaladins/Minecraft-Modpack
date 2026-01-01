@@ -1,0 +1,26 @@
+{
+	"parent": "custom:oddities/enchanting/root",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"This modpack provides 3 different ways of over-enchanting your gear past the vanilla max level."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:enchanted_book"
+		},
+		"show_toast": false,
+		"title": "Over-Enchanting!"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

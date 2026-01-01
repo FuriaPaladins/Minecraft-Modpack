@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "cosmeticarmoursmod:angel_halo_helmet"
+    },
+    "title": {
+      "translate": "advancements.angel_halo_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.angel_halo_achievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "angel_halo_achievement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "custom:oddities/cosmeticarmorsmod/golden_halo_achievement"
+}

@@ -1,52 +1,862 @@
 {
   "layers": {
-    "hotbar": {
-      "x": 0,
-      "y": 2,
-      "position": "BOTTOM",
-      "sync": "NONE"
+    "alekiships:cannon_load_state": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "alekiships:cannon_load_state"
     },
-    "chat": {
-      "x": 0,
-      "y": 0,
-      "position": "BOTTOM",
-      "sync": "NONE"
+    "alekiships:compartment_status": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "alekiships:compartment_status"
     },
-    "bossbar": {
-      "x": 0,
-      "y": 0,
-      "position": "TOP",
-      "sync": "NONE"
+    "alekiships:passenger_status": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "alekiships:passenger_status"
     },
-    "sidebar": {
-      "x": 0,
-      "y": 0,
-      "position": "RIGHT",
-      "sync": "NONE"
+    "alekiships:sailing_element": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "alekiships:sailing_element"
     },
-    "effects": {
-      "x": 0,
-      "y": 0,
-      "position": "TOP_RIGHT",
-      "sync": "NONE"
+    "alekiships:sloop_construction": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "alekiships:sloop_construction"
     },
-    "players": {
-      "x": 0,
-      "y": 0,
-      "position": "TOP",
-      "sync": "NONE"
+    "alexsmobsinteraction:farseer_effects": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "alexsmobsinteraction:farseer_effects"
     },
-    "toasts": {
-      "x": 0,
-      "y": 0,
-      "position": "TOP_RIGHT",
-      "sync": "NONE"
+    "alexsmobsinteraction:farseer_text": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "alexsmobsinteraction:farseer_text"
     },
-    "other": {
-      "x": 0,
-      "y": 0,
-      "position": "BOTTOM",
-      "sync": "NONE"
+    "artifacts:artifact_cooldowns": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "artifacts:artifact_cooldowns"
+    },
+    "artifacts:helium_flamingo_charge": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "artifacts:helium_flamingo_charge"
+    },
+    "avaritia:endest_pearl_darkness": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "avaritia:endest_pearl_darkness"
+    },
+    "confluence:info_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "confluence:info_hud"
+    },
+    "create:blueprint": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:blueprint"
+    },
+    "create:goggle_info": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:goggle_info"
+    },
+    "create:linked_controller": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:linked_controller"
+    },
+    "create:remaining_air": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:remaining_air"
+    },
+    "create:schematic": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:schematic"
+    },
+    "create:toolbox": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:toolbox"
+    },
+    "create:track_placement": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:track_placement"
+    },
+    "create:train_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:train_hud"
+    },
+    "create:value_settings": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "create:value_settings"
+    },
+    "createbigcannons:entity_goggles_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "createbigcannons:entity_goggles_overlay"
+    },
+    "createbigcannons:gas_mask_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "createbigcannons:gas_mask_overlay"
+    },
+    "immersive_aircraft:ia_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersive_aircraft:ia_overlay"
+    },
+    "immersivearmorhud:armor_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersivearmorhud:armor_hud"
+    },
+    "irons_spellbooks:cast_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:cast_bar"
+    },
+    "irons_spellbooks:mana_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:mana_overlay"
+    },
+    "irons_spellbooks:recast_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:recast_bar"
+    },
+    "irons_spellbooks:screen_effects": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:screen_effects"
+    },
+    "irons_spellbooks:screen_tooltip": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:screen_tooltip"
+    },
+    "irons_spellbooks:spell_bar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:spell_bar"
+    },
+    "irons_spellbooks:spell_wheel": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "irons_spellbooks:spell_wheel"
+    },
+    "minecraft:bossbar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "minecraft:bossbar"
+    },
+    "minecraft:chat": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "UP"
+      },
+      "sync": "minecraft:chat"
+    },
+    "minecraft:effects": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "LEFT",
+        "y": "DOWN"
+      },
+      "sync": "minecraft:effects"
+    },
+    "minecraft:hotbar": {
+      "displacement": {
+        "x": 0,
+        "y": 2
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "UP"
+      },
+      "sync": "minecraft:hotbar"
+    },
+    "minecraft:other": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "minecraft:other"
+    },
+    "minecraft:players": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "DOWN"
+      },
+      "sync": "minecraft:players"
+    },
+    "minecraft:sidebar": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "LEFT",
+        "y": "NONE"
+      },
+      "sync": "minecraft:sidebar"
+    },
+    "minecraft:subtitles": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "LEFT",
+        "y": "UP"
+      },
+      "sync": "minecraft:subtitles"
+    },
+    "minecraft:toasts": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "LEFT",
+        "y": "DOWN"
+      },
+      "sync": "minecraft:toasts"
+    },
+    "netherexp:agitated": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "netherexp:agitated"
+    },
+    "overflowingbars:toughness_level": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "overflowingbars:toughness_level"
+    },
+    "patchouli:book_right_click": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "patchouli:book_right_click"
+    },
+    "patchouli:multiblock_progress": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "patchouli:multiblock_progress"
+    },
+    "projecte:transmutation_result": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "projecte:transmutation_result"
+    },
+    "refurbished_furniture:cutting_board_helper": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "refurbished_furniture:cutting_board_helper"
+    },
+    "refurbished_furniture:power_indicator": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "refurbished_furniture:power_indicator"
+    },
+    "relics:active_abilities": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "relics:active_abilities"
+    },
+    "relics:researching_hint": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "relics:researching_hint"
+    },
+    "reliquary:reliquary_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "reliquary:reliquary_hud"
+    },
+    "shouldersurfing:post_crosshair": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "shouldersurfing:post_crosshair"
+    },
+    "shouldersurfing:pre_crosshair": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "shouldersurfing:pre_crosshair"
+    },
+    "simpleclouds:simple_clouds_debug": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "simpleclouds:simple_clouds_debug"
+    },
+    "sophisticatedstorage:paintbrush_info": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "sophisticatedstorage:paintbrush_info"
+    },
+    "sophisticatedstorage:storage_tool_info": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "sophisticatedstorage:storage_tool_info"
+    },
+    "sophisticatedstorageinmotion:paintbrush_moving_storage_info": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "sophisticatedstorageinmotion:paintbrush_moving_storage_info"
+    },
+    "spartanweaponry:crosshair": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "spartanweaponry:crosshair"
+    },
+    "spartanweaponry:load_state": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "spartanweaponry:load_state"
+    },
+    "spartanweaponry:oil_uses": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "spartanweaponry:oil_uses"
+    },
+    "spartanweaponry:quiver_ammo": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "spartanweaponry:quiver_ammo"
+    },
+    "supplementaries:cannon_charge_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "supplementaries:cannon_charge_overlay"
+    },
+    "supplementaries:quiver_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "supplementaries:quiver_overlay"
+    },
+    "supplementaries:slimed_overlay": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "supplementaries:slimed_overlay"
+    },
+    "tameablebeasts:hatch": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tameablebeasts:hatch"
+    },
+    "tetra:ability_overlays": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tetra:ability_overlays"
+    },
+    "tetra:block_progresss": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tetra:block_progresss"
+    },
+    "tetra:booster": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tetra:booster"
+    },
+    "tetra:crossbow": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tetra:crossbow"
+    },
+    "tetra:howling": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tetra:howling"
+    },
+    "tetra:multiblock_schematic": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tetra:multiblock_schematic"
+    },
+    "tetra:ranged_progresss": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tetra:ranged_progresss"
+    },
+    "tetra:scanner": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tetra:scanner"
+    },
+    "tetra:secondary_interaction": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tetra:secondary_interaction"
+    },
+    "tetra:toolbelt": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "tetra:toolbelt"
+    },
+    "torohealth:torohealth_hud": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "torohealth:torohealth_hud"
+    },
+    "xaerominimap:xaero": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "xaerominimap:xaero"
+    },
+    "xaeroworldmap:xaero_wm_crosshair_message": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "xaeroworldmap:xaero_wm_crosshair_message"
+    },
+    "yungscavebiomes:buffeted": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "yungscavebiomes:buffeted"
     }
   }
 }

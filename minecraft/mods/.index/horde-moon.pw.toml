@@ -1,0 +1,16 @@
+filename = 'ZombieMoon-1.20-1.0.1.jar'
+name = 'Horde Moon'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3656e04c971ef8d3fa923923575dde5463cf2f99dc97817e5267ef807a8520845f81d5d809e93edeffd32a1bc820089c3df952a42f13c4c9f2607fd4bfa48076'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ir4RqbYg/versions/L9gjIcCk/ZombieMoon-1.20-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'ir4RqbYg'
+version = 'L9gjIcCk'

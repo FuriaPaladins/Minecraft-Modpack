@@ -1,6 +1,6 @@
 filename = 'FallingTree-1.20.1-4.3.4.jar'
 name = 'FallingTree'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'forge', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'

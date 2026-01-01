@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "cataclysm:chitin_claw"
+    },
+    "title": {
+      "translate": "advancements.cataclysm.kill_clawdian.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.cataclysm.kill_clawdian.description"
+      },
+      {
+        "text": "\n\nCO-OP-able Advancement.",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "custom:combat/cataclysm/find_acropolis",
+  "criteria": {
+    "endergolem": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+	"parent": "custom:introduction/keybinds/dodge_roll",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"Click the ",
+			{
+				"keybind": "key.personality.crawl",
+				"bold": true,
+				"color": "white"
+			},
+			" key to crawl. Allows you to fit through 1-block high gaps."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "quark:hollow_oak_log"
+		},
+		"show_toast": false,
+		"title": "I'm in your walls."
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	],
+	"sends_telemetry_event": false
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/cozy_naps",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["domesticationinnovation:wayward_lantern"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Wayward Lantern",
+				"color": "white",
+				"bold": true
+			},
+			". If your pets get unloaded or lost, they will eventually find their way back to the closest Wayward Lantern to you."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "domesticationinnovation:wayward_lantern"
+		},
+		"show_toast": true,
+		"title": "They'll find their way back"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

@@ -1,0 +1,16 @@
+filename = 'SimpleStorageNetwork-1.20.1-1.12.1.jar'
+name = 'Simple Storage Network'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '44bbc7cc176f935a7947204ef081aaff926cff916c9ce514e2bebcca51da2482c9e02cabb396420aa1877aa9799fcbba96e19a4c242701ac13715857e91cd6fe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cVIr8Vz1/versions/ExHDZz5U/SimpleStorageNetwork-1.20.1-1.12.1.jar'
+
+[update.modrinth]
+mod-id = 'cVIr8Vz1'
+version = 'ExHDZz5U'

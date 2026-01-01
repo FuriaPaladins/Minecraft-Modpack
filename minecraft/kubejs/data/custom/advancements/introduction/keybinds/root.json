@@ -1,0 +1,27 @@
+{
+	"parent": "custom:introduction/root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"The following advancements have some useful keybinds that you should be aware of while playing the pack. The text for each changes depending on the keybind you have set in your own controls menu."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "supplementaries:key"
+		},
+		"show_toast": false,
+		"title": "Keybinds!"
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	],
+	"sends_telemetry_event": false
+}

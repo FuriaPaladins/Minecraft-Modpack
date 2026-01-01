@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/furnaces/furnace",
+	"criteria": {
+		"furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"ironfurnaces:iron_furnace"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft an ",
+			{
+				"text": "Iron Furnace",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "ironfurnaces:iron_furnace"
+		},
+		"show_toast": true,
+		"title": "Iron Furnace"
+	},
+	"requirements": [
+		[
+			"furnace"
+		]
+	]
+}

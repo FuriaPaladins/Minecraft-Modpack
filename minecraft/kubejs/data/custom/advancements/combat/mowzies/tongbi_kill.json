@@ -1,0 +1,33 @@
+{
+	"parent": "custom:combat/mowzies/tongbi_locate",
+	"display": {
+		"icon": {
+			"item": "mowziesmobs:earthrend_gauntlet"
+		},
+        "title": [
+			"Duel with The Sculptor"
+		],
+            "description": [
+            "Generally it is recommended to just complete Tongbi's arena challenge, but this advancement is here for completionist sake.",
+            {
+				"text": "\n\nCO-OP-able Advancement.",
+				"color": "gold",
+				"bold": true
+			}
+        ],
+        "frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

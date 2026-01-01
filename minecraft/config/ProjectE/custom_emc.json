@@ -1,0 +1,136 @@
+{
+  "entries": [
+    {
+      "item": "create:zinc_ingot",
+      "emc": 126
+    },
+    {
+      "item": "createaddition:iron_rod",
+      "emc": 128
+    },
+    {
+      "item": "createaddition:iron_wire",
+      "emc": 128
+    },
+    {
+      "item": "createaddition:gold_rod",
+      "emc": 1024
+    },
+    {
+      "item": "createaddition:gold_wire",
+      "emc": 1024
+    },
+    {
+      "item": "createaddition:brass_rod",
+      "emc": 63
+    },
+    {
+      "item": "createaddition:brass_wire",
+      "emc": 63
+    },
+    {
+      "item": "createaddition:electrum_rod",
+      "emc": 639
+    },
+    {
+      "item": "createaddition:electrum_wire",
+      "emc": 639
+    },
+    {
+      "item": "createaddition:copper_rod",
+      "emc": 64
+    },
+    {
+      "item": "createaddition:copper_wire",
+      "emc": 64
+    },
+    {
+      "item": "createaddition:straw",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:stone",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:magma_block",
+      "emc": 64
+    },
+    {
+      "item": "minecraft:soul_soil",
+      "emc": 49
+    },
+    {
+      "item": "supplementaries:pancake",
+      "emc": 0
+    },
+    {
+      "item": "compatdelight:thatch_dough",
+      "emc": 0
+    },
+    {
+      "item": "alexscaves:sulfur",
+      "emc": 96
+    },
+    {
+      "item": "tfmg:sulfur",
+      "emc": 96
+    },
+    {
+      "item": "spelunkery:sulfur",
+      "emc": 96
+    },
+    {
+      "item": "#minecraft:soul_fire_base_blocks",
+      "emc": 1
+    },
+    {
+      "item": "minecraft:cooked_porkchop",
+      "emc": 64
+    },
+    {
+      "item": "autumnity:turkey",
+      "emc": 64
+    },
+    {
+      "item": "bhc:blue_heart",
+      "emc": 0
+    },
+    {
+      "item": "bhc:green_heart",
+      "emc": 0
+    },
+    {
+      "item": "bhc:red_heart",
+      "emc": 0
+    },
+    {
+      "item": "bhc:yellow_heart",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedbackpacks:backpack",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedbackpacks:copper_backpack",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedbackpacks:iron_backpack",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedbackpacks:gold_backpack",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedbackpacks:diamond_backpack",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedbackpacks:netherite_backpack",
+      "emc": 0
+    }
+  ]
+}

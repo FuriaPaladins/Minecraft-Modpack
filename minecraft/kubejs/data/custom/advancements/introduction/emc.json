@@ -1,0 +1,55 @@
+{
+	"parent": "custom:introduction/root",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			{
+				"text": "You may have noticed that a lot of items in the pack have an ",
+				"color": "green"
+			},
+			{
+				"text": "EMC value",
+				"color": "white"
+			},
+			{
+				"text": ". This is provided by the ProjectE mod, which has it's own advancement tab to check out.\n\nThe way this mod functions is that using a ",
+				"color": "green"
+			},
+			{
+				"text": "Transmutation Table",
+				"color": "white",
+				"bold": true
+			},
+			{
+				"text": " (and later a ",
+				"color": "green"
+			},
+			{
+				"text": "Transmutation Tablet",
+				"color": "white",
+				"bold": true
+			},
+			{
+				"text": "), you can feed it items to convert them into EMC, and then you can take out other items, by consuming EMC. This modpack is configured so that items only give 50% of their EMC value when converted so that the mod isn't completely overpowering progression. This means that an Iron Ingot costs 256 EMC to take out, but only gives you 128 EMC when you put it in.",
+				"color": "green"
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "projecte:transmutation_tablet"
+		},
+		"show_toast": true,
+		"title": "EMC? I barely know 'er"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

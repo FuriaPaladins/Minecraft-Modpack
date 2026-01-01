@@ -1,0 +1,16 @@
+filename = 'moyai-1.20-2.0.2.jar'
+name = 'Moyai'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0146a5d3ea14a336abcd80c22a86abe7bc769ed8dd35d9c6720783b10619efd9bc7b6bcf88c8515c67e756113af761fea6bc8929c79fbaaf42e6580712d12074'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/z7WhFkyW/versions/y9lxexBC/moyai-1.20-2.0.2.jar'
+
+[update.modrinth]
+mod-id = 'z7WhFkyW'
+version = 'y9lxexBC'

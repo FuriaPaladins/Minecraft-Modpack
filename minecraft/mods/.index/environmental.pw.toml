@@ -1,0 +1,16 @@
+filename = 'environmental-1.20.1-4.1.0.jar'
+name = 'Environmental'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b4b16fff8bb563292e66d5645b8dd164dcde2656e2cc92656adb9682ad35b260ee8d9d15e398862e6adce517b078c3354b498e9d23fc9a3f353954f21fa5b69c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OqtiAZcV/versions/wWji5yMv/environmental-1.20.1-4.1.0.jar'
+
+[update.modrinth]
+mod-id = 'OqtiAZcV'
+version = 'wWji5yMv'

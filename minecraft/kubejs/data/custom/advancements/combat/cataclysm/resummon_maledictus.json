@@ -1,0 +1,48 @@
+{
+  "parent": "custom:combat/cataclysm/kill_maledictus",
+  "display": {
+    "icon": {
+      "item": "cs:cursed_summon"
+    },
+    "title": [
+        "Dangerous Archaeology"
+    ],
+    "description": [
+        "You can craft a ",
+        {
+            "text": "Maledictus Summoner",
+            "color": "white",
+            "bold": true
+        },
+        ", and use it in the ",
+        {
+            "text": "Frosted Prison",
+            "color": "white",
+            "bold": true
+        }, 
+        " to re-summon the boss.",
+        "\n\nNote: This item is not necessarily required, you can re-summon the boss by interacting with the Cursed Tombstone after some time, like you did to initially summon the boss"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": ["cs:cursed_summon"]
+                }
+            ]
+        }
+    }
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

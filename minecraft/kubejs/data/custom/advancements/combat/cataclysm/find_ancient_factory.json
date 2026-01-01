@@ -1,0 +1,47 @@
+{
+  "parent": "custom:combat/cataclysm/find_ruined_citadel",
+  "criteria": {
+    "factory": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "cataclysm:ancient_factory"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  }, 
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "You can craft an ",
+      {
+        "text": "Eye of Mech",
+        "color": "white",
+        "bold": true
+      },
+      " to help you locate the Ancient Factory. This factory houses mechanical enemies, and the boss, the Harbinger. You can use EMP blocks around the arena to temporarily stun the boss.\n\nNote: You need to activate the Harbinger with a nether star to start the fight."
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cataclysm:mech_eye"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.cataclysm.ancient_factory.title"
+    }
+  },
+  "requirements": [
+    [
+      "factory"
+    ]
+  ]
+}

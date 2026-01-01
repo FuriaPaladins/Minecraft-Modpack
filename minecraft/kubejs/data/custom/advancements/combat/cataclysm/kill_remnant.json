@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "cataclysm:remnant_skull"
+    },
+    "title": {
+      "translate": "advancements.cataclysm.kill_remnant.title"
+    },
+    "description": [
+      {
+        "translate": "aadvancements.cataclysm.kill_remnant.description"
+      },
+      {
+        "text": "\n\nCO-OP-able Advancement.",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "custom:combat/cataclysm/find_cursed_pyramid",
+  "criteria": {
+    "ignis": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

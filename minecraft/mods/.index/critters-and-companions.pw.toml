@@ -1,0 +1,16 @@
+filename = 'crittersandcompanions-forge-1.20.1-2.3.3.jar'
+name = 'Critters and Companions'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '854a77c6610aa78dd586bbdb95a41c4a918d12b28a1c546d8996fcf803e0dbe9996cbfdcfe1323eaabae37f6287c14e3a23884ef9d0d3cd15ad15c5c09fc00a5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Yd4wb5wZ/versions/ZPBS1NXs/crittersandcompanions-forge-1.20.1-2.3.3.jar'
+
+[update.modrinth]
+mod-id = 'Yd4wb5wZ'
+version = 'ZPBS1NXs'

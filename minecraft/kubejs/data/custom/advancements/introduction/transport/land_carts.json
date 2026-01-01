@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/transport/transport",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["astikorcarts:animal_cart"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Crafting an ",
+			{
+				"text": "Animal Cart",
+				"color": "white",
+				"bold": true
+			},
+			" lets you attach it to a horse, and transport other animals."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "astikorcarts:animal_cart"
+		},
+		"show_toast": true,
+		"title": "Animal Carts"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

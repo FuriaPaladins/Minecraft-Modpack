@@ -14,3 +14,4 @@ vertical_range = 16
 trader_blacklist = []
 #Close trading post interface when all traders have become unavailable.
 close_empty_screen = true
+

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "cosmeticarmoursmod:imperial_crown_red_helmet"
+    },
+    "title": {
+      "translate": "advancements.glorious_coronation.title"
+    },
+    "description": {
+      "translate": "advancements.glorious_coronation.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "glorious_coronation_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "custom:oddities/cosmeticarmorsmod/royalty_achievement"
+}

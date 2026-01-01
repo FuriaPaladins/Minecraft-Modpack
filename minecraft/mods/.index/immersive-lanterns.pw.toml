@@ -1,16 +1,16 @@
-filename = 'immersivelanterns-fabric-1.0.5-1.20.1.jar'
+filename = 'immersivelanterns-forge-1.0.6-1.20.1.jar'
 name = "Toni's Immersive Lanterns"
 side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '46ade154e662268543d24eb7cfd36b4ab2d8eda32614b5a3e5cbe6dadb96125955f477ce153eccfa87cd2c4be2fed7d416a62c76e86e00de449059489b418599'
+hash = 'b6828aadd8570cdef43275fd527731c365110dabc6a6b797d2165f8db9c0173b1bad188b824b87aeb35ad7fe763ffb07eef4f60cbc434308b183430039546133'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/vskzdsyT/versions/wZkZbrWq/immersivelanterns-fabric-1.0.5-1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/vskzdsyT/versions/bKAfmaXM/immersivelanterns-forge-1.0.6-1.20.1.jar'
 
 [update.modrinth]
 mod-id = 'vskzdsyT'
-version = 'wZkZbrWq'
+version = 'bKAfmaXM'

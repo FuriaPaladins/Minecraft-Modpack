@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "cataclysm:burning_ashes"
+    },
+    "title": {
+      "translate": "advancements.cataclysm.kill_revenant.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.cataclysm.kill_revenant.description"
+      },
+      {
+        "text": "\n\nCO-OP-able Advancement.",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "custom:combat/cataclysm/find_burning_arena",
+  "criteria": {
+    "endergolem": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

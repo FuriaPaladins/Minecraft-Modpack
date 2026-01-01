@@ -1,0 +1,16 @@
+filename = 'lootjs-forge-1.20.1-2.13.0.jar'
+name = 'LootJS: KubeJS Addon'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c8652b1ccffccd66885dc9dc89490afe46f055c9d9ede2fef24e06978db5957815e6125974670263ab15c1d60d7106954f4d10aff48cd7f1e04277e351d1aa2c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fJFETWDN/versions/RjTRvo4g/lootjs-forge-1.20.1-2.13.0.jar'
+
+[update.modrinth]
+mod-id = 'fJFETWDN'
+version = 'RjTRvo4g'

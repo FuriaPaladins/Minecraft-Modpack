@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/backpacks/sophisticated_1",
+	"criteria": {
+		"backpack": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"sophisticatedbackpacks:copper_backpack"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Copper Backpack",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "sophisticatedbackpacks:copper_backpack"
+		},
+		"show_toast": true,
+		"title": "Copper Backpack"
+	},
+	"requirements": [
+		[
+			"backpack"
+		]
+	]
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "cataclysm:infernal_forge"
+    },
+    "title": {
+      "translate": "advancements.cataclysm.kill_monstrosity.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.cataclysm.kill_monstrosity.description"
+      },
+      {
+        "text": "\n\nCO-OP-able Advancement.",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "custom:combat/cataclysm/find_soul_black_smith",
+  "criteria": {
+    "netheritemonstrosity": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

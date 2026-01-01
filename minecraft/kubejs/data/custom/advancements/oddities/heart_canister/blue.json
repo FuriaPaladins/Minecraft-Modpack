@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/heart_canister/green",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["bhc:blue_heart_canister"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Blue Heart Canister",
+				"color": "white",
+				"bold": true
+			},
+			", which is the \"final\" tier of progression for Heart Canisters"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "bhc:blue_heart_canister"
+		},
+		"show_toast": true,
+		"title": "All the health, in the world"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

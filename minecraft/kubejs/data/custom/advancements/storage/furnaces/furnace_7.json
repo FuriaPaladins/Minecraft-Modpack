@@ -1,0 +1,41 @@
+{
+	"parent": "custom:storage/furnaces/furnace_6",
+	"criteria": {
+		"furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"ironfurnaces:million_furnace"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Rainbow Furnace",
+				"color": "white",
+				"bold": true
+			},
+			"\n\nThere might be more to this furnace than meets the eye... If only I had some TNT"
+		],
+		"frame": "challenge",
+		"hidden": false,
+		"icon": {
+			"item": "ironfurnaces:million_furnace"
+		},
+		"show_toast": true,
+		"title": "Taste the rainbow"
+	},
+	"requirements": [
+		[
+			"furnace"
+		]
+	]
+}

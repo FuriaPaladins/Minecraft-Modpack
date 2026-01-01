@@ -1,0 +1,33 @@
+{
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"background": "minecraft:textures/block/mossy_stone_bricks.png",
+		"description": [
+			"This tree is the starting point for most adventuring/structure mods in the pack. Some of the advancements may be linked to ones from the ",
+            {
+                "text": "Age of Combat",
+                "color": "white",
+                "bold": true
+            },
+            ", as a lot of structures from certain mods come with bosses to face."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:compass"
+		},
+        "title": [
+            "Age of Adventuring"
+		]
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

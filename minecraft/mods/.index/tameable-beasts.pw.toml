@@ -1,0 +1,16 @@
+filename = 'tameablebeasts-1.20.1-7.0.jar'
+name = 'Tameable Beasts'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e7692655960dd3b1c4b1ea8e42fadd1bc63607511ff1e998dbf7b69cfccd37dafbe0aff1e735a14dab0b1f6e60921a7b0a24b0732c8061094d16ca885f84dadd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IOZULlo2/versions/6eOcPNQH/tameablebeasts-1.20.1-7.0.jar'
+
+[update.modrinth]
+mod-id = 'IOZULlo2'
+version = '6eOcPNQH'

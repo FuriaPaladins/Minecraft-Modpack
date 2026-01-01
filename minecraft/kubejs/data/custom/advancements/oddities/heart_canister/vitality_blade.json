@@ -1,0 +1,40 @@
+{
+	"parent": "custom:oddities/heart_canister/blue",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["bhc:blade_of_vitality"],
+						"nbt": "{heart_amount:[I;20,20,20,20]}"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Vitality Blade",
+				"color": "white",
+				"bold": true
+			},
+			", and fill it up with Heart Canisters. This sword increases in attack damage based on the number of heart canisters inside it."
+		],
+		"frame": "challenge",
+		"hidden": false,
+		"icon": {
+			"item": "bhc:blade_of_vitality"
+		},
+		"show_toast": true,
+		"title": "A VERY healthy sword"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

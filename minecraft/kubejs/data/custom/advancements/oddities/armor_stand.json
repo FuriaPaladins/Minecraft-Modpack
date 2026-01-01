@@ -1,0 +1,41 @@
+{
+	"parent": "custom:oddities/straw_statue",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:armor_stand"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"The ",
+			{
+				"text": "Armor Stand",
+				"color": "white",
+				"bold": true
+			},
+			" got similar treatment as the Straw Statues. You can now pose them and equip them with armor and items."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:armor_stand"
+		},
+		"show_toast": true,
+		"title": "Armor-zing!"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

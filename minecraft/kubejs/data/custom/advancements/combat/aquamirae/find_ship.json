@@ -1,0 +1,47 @@
+{
+	"parent": "custom:combat/aquamirae/root",
+	"display": {
+		"icon": {
+			"item": "aquamirae:shell_horn"
+		},
+        "title": [
+			"Crashed Ship"
+		],
+            "description": [
+            "In order to fight Captain Cornelia, you must first locate her shipwreck in the Ice Maze. In the captains quarters of the ship, a Pillager will be holding the ",
+			{
+				"text": "Shell Horn",
+				"color": "white",
+				"bold": true
+			},
+            " required to summon her."
+        ],
+        "frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+    "criterion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "aquamirae:ship"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

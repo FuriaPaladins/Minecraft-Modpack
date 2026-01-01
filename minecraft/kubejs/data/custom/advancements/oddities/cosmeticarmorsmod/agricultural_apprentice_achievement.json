@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "cosmeticarmoursmod:straw_hat_helmet"
+    },
+    "title": {
+      "translate": "advancements.agricultural_apprentice_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.agricultural_apprentice_achievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "agricultural_apprentice_achievement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "custom:oddities/cosmeticarmorsmod/cosmetic_armours_achievement"
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/root",
+	"criteria": {
+		"naturescompass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["naturescompass:naturescompass"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Nature's Compass",
+				"color": "white",
+				"bold": true
+			},
+			" to help locate different biomes."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "naturescompass:naturescompass"
+		},
+		"show_toast": true,
+		"title": "Endless Exploration!"
+	},
+	"requirements": [
+		[
+			"naturescompass"
+		]
+	]
+}

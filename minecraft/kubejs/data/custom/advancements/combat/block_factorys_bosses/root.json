@@ -1,0 +1,22 @@
+{
+  "parent": "custom:combat/root",
+  "display": {
+    "icon": {
+      "item": "block_factorys_bosses:achievement_icons",
+      "nbt": "{icon_index:4}"
+    },
+    "title": [
+      "Bosses' Rise Bosses"
+    ],
+    "description": [
+      "This path includes bosses from Bosses' Rise."
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "custom_test_name": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

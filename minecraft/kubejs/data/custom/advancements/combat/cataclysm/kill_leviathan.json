@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "cataclysm:tidal_claws"
+    },
+    "title": {
+      "translate": "advancements.cataclysm.kill_leviathan.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.cataclysm.kill_leviathan.description"
+      },
+      {
+        "text": "\n\nCO-OP-able Advancement.",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "custom:combat/cataclysm/find_sunken_city",
+  "criteria": {
+    "ignis": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

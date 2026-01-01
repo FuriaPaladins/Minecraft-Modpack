@@ -1,0 +1,44 @@
+{
+	"parent": "custom:storage/root",
+	"criteria": {
+		"chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "sophisticatedstorage:chest"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Crafting the ",
+			{
+				"text": "base tier",
+				"color": "white",
+				"bold": true
+			},
+			" of sophisticated storage will let you add upgrades to it, or upgrade the chest tier itself.",
+			{
+				"text": "\n\nNote: You can place two of the same tier chests beside each other to make a double chest, just like with vanilla chests!",
+				"bold": true
+			}
+
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "sophisticatedstorage:chest"
+		},
+		"show_toast": true,
+		"title": "More sophisticated storage"
+	},
+	"requirements": [
+		[
+			"chest"
+		]
+	]
+}

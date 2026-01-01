@@ -1,0 +1,41 @@
+{
+	"parent": "custom:storage/simple_storage_crafting",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"storagenetwork:crafting_remote"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"After crafting a ",
+			{
+				"text": "Crafting Remote",
+				"color": "white",
+				"bold": true
+			},
+			", sneak right click onto the Root block in your storage, and you can access your storage remotely! If the chunk that your root block is in, is chunkloaded, you can access your storage from anywhere!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "storagenetwork:crafting_remote"
+		},
+		"show_toast": true,
+		"title": "Global Access Storage (GAS!)"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

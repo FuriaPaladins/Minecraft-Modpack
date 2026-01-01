@@ -1,0 +1,33 @@
+{
+	"parent": "custom:combat/spellbooks/void_cathedral_locate",
+	"display": {
+		"icon": {
+			"item": "traveloptics:the_nightwarden_spawn_egg"
+		},
+        "title": [
+			"Death to the Warden (no not that one)"
+		],
+		"description": [
+			"Slay the Knightwarden",
+			{
+				"text": "\n\nCO-OP-able Advancement.",
+				"color": "gold",
+				"bold": true
+			}
+        ],
+        "frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

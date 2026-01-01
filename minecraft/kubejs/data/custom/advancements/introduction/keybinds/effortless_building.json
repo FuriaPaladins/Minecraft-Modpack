@@ -1,0 +1,33 @@
+{
+	"parent": "custom:introduction/keybinds/root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"Click and hold the ",
+			{
+				"keybind": "key.effortless.build_mode_radial.desc",
+				"bold": true,
+				"color": "white"
+			},
+			" key to open the Effortless Building radial menu. This menu allows you to quickly switch between building modes such as lines, cubes, spheres, etc."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:oak_log"
+		},
+		"show_toast": false,
+		"title": "Effortless Building... in the palm of my hand."
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	],
+	"sends_telemetry_event": false
+}

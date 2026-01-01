@@ -31,7 +31,7 @@ adjustHeightForCarpetLikeBlocks:true
 onlyCurrentMapWaypoints:false
 minZoomForLocalWaypoints:0.0
 arrowColour:-2
-minimapRadar:true
+minimapRadar:false
 renderWaypoints:true
 partialYTeleportation:true
 displayStainedGlass:true
@@ -41,7 +41,7 @@ autoCaveMode:-1
 legibleCaveMaps:false
 displayCaveModeStart:true
 caveModeToggleTimer:1000
-defaultCaveModeType:1
+defaultCaveModeType:2
 biomeBlending:true
 trackedPlayers:true
 multipleImagesExport:false

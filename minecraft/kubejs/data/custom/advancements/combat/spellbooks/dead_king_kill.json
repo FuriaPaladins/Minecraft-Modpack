@@ -1,0 +1,33 @@
+{
+	"parent": "custom:combat/spellbooks/catacombs_locate",
+	"display": {
+		"icon": {
+			"item": "irons_spellbooks:dead_king_corpse_spawn_egg"
+		},
+        "title": [
+			"Return to rest..."
+		],
+		"description": [
+			"Interact with the Corpse in the throne room to start the boss fight.",
+			{
+				"text": "\n\nCO-OP-able Advancement.",
+				"color": "gold",
+				"bold": true
+			}
+        ],
+        "frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/furnaces/furnace_2",
+	"criteria": {
+		"furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"ironfurnaces:gold_furnace"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Gold Furnace",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "ironfurnaces:gold_furnace"
+		},
+		"show_toast": true,
+		"title": "Gold Furnace"
+	},
+	"requirements": [
+		[
+			"furnace"
+		]
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/canvas",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["xercapaint:item_easel"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft an ",
+			{
+				"text": "Easel",
+				"color": "white",
+				"bold": true
+			},
+			", so that you can draw on your Canvases."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "xercapaint:item_easel"
+		},
+		"show_toast": true,
+		"title": "Time to get painting"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

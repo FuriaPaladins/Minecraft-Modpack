@@ -21,7 +21,8 @@
 		"soundEvent": "minecraft:block.note_block.chime"
 	},
 	"mentionKeywords": [
-		"@FuriaPaladins"
+		"@FuriaPaladins",
+		"@KomanosRide"
 	],
 	"ignoreSystemChats": false,
 	"enableChatSoundCooldown": false,

@@ -1,0 +1,44 @@
+{
+  "parent": "custom:adventuring/skyarena/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:chiseled_polished_blackstone"
+    },
+    "title": {
+      "translate": "advancement.skyarena.common_arena.title"
+    },
+    "description": [
+      {
+      "translate": "advancement.skyarena.common_arena.description"
+      },
+      "\n\nYou can use a ",
+      {
+				"text": "Crimson Eye",
+				"color": "white",
+				"bold": true
+			},
+      " to find the Arena."
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "common": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "skyarena:sky_arena"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "common"
+    ]
+  ]
+}

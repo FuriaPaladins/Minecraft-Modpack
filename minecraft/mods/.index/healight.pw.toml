@@ -1,0 +1,16 @@
+filename = 'healight-forge-1.20.1-1.3.0.jar'
+name = 'Healight'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cf146ed75e21dac1874c0064f15f3cb5ce30bef835003e1e7813362fbf27580286bf661d42cf18d389076360b30f9deab3a3bfdabbcd105af2ada5279ff094ac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2Je179dC/versions/Vi4tJ5ui/healight-forge-1.20.1-1.3.0.jar'
+
+[update.modrinth]
+mod-id = '2Je179dC'
+version = 'Vi4tJ5ui'

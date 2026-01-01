@@ -1,0 +1,41 @@
+{
+	"parent": "custom:oddities/enchanting/root",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:anvil"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"The ",
+			{
+				"text": "Anvil",
+				"color": "white",
+				"bold": true
+			},
+			" now retains items inside and costs scale a lot less aggressively."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:anvil"
+		},
+		"show_toast": true,
+		"title": "Anvil upgrades"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"parent": "custom:oddities/root",
+  "display": {
+    "background": "cosmeticarmoursmod:textures/screens/achievementbackground.png",
+    "icon": {
+      "item": "cosmeticarmoursmod:crown_helmet"
+    },
+    "title": {
+      "translate": "advancements.cosmetic_armours_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.cosmetic_armours_achievement.descr"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "cosmetic_armours_achievement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

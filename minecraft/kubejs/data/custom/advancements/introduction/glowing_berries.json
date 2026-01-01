@@ -1,0 +1,33 @@
+{
+	"parent": "custom:introduction/healing_campfires",
+	"criteria": {
+		"glow_berries": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:glow_berries"
+					]
+				}
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Glow Berries now live up to their name and make you glow for a minute!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:glow_berries"
+		},
+		"show_toast": true,
+		"title": "I'm glowing!"
+	},
+	"requirements": [
+		[
+			"glow_berries"
+		]
+	]
+}

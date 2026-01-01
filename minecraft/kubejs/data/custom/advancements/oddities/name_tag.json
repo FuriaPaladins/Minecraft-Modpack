@@ -1,0 +1,42 @@
+{
+	"parent": "custom:oddities/root",
+	"criteria": {
+		"naturescompass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:name_tag"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			{
+				"text": "Name Tags",
+				"color": "white",
+				"bold": true
+			},
+			{
+				"text": " can now be crated, and you can rename them by sneak right clicking with them in your hand.",
+				"color": "gold",
+				"bold": false
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:name_tag"
+		},
+		"show_toast": true,
+		"title": "I'll name you... ǝuoqɹǝuuᴉp"
+	},
+	"requirements": [
+		[
+			"naturescompass"
+		]
+	]
+}

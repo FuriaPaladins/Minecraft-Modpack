@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/transport/air_biplane",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["projecte:swiftwolf_rending_gale"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Crafting a ",
+			{
+				"text": "Swiftwolf Rending Gale",
+				"color": "white",
+				"bold": true
+			},
+			", grants you free flight, as long as you have a steady charge of EMC in your Klein Star. (Requires fairly decent progression into ProjectE)"
+		],
+		"frame": "goal",
+		"hidden": false,
+		"icon": {
+			"item": "projecte:swiftwolf_rending_gale"
+		},
+		"show_toast": true,
+		"title": "I CAN FLYYYYYYYYYYY"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

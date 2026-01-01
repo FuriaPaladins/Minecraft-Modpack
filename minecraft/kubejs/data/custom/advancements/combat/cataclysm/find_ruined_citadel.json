@@ -1,0 +1,47 @@
+{
+  "parent": "custom:combat/cataclysm/find_soul_black_smith",
+  "criteria": {
+    "citadel": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "cataclysm:ruined_citadel"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "You can craft an ",
+      {
+        "text": "Eye of Void",
+        "color": "white",
+        "bold": true
+      },
+      " to help you locate the Ruined Citadel, an End structure which houses the Ender Guardian. This Guardian can be found deep below the structure. The top of the Ruined Citadel has 3 mini-boss Ender Golems."
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cataclysm:void_eye"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.cataclysm.find_ruined_citadel.title"
+    }
+  },
+  "requirements": [
+    [
+      "citadel"
+    ]
+  ]
+}

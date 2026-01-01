@@ -1,0 +1,16 @@
+filename = 'taxtg-2.0.1-forge-1.20.1.jar'
+name = 'Tree Giant'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '304c4afe90edbbda619b9ade5e0a4738ad61440fc2ff09110c66fc6115731c1189d656e50afd5b1b784bc20c0167ac6c2a7967bf9b35a557316f0c140b72d4dc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8a1Ksvnk/versions/cogYnXah/taxtg-2.0.1-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = '8a1Ksvnk'
+version = 'cogYnXah'

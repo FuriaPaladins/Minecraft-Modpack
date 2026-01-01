@@ -1,16 +1,16 @@
-filename = 'Ping-Wheel-1.10.0-fabric-1.20.1.jar'
+filename = 'Ping-Wheel-1.11.0-forge-1.20.1.jar'
 name = 'Ping Wheel'
 side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
-x-prismlauncher-release-type = 'release'
+x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = '5c564bdc605a89b96bbd984e5bd1f841df62684127d33512ec3b2e2475b5f3563ca9b71b1d10d0c7d53a76352818137d015226f0172d93f7dfe57cae2d264d70'
+hash = 'da0c23223a1ef05efd70fd8874c0251f2e5b33f16a27faf3cea075f56aa9df90b58eaa296f682dc83e34ba4439c2dfaaaec851cf66812bcbe4ffc1d6d2cee82d'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/QQXAdCzh/versions/2Y3dASD3/Ping-Wheel-1.10.0-fabric-1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/QQXAdCzh/versions/usgkP0fO/Ping-Wheel-1.11.0-forge-1.20.1.jar'
 
 [update.modrinth]
 mod-id = 'QQXAdCzh'
-version = '2Y3dASD3'
+version = 'usgkP0fO'

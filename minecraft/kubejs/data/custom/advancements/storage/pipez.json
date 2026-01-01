@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/root",
+	"criteria": {
+		"chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["pipez:item_pipe"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Crafting an ",
+			{
+				"text": "Item Pipe",
+				"color": "white",
+				"bold": true
+			},
+			" lets you move items between inventories. This is one of the most lag-efficient ways of transporting items in the pack.\n\nThe Pipez mod includes other pipes for energy as well as fluids!"
+
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "pipez:item_pipe"
+		},
+		"show_toast": true,
+		"title": "Moving Items"
+	},
+	"requirements": [
+		[
+			"chest"
+		]
+	]
+}

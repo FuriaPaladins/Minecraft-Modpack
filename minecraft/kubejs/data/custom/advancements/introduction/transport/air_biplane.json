@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/transport/transport",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["immersive_aircraft:biplane"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Crafting a ",
+			{
+				"text": "Biplane",
+				"color": "white",
+				"bold": true
+			},
+			", and any other plane from the Immersive Aircrafts mod lets you fly around the world.\n\n Do note that planes use up fuel 4x as fast as normal, to encourage other forms of transport."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "immersive_aircraft:biplane"
+		},
+		"show_toast": true,
+		"title": "Those planes are bisexual!"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

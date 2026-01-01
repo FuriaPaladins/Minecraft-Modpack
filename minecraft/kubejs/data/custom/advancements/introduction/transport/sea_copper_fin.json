@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/transport/sea_sloop",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["immersive_machinery:copperfin"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"You can craft a ",
+			{
+				"text": "Copper Fin",
+				"color": "white",
+				"bold": true
+			},
+			" in order to traverse faster underwater. It's cute and fast!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "immersive_machinery:copperfin"
+		},
+		"show_toast": true,
+		"title": "Copper Fin"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

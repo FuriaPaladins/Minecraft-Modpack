@@ -1,0 +1,16 @@
+filename = 'justenoughbreeding-forge-1.20-1.20.1-2.2.1.jar'
+name = 'Just Enough Breeding (JEBr)'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '918f861c3a62c4c5a80bc91d7da118fb8f6f0e93bf9a014684f6c2628b5d7659c53be5fab46da145734993f42074b48bd5f7492d88c63b957bc52c32c18061cf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9Pk89J3g/versions/aOrwBefv/justenoughbreeding-forge-1.20-1.20.1-2.2.1.jar'
+
+[update.modrinth]
+mod-id = '9Pk89J3g'
+version = 'aOrwBefv'

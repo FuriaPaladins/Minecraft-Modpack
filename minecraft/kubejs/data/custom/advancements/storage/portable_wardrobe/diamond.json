@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/portable_wardrobe/iron",
+	"criteria": {
+		"chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["portablewardrobearmorswap:portable_wardrobe_diamond"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"You can craft and equip a ",
+			{
+				"text": "Portable Diamond Wardrobe",
+				"color": "white",
+				"bold": true
+			},
+			", which lets you swap full armor sets on the fly. Stores 5 armor sets"
+
+		],
+		"frame": "challenge",
+		"hidden": false,
+		"icon": {
+			"item": "portablewardrobearmorswap:portable_wardrobe_diamond"
+		},
+		"show_toast": true,
+		"title": "I HAVE TOO MANY CLOTHES"
+	},
+	"requirements": [
+		[
+			"chest"
+		]
+	]
+}

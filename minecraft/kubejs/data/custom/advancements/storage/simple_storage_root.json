@@ -1,0 +1,47 @@
+{
+	"parent": "custom:storage/root",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"storagenetwork:master"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"A ",
+			{
+				"text": "Storage Network Root",
+				"color": "white",
+				"bold": true
+			},
+			" is the starting point of a Simple Storage Network.",
+			{
+				"text": "\nFor all other items this mod adds, search for \"@storagenetwork\" in EMI.",
+				"color": "white",
+				"bold": false
+			}
+
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "storagenetwork:master"
+		},
+		"show_toast": true,
+		"title": "The Storage Network starts here!"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

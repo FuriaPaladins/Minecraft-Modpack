@@ -1,0 +1,41 @@
+{
+	"parent": "custom:oddities/root",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"strawstatues:straw_statue"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"You can use a ",
+			{
+				"text": "Straw Statue",
+				"color": "white",
+				"bold": true
+			},
+			" to add 'Players' to your builds. You can freely pose them and even give them player skins."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "strawstatues:straw_statue"
+		},
+		"show_toast": true,
+		"title": "This isn't flammable right?"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

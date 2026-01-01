@@ -1,0 +1,9 @@
+{
+  "kubejs.ponder.multiblock_submarine.header": "How to build the Submarine.",
+  "kubejs.ponder.multiblock_submarine.text_1": "To create your submarine, you need to create a 3x3 of Copper Blocks",
+  "kubejs.ponder.multiblock_submarine.text_2": "Then place an Enigmatic Engine in the center",
+  "kubejs.ponder.multiblock_submarine.text_3": "Then place Depth Glass in the front",
+  "kubejs.ponder.multiblock_submarine.text_4": "... and fill the back with Copper Blocks",
+  "kubejs.ponder.multiblock_submarine.text_5": "Finally, top it off with Depth Glass and Copper Blocks",
+  "kubejs.ponder.multiblock_submarine.text_6": "And Voila! Your very own Submarine!"
+}

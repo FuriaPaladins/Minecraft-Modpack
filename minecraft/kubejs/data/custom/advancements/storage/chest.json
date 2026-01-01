@@ -1,0 +1,39 @@
+{
+	"parent": "custom:storage/root",
+	"criteria": {
+		"trading_post": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "forge:chests"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"Collect or craft ",
+			{
+				"text": "any chest",
+				"color": "white",
+				"bold": true
+			},
+			" to get started.\nYou can craft a lot of wood chests using their wood, but if you want the default chest, craft it with different types of woods."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:chest"
+		},
+		"show_toast": true,
+		"title": "We all have to start somewhere!"
+	},
+	"requirements": [
+		[
+			"trading_post"
+		]
+	]
+}

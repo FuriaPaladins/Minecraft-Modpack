@@ -1,0 +1,39 @@
+{
+	"parent": "create:hypertube",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["create_hypertube:hypertube"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Hypertube Block",
+				"color": "white",
+				"bold": true
+			},
+			", which lets you build tubes to travel through when paired with Hypertube Entrances."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "create_hypertube:hypertube"
+		},
+		"show_toast": true,
+		"title": "ZOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOM (pt 2)"
+	},
+	"requirements": [
+		[
+			"criteria"
+		]
+	]
+}

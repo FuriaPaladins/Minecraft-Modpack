@@ -1,0 +1,33 @@
+{
+	"parent": "custom:introduction/root",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:golden_pickaxe"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Golden Tools have an innate fortune 2 enchantment, which makes them great for early game mining!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:golden_pickaxe"
+		},
+		"show_toast": true,
+		"title": "Fortune for Cheap!"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

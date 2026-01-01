@@ -1,16 +1,16 @@
-filename = 'txnilib-fabric-1.0.21-1.20.1.jar'
+filename = 'txnilib-forge-1.0.24-1.20.1.jar'
 name = 'TxniLib'
 side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '743dd2cd426b6d5ac48420f5c028a3c464cc8d2722df122b557de798ddc9b78142222be320406f1f4871a08f86315a784b0b5c3869fc34761bb5360dedaf1761'
+hash = '06881ae202d9903909c34a1742f38308f7a04e4ed9c5eb3bd09441920d2666c6f4ee54b38ed3688b612ade5a06d2a35b45fad8a232c4e8f7f6bf527f082f6bc9'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/vBbPDuOs/versions/dG5z8lod/txnilib-fabric-1.0.21-1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/vBbPDuOs/versions/kQ8qnDHA/txnilib-forge-1.0.24-1.20.1.jar'
 
 [update.modrinth]
 mod-id = 'vBbPDuOs'
-version = 'dG5z8lod'
+version = 'kQ8qnDHA'

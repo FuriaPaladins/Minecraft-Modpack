@@ -1,0 +1,47 @@
+{
+  "parent": "custom:combat/mowzies/wrought_kill",
+  "display": {
+    "icon": {
+      "item": "mowzie_respawner:ferrous_nectar"
+    },
+    "title": [
+        "Knightly Rematch"
+    ],
+    "description": [
+        "You can craft a ",
+        {
+            "text": "Ferrous Nectar",
+            "color": "white",
+            "bold": true
+        },
+        ", and use it in the ",
+        {
+            "text": "Wrought Chamber",
+            "color": "white",
+            "bold": true
+        }, 
+        " to re-summon the boss."
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": ["mowzie_respawner:ferrous_nectar"]
+                }
+            ]
+        }
+    }
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

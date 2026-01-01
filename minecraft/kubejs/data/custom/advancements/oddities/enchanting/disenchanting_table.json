@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/enchanting/updated_table",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["disenchanting_table:disenchanting_table"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"A ",
+			{
+				"text": "Dis-enchanting Table",
+				"color": "white",
+				"bold": true
+			},
+			" lets you move your enchants from an item onto a book. You can also split enchantments on a book by using it on another book (Bookception!)"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "disenchanting_table:disenchanting_table"
+		},
+		"show_toast": true,
+		"title": "This block is (Dis)enchanting..."
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

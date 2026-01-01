@@ -1,0 +1,33 @@
+{
+	"parent": "custom:introduction/keybinds/root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"Click the ",
+			{
+				"keybind": "keybinds.combatroll.roll",
+				"bold": true,
+				"color": "white"
+			},
+			" key to dodge roll! Provides a few invulnerability frames while dodging."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:enchanted_book"
+		},
+		"show_toast": false,
+		"title": "They see me rollin'"
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	],
+	"sends_telemetry_event": false
+}

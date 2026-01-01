@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/furnaces/furnace_5",
+	"criteria": {
+		"furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"ironfurnaces:netherite_furnace"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Netherite Furnace",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "goal",
+		"hidden": false,
+		"icon": {
+			"item": "ironfurnaces:netherite_furnace"
+		},
+		"show_toast": true,
+		"title": "Smelting with NETHERITE!"
+	},
+	"requirements": [
+		[
+			"furnace"
+		]
+	]
+}

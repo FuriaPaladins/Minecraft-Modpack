@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item" : "citadel:icon_item",
+      "nbt": "{IconLocation:\"alexscaves:textures/misc/advancement/icon/defeat_forsaken.png\"}"
+    },
+    "title": {
+      "translate": "advancements.alexscaves.defeat_forsaken.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.alexscaves.defeat_forsaken.desc"
+      },
+      {
+        "text": "\n\nCO-OP-able Advancement.",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "alexscaves:alexscaves/underzealot_sacrifice",
+  "criteria": {
+    "killed": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

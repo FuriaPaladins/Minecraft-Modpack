@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"background": "minecraft:textures/block/stone.png",
+		"description": [
+			"This tree has the recommended progression for the bosses in different mods, but you may tackle any boss at any time. Be warned that later bosses will be much more difficult.\n\nFeel free to tackle these bosses in Co-Op, as kill quests will be completed as a team based on who did damage to the boss!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "block_factorys_bosses:large_sword"
+		},
+        "title": [
+            "Age of Combat"
+		]
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

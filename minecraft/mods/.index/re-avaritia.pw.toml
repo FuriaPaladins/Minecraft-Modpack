@@ -1,0 +1,16 @@
+filename = 'Re-Avaritia-forged-1.20.1-1.3.9.1-release.jar'
+name = 'Re:Avaritia'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fe675fb8c11fb2f99d423815e2268569214081d32cf098071dfcb4b86d3b52ddc6d848d2e8c0a530dd94481c7f8a52ac0b04f1b4d256028e06ea9e592292388d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QeB3NRC5/versions/rXXkmocY/Re-Avaritia-forged-1.20.1-1.3.9.1-release.jar'
+
+[update.modrinth]
+mod-id = 'QeB3NRC5'
+version = 'rXXkmocY'

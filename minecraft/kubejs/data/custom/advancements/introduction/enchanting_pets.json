@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/wayward_lantern",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["domesticationinnovation:collar_tag"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Collar Tag",
+				"color": "white",
+				"bold": true
+			},
+			" in order to give your pets enchantments! You can see all the enchantments in the @domestication mod in EMI, or by pressing the U button on a collar. You can right click on a pet with said collar to give it to them. To take it back, click on them with a different collar to swap it."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "domesticationinnovation:collar_tag"
+		},
+		"show_toast": true,
+		"title": "That pet will be enchanting!"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

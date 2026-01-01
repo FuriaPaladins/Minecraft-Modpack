@@ -1,16 +1,16 @@
-filename = 'mvs-4.1.2-1.20-fabric.jar'
+filename = 'mvs-4.1.5-1.20.jar'
 name = "MVS - Moog's Voyager Structures"
 side = 'server'
-x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'e1475f88623f53ef7609349af32acffcdcca80274d008096dd90369532a5198a6653a62d54bf97001edbb423ac172dbcf7f5298ad2c0e574f0973c21ad03f467'
+hash = '54fb9f4558435d93e2b80435118127a82818c973a8b9cc8daec81360f97f20363891d06f35c9b19a45020cf7e3b9431e256d31169534d615aa9679c742124176'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/OQAgZMH1/versions/tbOvFJdA/mvs-4.1.2-1.20-fabric.jar'
+url = 'https://cdn.modrinth.com/data/OQAgZMH1/versions/LimCQeNx/mvs-4.1.5-1.20.jar'
 
 [update.modrinth]
 mod-id = 'OQAgZMH1'
-version = 'tbOvFJdA'
+version = 'LimCQeNx'

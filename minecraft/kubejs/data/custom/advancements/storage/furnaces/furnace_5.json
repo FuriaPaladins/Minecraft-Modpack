@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/furnaces/furnace_4",
+	"criteria": {
+		"furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"ironfurnaces:emerald_furnace"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft an ",
+			{
+				"text": "Emerald Furnace",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "ironfurnaces:emerald_furnace"
+		},
+		"show_toast": true,
+		"title": "The villager furnace"
+	},
+	"requirements": [
+		[
+			"furnace"
+		]
+	]
+}

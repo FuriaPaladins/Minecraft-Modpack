@@ -1,0 +1,49 @@
+{
+	"parent": "custom:oddities/enchanting/overenchanting",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["create_enchantment_industry:enchanting_guide"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"Using an ",
+			{
+				"text": "Enchanting Guide",
+				"color": "white",
+				"bold": true
+			},
+			" from Create Enchantment Industry, you can over-enchant your gear past the vanilla level.\n\nThis is a bit complicated, but you need to pump ",
+			{
+				"text": "Hyper Experience",
+				"color": "aqua",
+				"bold": true
+			},
+			" to a Blaze Burner that is holding an Enchanting Guide, and it will enchant a level above the Enchanting Guide's level. So you need to give the Guide a max level enchanting book, and then it can over-enchant through the supercharged Blaze Burner. You can then click on the Blaze Burner with the item you wish to enchant.",
+			{
+				"text": "\n\nI recommend following the Enchantment Industry achievements near the end of the Create tab's advancements, or looking up a guide. This mod also lets you copy enchanting books, so it is worth taking a loot at outside of just over-enchanting items.",
+				"color": "white"
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "create_enchantment_industry:enchanting_guide"
+		},
+		"show_toast": false,
+		"title": "Supercharged Enchanting!"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

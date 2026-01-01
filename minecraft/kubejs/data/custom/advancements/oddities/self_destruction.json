@@ -1,0 +1,30 @@
+{
+  "parent": "custom:oddities/tnt_thrower",
+  "criteria": {
+    "self_destruction": {
+      "conditions": {},
+      "trigger": "carryonextend:self_destruction"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.carryonextend.self_destruction.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:tnt_minecart"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.carryonextend.self_destruction.title"
+    }
+  },
+  "requirements": [
+    [
+      "self_destruction"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

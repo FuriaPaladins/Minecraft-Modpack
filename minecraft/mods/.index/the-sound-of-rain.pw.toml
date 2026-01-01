@@ -1,0 +1,16 @@
+filename = 'soundofrain-0.4a.jar'
+name = 'The Sound of Rain'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1cd31f64412f5dbd08a6476d9e71009bcf6c97c5675ef3d79ab0ab4676cce79ad92a563b8649993e3b216962ef433a1017a779ea5d0dbc54fb128e24e4a4632d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8GRDQ9XB/versions/2cVkyKA6/soundofrain-0.4a.jar'
+
+[update.modrinth]
+mod-id = '8GRDQ9XB'
+version = '2cVkyKA6'

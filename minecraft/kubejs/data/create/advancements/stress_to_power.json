@@ -1,0 +1,42 @@
+{
+  "parent": "create:brass",
+  "criteria": {
+    "criterion": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createaddition:alternator"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "You will need an ",
+      {
+				"text": "Alternator",
+				"color": "white",
+				"bold": true
+			},
+      " from Create Crafts and Additions in order to convert stress to energy for things such as your AE2 system. There are potentially other methods, but this is one of the most straightforward ones."
+    ],
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "createaddition:alternator"
+    },
+    "show_toast": true,
+    "title": "Energy Conversion Stress -> POWAH"
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

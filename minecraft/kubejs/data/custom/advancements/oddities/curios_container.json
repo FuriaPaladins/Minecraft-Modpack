@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/natures_compass",
+	"criteria": {
+		"curios_container": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["convenientcurioscontainer:curios_container"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"A ",
+			{
+				"text": "Curios Container",
+				"color": "white",
+				"bold": true
+			},
+			" lets you store large amounts of curios, and access them quickly."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "convenientcurioscontainer:curios_container"
+		},
+		"show_toast": true,
+		"title": "Curio(us)...."
+	},
+	"requirements": [
+		[
+			"curios_container"
+		]
+	]
+}

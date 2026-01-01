@@ -1,0 +1,16 @@
+filename = 'Harmonia-forge-1.2.0.jar'
+name = 'Harmonia'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6956593d1525322ac94624f43e5fac038769ab8cc200470f83b8c9b720858052ffbd1cbc57c34a813ae1855432988b18612de46461a75fc0f0705e2034d66bac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GdS8zuZT/versions/ePbrJ8o1/Harmonia-forge-1.2.0.jar'
+
+[update.modrinth]
+mod-id = 'GdS8zuZT'
+version = 'ePbrJ8o1'

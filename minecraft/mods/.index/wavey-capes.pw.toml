@@ -1,0 +1,16 @@
+filename = 'waveycapes-forge-1.6.2-mc1.20.1.jar'
+name = 'Wavey Capes'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9abe9e2267fe725bdc00c961cbec043a4cd3d6220ddbdc056cae100dc92865b551ea76470c59b9e0d05364bd9d5d4b8dc796a684edfe2f172014f6013c8b4ef8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kYuIpRLv/versions/DFhUCFcI/waveycapes-forge-1.6.2-mc1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'kYuIpRLv'
+version = 'DFhUCFcI'

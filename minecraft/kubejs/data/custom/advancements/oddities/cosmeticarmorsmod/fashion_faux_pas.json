@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "cosmeticarmoursmod:scarf_red_chestplate"
+    },
+    "title": {
+      "translate": "advancements.fashion_faux_pas.title"
+    },
+    "description": {
+      "translate": "advancements.fashion_faux_pas.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fashion_faux_pas_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "custom:oddities/cosmeticarmorsmod/gone_fishing_achievement"
+}

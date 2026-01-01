@@ -1,0 +1,42 @@
+{
+  "parent": "custom:storage/ae2/custom/wireless_magnet",
+  "criteria": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2wtlib:quantum_bridge_card"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "Crafting a ",
+      {
+				"text": "Quantum Bridge Card",
+				"color": "white",
+				"bold": true
+			},
+      " and inserting it into your Wireless Terminal, that is linked using a Quantum Bridge in your storage system, allows you to use your Wireless Terminal from anywhere. No more Wireless Boosters needed!"
+    ],
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "ae2wtlib:quantum_bridge_card"
+    },
+    "show_toast": true,
+    "title": "Looooooooooooooooooooooooooooooooooooooong Range"
+  },
+  "requirements": [
+    [
+      "certus"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

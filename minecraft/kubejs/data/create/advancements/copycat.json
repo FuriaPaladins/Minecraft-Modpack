@@ -1,0 +1,39 @@
+{
+	"parent": "create:andesite_alloy",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["copycats:copycat_block"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"You can craft a multitude of ",
+			{
+				"text": "Copycat Blocks",
+				"color": "white",
+				"bold": true
+			},
+			" by using Andesite Alloy in a stonecutter. These blocks let you copy the texture of any full block you use on them."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "copycats:copycat_block"
+		},
+		"show_toast": true,
+		"title": "Hey Copycat"
+	},
+	"requirements": [
+		[
+			"criteria"
+		]
+	]
+}

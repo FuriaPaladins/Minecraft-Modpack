@@ -1,16 +1,16 @@
-filename = 'Dungeon Now Loading-fabric-1.20.1-1.5.jar'
+filename = 'Dungeon Now Loading-forge-1.20.1-2.0.jar'
 name = 'Dungeon Now Loading'
 side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '7eb8dff5e54427fe0a4b543d8ee3e9b278fd75351908d8ec910a63680a97e353ad63a272c1719e01bce427f46ea172c38994d831a25404b7f023d53d0ae4da89'
+hash = '29967d0410ec903479fb8ab2bac19faef56defdaf9629545ee477c7ae17e51a716ec2765aa5e637cc8c5ecc7b15142d54685fdd4460859856d57853af85dd269'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/vZoqTqwv/versions/e2aaNGip/Dungeon Now Loading-fabric-1.20.1-1.5.jar'
+url = 'https://cdn.modrinth.com/data/vZoqTqwv/versions/X7TLrn4N/Dungeon Now Loading-forge-1.20.1-2.0.jar'
 
 [update.modrinth]
 mod-id = 'vZoqTqwv'
-version = 'e2aaNGip'
+version = 'X7TLrn4N'

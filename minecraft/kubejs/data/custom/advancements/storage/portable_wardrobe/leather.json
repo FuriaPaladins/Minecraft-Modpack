@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/root",
+	"criteria": {
+		"chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["portablewardrobearmorswap:portable_wardrobe_leather"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"You can craft and equip a ",
+			{
+				"text": "Portable Leather Wardrobe",
+				"color": "white",
+				"bold": true
+			},
+			", which lets you swap full armor sets on the fly. Stores 1 armor set"
+
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "portablewardrobearmorswap:portable_wardrobe_leather"
+		},
+		"show_toast": true,
+		"title": "Spare Clothes"
+	},
+	"requirements": [
+		[
+			"chest"
+		]
+	]
+}

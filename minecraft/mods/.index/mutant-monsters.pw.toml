@@ -1,16 +1,16 @@
-filename = 'MutantMonsters-v8.0.7-1.20.1-Fabric.jar'
+filename = 'MutantMonsters-v8.0.7-1.20.1-Forge.jar'
 name = 'Mutant Monsters'
 side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '8b432a01ec4937c905a9f6a1c976ae80b029ff5438b0a82a76eefd16779cdda9e43cf83af48615d7312b8d6328ce83372e27fd4d4aa09984fc2e9a75f17a666f'
+hash = '5c649b288fd67c40511e2a0b37270888941462f0cd5869364fb903f14b0bbc0c57dd7bcfc7e16189a45210f65049ac37dc55cca7bb24663610327189c2325552'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/derP0ten/versions/GEdQkhpr/MutantMonsters-v8.0.7-1.20.1-Fabric.jar'
+url = 'https://cdn.modrinth.com/data/derP0ten/versions/Pp3ZK1tZ/MutantMonsters-v8.0.7-1.20.1-Forge.jar'
 
 [update.modrinth]
 mod-id = 'derP0ten'
-version = 'GEdQkhpr'
+version = 'Pp3ZK1tZ'

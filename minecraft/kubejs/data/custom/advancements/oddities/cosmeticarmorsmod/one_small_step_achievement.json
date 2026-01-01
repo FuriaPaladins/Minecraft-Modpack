@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "cosmeticarmoursmod:astronaut_helmet"
+    },
+    "title": {
+      "translate": "advancements.one_small_step_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.one_small_step_achievement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "one_small_step_achievement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "custom:oddities/cosmeticarmorsmod/gone_fishing_achievement"
+}

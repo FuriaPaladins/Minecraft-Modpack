@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "cataclysm:bulwark_of_the_flame"
+    },
+    "title": {
+      "translate": "advancements.cataclysm.kill_ignis.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.cataclysm.kill_ignis.description"
+      },
+      {
+        "text": "\n\nCO-OP-able Advancement.",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "custom:combat/cataclysm/kill_revenant",
+  "criteria": {
+    "ignis": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

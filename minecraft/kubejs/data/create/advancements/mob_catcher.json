@@ -1,0 +1,39 @@
+{
+	"parent": "create:brass",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["create_mob_spawners:empty_soul_catcher"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Soul Catcher",
+				"color": "white",
+				"bold": true
+			},
+			", which lets you capture mobs and transport them."
+		],
+		"frame": "goal",
+		"hidden": false,
+		"icon": {
+			"item": "create_mob_spawners:empty_soul_catcher"
+		},
+		"show_toast": true,
+		"title": "Gotta Catch 'Em All"
+	},
+	"requirements": [
+		[
+			"criteria"
+		]
+	]
+}

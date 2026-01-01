@@ -1,0 +1,16 @@
+filename = 'obscure_tooltips-forge-1.20.1-3.4.0.jar'
+name = 'Obscure Tooltips'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3611720723123e62b926f3edb35dcb06355f5388d419567c67cf5c732fd14532d37cde80ebbc98e0ee0422d57c2aa311e5569abb3171b78791e407fbfc254f77'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5vetjDBY/versions/9ldns5Zl/obscure_tooltips-forge-1.20.1-3.4.0.jar'
+
+[update.modrinth]
+mod-id = '5vetjDBY'
+version = '9ldns5Zl'

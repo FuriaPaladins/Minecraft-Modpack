@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/root",
+	"criteria": {
+		"furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:furnace"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"You know what this block does! Craft a ",
+			{
+				"text": "Furnace",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:furnace"
+		},
+		"show_toast": true,
+		"title": "Furnace"
+	},
+	"requirements": [
+		[
+			"furnace"
+		]
+	]
+}

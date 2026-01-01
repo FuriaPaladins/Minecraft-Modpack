@@ -1,0 +1,16 @@
+filename = 'tetratic-combat-expanded-1.20-2.8.2.jar'
+name = 'Tetratic Combat Expanded'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5a11bf39df0eb612c8ef5a6fccd634527e6fb6e9e524faddd005a937351d293116fca95d082ba89ff6a51522cf6b5b7e0dfa733b764c4845a12d3370ec9bd610'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gKU2sJEW/versions/O1S7PKYL/tetratic-combat-expanded-1.20-2.8.2.jar'
+
+[update.modrinth]
+mod-id = 'gKU2sJEW'
+version = 'O1S7PKYL'

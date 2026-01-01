@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/transport/land_supply_carts",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["astikorcarts:plow"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Crafting a ",
+			{
+				"text": "Supply Cart",
+				"color": "white",
+				"bold": true
+			},
+			" lets you attach it to a horse, and lets you attach a hoe, shovel or axe plow or till the ground."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "astikorcarts:plow"
+		},
+		"show_toast": true,
+		"title": "Supply Carts"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

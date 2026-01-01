@@ -1,16 +1,16 @@
-filename = 'XaeroPlus-2.24.9+fabric-1.20.1-WM1.39.2-MM24.6.1.jar'
+filename = 'XaeroPlus-2.28.1+forge-1.20.1-WM1.39.12-MM25.2.10.jar'
 name = 'XaeroPlus'
 side = 'client'
-x-prismlauncher-loaders = [ 'fabric', 'quilt' ]
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '34b00f15780077b0facb77d1aebe312455ffb5eeb8b569d999cff7c55e3937481bcc15ff50f184e343d9e812ab08858012728672f314900ad74503f8625c14d3'
+hash = 'e7907bb2fd4d0186e45254b659abceff9ddf51ad8715e98aa061b6ef3b5de4cc50d366611a8d631c93013610d47b6b33008578d57e9684e72afd810f80a5d7d9'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/EnPUzSTg/versions/xChN73EW/XaeroPlus-2.24.9%2Bfabric-1.20.1-WM1.39.2-MM24.6.1.jar'
+url = 'https://cdn.modrinth.com/data/EnPUzSTg/versions/SPzXGiN5/XaeroPlus-2.28.1%2Bforge-1.20.1-WM1.39.12-MM25.2.10.jar'
 
 [update.modrinth]
 mod-id = 'EnPUzSTg'
-version = 'xChN73EW'
+version = 'SPzXGiN5'

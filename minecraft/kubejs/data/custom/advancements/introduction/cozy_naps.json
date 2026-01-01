@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/root",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "domesticationinnovation:pet_beds"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Pet Bed",
+				"color": "white",
+				"bold": true
+			},
+			". If you move one of your tamed pets on a pet bed, they will respawn on the bed the next morning if they died. You can tell you did this correctly if you see ZZZ particles above your pets head when you do this.\n\nThere are also a lot of new pets that you can tame in this pack. I'd recommend looking at @faunify and @critters. But there is also a mechanical pet you can craft, go find it in the Create advancements!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "domesticationinnovation:pet_bed_white"
+		},
+		"show_toast": true,
+		"title": "Cozy Companions"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

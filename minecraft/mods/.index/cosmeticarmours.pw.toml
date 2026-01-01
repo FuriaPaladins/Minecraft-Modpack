@@ -1,0 +1,16 @@
+filename = 'CosmeticArmours - 1.5.2.1 - 1.20.1 - Forge.jar'
+name = 'CosmeticArmours'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '03b3770791e56af7b764c0b6c50f710bf57625c20a8e8cabde4f44e53b0ee93d2ce92f55c8c777dbbf04b19a865f4551c5d1149674102732eb4bc482f280678d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/H3JIzTFR/versions/algz4eWR/CosmeticArmours - 1.5.2.1 - 1.20.1 - Forge.jar'
+
+[update.modrinth]
+mod-id = 'H3JIzTFR'
+version = 'algz4eWR'

@@ -1,0 +1,48 @@
+{
+  "parent": "custom:combat/cataclysm/find_acropolis",
+  "criteria": {
+    "prison": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "cataclysm:frosted_prison"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "You can craft an ",
+      {
+        "text": "Eye of Curse",
+        "color": "white",
+        "bold": true
+      },
+      " to help you locate the Frosted Prison.\nYou can find this structure in snowy biomes. It is a massive prison that is guarded by Draugur.",
+      "\n\nYou can also fight the miniboss Aptrgangr in this structure. Deep within, you can find a door that you must open and then interact with the grave inside, to summon this structure's boss, Maledictus"
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cataclysm:cursed_eye"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.cataclysm.frosted_prison.title"
+    }
+  },
+  "requirements": [
+    [
+      "prison"
+    ]
+  ]
+}

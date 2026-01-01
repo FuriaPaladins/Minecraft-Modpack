@@ -1,16 +1,16 @@
-filename = 'bettermobcombat-fabric-1.20.1-1.2.4.jar'
+filename = 'bettermobcombat-forge-1.20.1-1.3.0-all.jar'
 name = 'Better Mob Combat'
 side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'be5d49382700b65bf108534c19b468a84c7274e504d4a93642d79296f50b4f0c51f57bd15ebef73952e1c8230f8657fd46acd6deab5d34279a692f8f1d76a25c'
+hash = '0a01bd9fdd2ea0660abe37198c6aba15010641cf1485fc7034be67de5830313720ec58d5dd748659dfe829767405670b928ac4967fb245bee2c68a78aa235a24'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/KU8N7kPc/versions/FOvv47Jg/bettermobcombat-fabric-1.20.1-1.2.4.jar'
+url = 'https://cdn.modrinth.com/data/KU8N7kPc/versions/XPX9NrkF/bettermobcombat-forge-1.20.1-1.3.0-all.jar'
 
 [update.modrinth]
 mod-id = 'KU8N7kPc'
-version = 'FOvv47Jg'
+version = 'XPX9NrkF'

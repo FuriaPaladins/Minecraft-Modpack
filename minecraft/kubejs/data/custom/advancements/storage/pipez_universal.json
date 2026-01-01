@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/pipez",
+	"criteria": {
+		"chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["pipez:universal_pipe"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Crafting an ",
+			{
+				"text": "Universal Pipe",
+				"color": "white",
+				"bold": true
+			},
+			" lets you move items, fluids and energy with one type of pipe."
+
+		],
+		"frame": "goal",
+		"hidden": false,
+		"icon": {
+			"item": "pipez:universal_pipe"
+		},
+		"show_toast": true,
+		"title": "Moving all the things"
+	},
+	"requirements": [
+		[
+			"chest"
+		]
+	]
+}

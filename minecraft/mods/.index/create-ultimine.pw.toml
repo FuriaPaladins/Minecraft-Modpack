@@ -1,0 +1,16 @@
+filename = 'createultimine-1.20.1-forge-1.1.2.jar'
+name = 'Create Ultimine'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3db4f2ba04d1c6d2618001a2fb9379621934826846c1bb6d6221b410daadc4ee080eb8b3042be8d97d92aff023723cd0e476f3f0317ce363ba0e129d2e0fd679'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vUE54e5E/versions/cuVJ4lVM/createultimine-1.20.1-forge-1.1.2.jar'
+
+[update.modrinth]
+mod-id = 'vUE54e5E'
+version = 'cuVJ4lVM'

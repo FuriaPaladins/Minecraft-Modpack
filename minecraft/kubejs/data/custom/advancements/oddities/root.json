@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+		"description": {
+			"text": "Random Oddities and small things in the pack that don't necessarily fit anywhere else."
+		},
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:stick"
+		},
+        "title": [
+            "The Little Oddities"
+		]
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

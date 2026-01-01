@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/trading_post",
+	"criteria": {
+		"bartering_station": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["barteringstation:bartering_station"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"A ",
+			{
+				"text": "Bartering Station",
+				"color": "white",
+				"bold": true
+			},
+			" automatically barters with nearby Piglins, in a 12x12 area, for you, as long as there is gold in its inventory!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "barteringstation:bartering_station"
+		},
+		"show_toast": true,
+		"title": "Let the bartering commence!"
+	},
+	"requirements": [
+		[
+			"bartering_station"
+		]
+	]
+}

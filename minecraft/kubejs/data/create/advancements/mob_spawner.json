@@ -1,0 +1,39 @@
+{
+	"parent": "create:mob_catcher",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["create_mob_spawners:mechanical_spawner"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Mechanical Spawner",
+				"color": "white",
+				"bold": true
+			},
+			", which lets you spawn mobs captured in Soul Catchers, with a steady supply of rotation as well as rejuvenation potions."
+		],
+		"frame": "challenge",
+		"hidden": false,
+		"icon": {
+			"item": "create_mob_spawners:mechanical_spawner"
+		},
+		"show_toast": true,
+		"title": "Morally Correct Duplication"
+	},
+	"requirements": [
+		[
+			"criteria"
+		]
+	]
+}

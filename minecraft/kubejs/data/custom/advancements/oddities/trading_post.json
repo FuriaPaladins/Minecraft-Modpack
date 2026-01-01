@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/root",
+	"criteria": {
+		"trading_post": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["tradingpost:trading_post"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"A ",
+			{
+				"text": "Trading Post",
+				"color": "white",
+				"bold": true
+			},
+			" lets you directly trade with villagers in a 24x24x16 area around it. No more long trading halls!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "tradingpost:trading_post"
+		},
+		"show_toast": true,
+		"title": "Time to Trade!"
+	},
+	"requirements": [
+		[
+			"trading_post"
+		]
+	]
+}

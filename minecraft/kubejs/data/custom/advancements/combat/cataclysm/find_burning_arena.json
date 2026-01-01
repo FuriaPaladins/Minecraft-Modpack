@@ -1,0 +1,48 @@
+{
+  "parent": "custom:combat/cataclysm/find_frosted_prison",
+  "criteria": {
+    "arena": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "cataclysm:burning_arena"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "You can craft an ",
+      {
+        "text": "Eye of Flame",
+        "color": "white",
+        "bold": true
+      },
+      " to help you locate the Burning Arena. You can find this structure in the Nether. It is a large Coloseum that generates in the Nether Wastes. You must navigate up through the arena while fighting Ignited Revenants.",
+      "\n\nYou must use Burning Ashes, gained from said Ignited Revenants, at the Altar of Fire at the top of the structure to fight this dungeons' boss, and the final boss in the mod; Ignis."
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cataclysm:flame_eye"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.cataclysm.burning_arena.title"
+    }
+  },
+  "requirements": [
+    [
+      "arena"
+    ]
+  ]
+}

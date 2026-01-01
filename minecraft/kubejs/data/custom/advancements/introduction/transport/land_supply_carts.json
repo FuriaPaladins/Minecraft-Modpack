@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/transport/land_carts",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["astikorcarts:supply_cart"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Crafting a ",
+			{
+				"text": "Supply Cart",
+				"color": "white",
+				"bold": true
+			},
+			" lets you attach it to a horse, and transport chests."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "astikorcarts:supply_cart"
+		},
+		"show_toast": true,
+		"title": "Supply Carts"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

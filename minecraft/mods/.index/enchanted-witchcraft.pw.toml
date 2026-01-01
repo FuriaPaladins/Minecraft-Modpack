@@ -1,0 +1,16 @@
+filename = 'enchanted-forge-1.20.1-3.1.13.jar'
+name = 'Enchanted: Witchcraft'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '39f3cf2ff9a2dc42b19097dbf2536d73ba34f1a82e8370a2edf7489e255c980ebdc2ce0fc3546e6a5b724a1a1c6be870c79c6b2f5c0806f12a8ac55da69314a0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HsbpdVo9/versions/Kj0OxoXD/enchanted-forge-1.20.1-3.1.13.jar'
+
+[update.modrinth]
+mod-id = 'HsbpdVo9'
+version = 'Kj0OxoXD'

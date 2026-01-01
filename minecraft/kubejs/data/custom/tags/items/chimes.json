@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "chimes:bamboo_chimes",
+    "chimes:iron_chimes",
+    "chimes:carved_bamboo_chimes",
+    "chimes:copper_chimes",
+    "chimes:amethyst_chimes",
+    "chimes:glass_bells"
+  ]
+}

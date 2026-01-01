@@ -1,0 +1,16 @@
+filename = 'darkdoppelganger-9.3.2-1.20.1.jar'
+name = 'Dark Doppelganger'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bc7fe8022930fceab1590cd7df91679d0b52bb8e8009ac6f37d9e1d786d862b2f631f4c62bd96981936b8b3eef74fd8b1b01de28d3ecff02485824f91671f4a1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2vzHL83v/versions/oR0unmuM/darkdoppelganger-9.3.2-1.20.1.jar'
+
+[update.modrinth]
+mod-id = '2vzHL83v'
+version = 'oR0unmuM'

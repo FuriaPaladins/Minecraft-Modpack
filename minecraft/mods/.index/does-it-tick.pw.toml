@@ -1,0 +1,16 @@
+filename = 'does_it_tick-forge-1.1.4-1.20.1.jar'
+name = 'Does It Tick?'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4f6fe92ef0ecff696d1f60c74f52c275913dc809f34c95e895d74c3984545f0569fd1d31e0c98d73c1936e3745edb6fadb8fc2c6a41709258ca634eb88e1f89b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vmg6jaPW/versions/rijaJD4F/does_it_tick-forge-1.1.4-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'vmg6jaPW'
+version = 'rijaJD4F'

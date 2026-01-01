@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/transport/land_plow",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["via_romana:charting_map"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Crafting a ",
+			{
+				"text": "Charting Map",
+				"color": "white",
+				"bold": true
+			},
+			" lets you chart a path between signs. You need to create a path between two signs to create a chartable path. The Plows from Astikor Carts can be used to make these paths, instead of manually tilling the ground, but you can also use other blocks.\n\nThis is a good way of creating waypoints between bases/setups as Waystones are unobtainable and cost XP to use."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "via_romana:charting_map"
+		},
+		"show_toast": true,
+		"title": "Charting our roads"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

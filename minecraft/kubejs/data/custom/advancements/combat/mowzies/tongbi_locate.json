@@ -1,0 +1,53 @@
+{
+  "parent": "custom:combat/mowzies/frostmaw_locate",
+  "display": {
+    "icon": {
+      "item": "mowzies_cataclysm:tongbi_eye"
+    },
+    "title": [
+        "Locate: Tongbi The Sculptor"
+    ],
+    "description": [
+        "You can craft an ",
+        {
+            "text": "Eye of The Sculptor",
+            "color": "white",
+            "bold": true
+        },
+        " to help locate the ",
+        {
+            "text": "Monastery",
+            "color": "white",
+            "bold": true
+        }, 
+        " which usually spawns in mountainous regions."
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mowziesmobs:monastery"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

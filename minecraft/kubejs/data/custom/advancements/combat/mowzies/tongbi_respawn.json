@@ -1,0 +1,47 @@
+{
+  "parent": "custom:combat/mowzies/tongbi_kill",
+  "display": {
+    "icon": {
+      "item": "mowzie_respawner:sculpted_nectar"
+    },
+    "title": [
+        "A sculpted reunion"
+    ],
+    "description": [
+        "You can craft a ",
+        {
+            "text": "Sculpted Nectar",
+            "color": "white",
+            "bold": true
+        },
+        ", and use it in a ",
+        {
+            "text": "Monastery",
+            "color": "white",
+            "bold": true
+        }, 
+        " to re-summon Tongbi."
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": ["mowzie_respawner:sculpted_nectar"]
+                }
+            ]
+        }
+    }
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

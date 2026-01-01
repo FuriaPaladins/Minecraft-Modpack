@@ -1,0 +1,16 @@
+filename = 'Tab-Stats-1.20-1.0.5.jar'
+name = 'Tab Stats'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '228dd88b7780a21c9d9f94aef3144a2a3f9b1ae96811b99a02707226449eaccca85a44babd9dfbaa8810768a6068de04202509ff3e9ab08b9c1802dbf9d589cc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zWtYC4e6/versions/6bj5Ip4K/Tab-Stats-1.20-1.0.5.jar'
+
+[update.modrinth]
+mod-id = 'zWtYC4e6'
+version = '6bj5Ip4K'

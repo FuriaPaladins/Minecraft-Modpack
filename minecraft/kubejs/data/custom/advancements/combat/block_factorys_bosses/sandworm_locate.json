@@ -1,0 +1,42 @@
+{
+  "parent": "custom:combat/block_factorys_bosses/yeti_locate",
+  "display": {
+    "icon": {
+      "item": "block_factorys_bosses:achievement_icons",
+      "nbt": "{icon_index:8}"
+    },
+    "title": [
+      "Locate the Sandworm"
+    ],
+    "description": [
+      "While exploring the desert, you may find a ruin with some bones scattered around it. Approach the stirring sand nearby to trigger the Sand Worm boss fight"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "block_factorys_bosses:sandworm_nest"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

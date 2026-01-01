@@ -1,0 +1,16 @@
+filename = 'Create Quality of Life-1.20.1-1.6.1.jar'
+name = 'Create: Quality of Life'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2c0c20ca4832b4ababc946796fe63c99bd04e5f0e758c8b9518757a189b80d7168e372b4eca17451836e9c9030245f2f47cc34fd8a7c584e43572068ea73e08c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hezpkOYP/versions/LMkMeQCX/Create Quality of Life-1.20.1-1.6.1.jar'
+
+[update.modrinth]
+mod-id = 'hezpkOYP'
+version = 'LMkMeQCX'

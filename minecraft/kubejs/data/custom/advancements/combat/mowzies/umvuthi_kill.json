@@ -1,0 +1,35 @@
+{
+	"parent": "custom:combat/mowzies/umvuthi_locate",
+	"display": {
+		"icon": {
+			"item": "mowziesmobs:sol_visage"
+		},
+        "title": {
+            "translate": "advancements.mowziesmobs.kill_umvuthi.title"
+        },
+            "description": [
+            {
+                "translate": "advancements.mowziesmobs.kill_umvuthi.description"
+            },
+            {
+				"text": "\n\nCO-OP-able Advancement.",
+				"color": "gold",
+				"bold": true
+			}
+        ],
+        "frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

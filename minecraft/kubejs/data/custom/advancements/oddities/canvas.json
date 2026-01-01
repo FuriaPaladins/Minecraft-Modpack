@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/palette",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["xercapaint:item_canvas"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"You can craft different sizes of ",
+			{
+				"text": "Canvases",
+				"color": "white",
+				"bold": true
+			},
+			" to draw on."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "xercapaint:item_canvas"
+		},
+		"show_toast": true,
+		"title": "A canvas for your thoughts"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

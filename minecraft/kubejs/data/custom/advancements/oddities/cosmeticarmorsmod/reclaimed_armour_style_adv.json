@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "cosmeticarmoursmod:armour_style_template_reclaimed"
+    },
+    "title": {
+      "translate": "advancements.reclaimed_armour_style_adv.title"
+    },
+    "description": {
+      "translate": "advancements.reclaimed_armour_style_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reclaimed_armour_style_adv_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "custom:oddities/cosmeticarmorsmod/blank_armour_style_adv"
+}

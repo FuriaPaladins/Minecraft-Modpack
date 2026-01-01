@@ -10,16 +10,16 @@ allowInternetAccess:true
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:true
 minimap:false
-caveMaps:2
+caveMaps:0
 caveZoom:1
 showWaypoints:true
 showIngameWaypoints:false
 displayRedstone:true
 deathpoints:true
-oldDeathpoints:false
+oldDeathpoints:true
 distance:1
-lockNorth:false
-zoom:2
+lockNorth:true
+zoom:0
 minimapSize:0
 chunkGrid:-1
 slimeChunks:false

@@ -19,7 +19,12 @@
 	/**
 	 * Where EMI should pull stacks from to populate the index.
 	 */
-	index-source: registered;
+	index-source: creative-plus-registered;
+
+	/**
+	 * Which sidebar should be searched using the search bar.
+	 */
+	search-sidebar: right;
 
 	/**
 	 * Whether normal search queries should include the tooltip.
@@ -71,7 +76,7 @@
 	/**
 	 * The unit to display fluids as.
 	 */
-	fluid-unit: liters;
+	fluid-unit: millibuckets;
 
 	/**
 	 * Whether to use the batched render system. Batching is faster, but may have
@@ -162,7 +167,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: favorites;
+	left-sidebar-pages: craftables, favorites, lookup-history;
 
 	/**
 	 * The subpanels in the left sidebar
@@ -197,7 +202,7 @@
 	/**
 	 * The pages in the right sidebar
 	 */
-	right-sidebar-pages: index, craftables;
+	right-sidebar-pages: index;
 
 	/**
 	 * The subpanels in the right sidebar
@@ -463,7 +468,7 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: false;
+	show-recipe-ids: true;
 
 	/**
 	 * Whether to display additional widgets added to recipes from other mods.

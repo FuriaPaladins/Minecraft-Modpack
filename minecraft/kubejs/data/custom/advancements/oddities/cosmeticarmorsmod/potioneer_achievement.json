@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "cosmeticarmoursmod:witches_hat_helmet"
+    },
+    "title": {
+      "translate": "advancements.potioneer_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.potioneer_achievement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "potioneer_achievement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "custom:oddities/cosmeticarmorsmod/gone_fishing_achievement"
+}

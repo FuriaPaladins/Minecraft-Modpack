@@ -1,0 +1,44 @@
+{
+	"parent": "custom:introduction/transport/transport",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["crittersandcompanions:grappling_hook"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Crafting a ",
+			{
+				"text": "Grappling Hook",
+				"color": "white",
+				"bold": true
+			},
+			" makes it super easy and convenient to traverse vertical terrain. Highly recommend to pair it with ",
+			{
+				"text": "Gliders",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "crittersandcompanions:grappling_hook"
+		},
+		"show_toast": true,
+		"title": "I'm Spidersteve!"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"parent": "custom:combat/spellbooks/enraged_dead_king_locate",
+	"display": {
+		"icon": {
+			"item": "traveloptics:enraged_dead_king_spawn_egg"
+		},
+        "title": [
+			"Enraged Slayer"
+		],
+		"description": [
+			"You must use the scroll to summon the Enraged Dead King. The scroll intentionally has a high mana cost so that you have to use it from a scroll.",
+			{
+				"text": "\n\nCO-OP-able Advancement.",
+				"color": "gold",
+				"bold": true
+			}
+        ],
+        "frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

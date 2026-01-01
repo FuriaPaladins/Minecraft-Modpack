@@ -1,0 +1,54 @@
+{
+  "parent": "custom:combat/spellbooks/root",
+  "display": {
+    "icon": {
+      "item": "irons_spellbooks:wayward_compass"
+    },
+    "title": [
+        "Find the Catacombs"
+    ],
+    "description": [
+        "You can craft a ",
+        {
+            "text": "Wayward Compass",
+            "color": "white",
+            "bold": true
+        },
+        " to help locate the ",
+        {
+            "text": "Catacombs",
+            "color": "white",
+            "bold": true
+        }, 
+        " which spawns deep underground.",
+        "\n\nAt the end of this dungeon is a throne room with a corpse. Interact with the corpse to begin the boss fight"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "irons_spellbooks:catacombs"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

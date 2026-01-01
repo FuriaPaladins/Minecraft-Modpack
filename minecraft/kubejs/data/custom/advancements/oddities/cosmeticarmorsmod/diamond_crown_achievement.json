@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "cosmeticarmoursmod:true_diamond_crown_helmet"
+    },
+    "title": {
+      "translate": "advancements.diamond_crown_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.diamond_crown_achievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diamond_crown_achievement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cosmeticarmoursmod:true_diamond_crown_helmet"
+            ],
+            "count": {
+              "min": 1,
+              "max": 2048
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "custom:oddities/cosmeticarmorsmod/royalty_achievement"
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/heart_canister/red",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["bhc:yellow_heart_canister"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Yellow Heart Canister",
+				"color": "white",
+				"bold": true
+			},
+			", which is the 2nd tier of progression for Heart Canisters"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "bhc:yellow_heart_canister"
+		},
+		"show_toast": true,
+		"title": "Hearty upgrades"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

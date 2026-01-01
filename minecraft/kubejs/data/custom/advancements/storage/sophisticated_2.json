@@ -1,0 +1,38 @@
+{
+	"parent": "custom:storage/sophisticated_1",
+	"criteria": {
+		"chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["sophisticatedstorage:iron_chest"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"A double chest in... a single chest. Now that's efficiency! Craft an ",
+			{
+				"text": "Iron Chest",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "sophisticatedstorage:iron_chest"
+		},
+		"show_toast": true,
+		"title": "Iron Storage"
+	},
+	"requirements": [
+		[
+			"chest"
+		]
+	]
+}

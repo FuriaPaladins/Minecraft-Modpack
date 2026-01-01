@@ -1,0 +1,33 @@
+{
+	"parent": "custom:introduction/keybinds/effortless_building",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"Click and hold the ",
+			{
+				"keybind": "key.ftbultimine",
+				"bold": true,
+				"color": "white"
+			},
+			" key while mining to enable Veinmine mode. This allows you to mine entire veins of ore with a single block break."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:diamond_pickaxe"
+		},
+		"show_toast": false,
+		"title": "Veinmining"
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	],
+	"sends_telemetry_event": false
+}

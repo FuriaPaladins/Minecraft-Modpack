@@ -1,0 +1,31 @@
+{
+	"parent": "custom:combat/block_factorys_bosses/yeti_locate",
+	"display": {
+		"icon": {
+			"item": "block_factorys_bosses:yeti_spawn_egg"
+		},
+		"title": "Lost in the Snow",
+		"description": [
+			"Defeat the Yeti.",
+			{
+				"text": "\n\nCO-OP-able Advancement.",
+				"color": "gold",
+				"bold": true
+			}
+		],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

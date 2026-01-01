@@ -1,0 +1,42 @@
+{
+  "parent": "create:stress_to_power",
+  "criteria": {
+    "criterion": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createaddition:electric_motor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "You will need an ",
+      {
+				"text": "Electric Motor",
+				"color": "white",
+				"bold": true
+			},
+      " from Create Crafts and Additions to convert Power into Stress for Create machines."
+    ],
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "createaddition:electric_motor"
+    },
+    "show_toast": true,
+    "title": "Energy Conversion POWAH -> Stress"
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

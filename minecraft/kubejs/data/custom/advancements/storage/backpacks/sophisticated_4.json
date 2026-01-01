@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/backpacks/sophisticated_3",
+	"criteria": {
+		"backpack": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"sophisticatedbackpacks:diamond_backpack"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Diamond Backpack",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "sophisticatedbackpacks:diamond_backpack"
+		},
+		"show_toast": true,
+		"title": "Diamond Backpack"
+	},
+	"requirements": [
+		[
+			"backpack"
+		]
+	]
+}

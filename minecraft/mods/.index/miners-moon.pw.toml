@@ -1,0 +1,16 @@
+filename = 'MinersMoon1.20-1.0.1.jar'
+name = "Miner's Moon"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd1ec074e21da1e6b25b716f68b029616e55b95903fcc9a7a9745eb37e43d83fd3aeb58548bd23db2359adf7881208fb47156a004552562ada8ab308c468fa6cd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HuJzK25C/versions/X2i7DHej/MinersMoon1.20-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'HuJzK25C'
+version = 'X2i7DHej'

@@ -51,11 +51,20 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
   },
-  "supplementaries": {
-    "hat_stand": true
+  "avaritia": {
+    "extreme_smithing": true,
+    "crafting_table": true,
+    "compressor": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -65,26 +74,18 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
+  "alekiships": {
+    "furnace": true,
+    "jukebox": true,
+    "brewing_stand": true,
+    "block": true,
+    "note_block": true
   },
-  "waystones": {
-    "waystone": true
+  "create_mob_spawners": {
+    "spawner_progress": true
   },
-  "iceandfire": {
-    "multipart": true,
-    "dragon": true
-  },
-  "fluxnetworks": {
-    "device_data_provider": true
+  "balm": {
+    "jade": true
   },
   "ae2": {
     "part_icon": true,
@@ -97,5 +98,32 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "projecte": {
+    "emc_provider": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "pipez": {
+    "pipe": true
+  },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "corpse": {
+    "corpse": true
   }
 }

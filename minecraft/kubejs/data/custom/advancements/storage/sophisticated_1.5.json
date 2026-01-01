@@ -1,0 +1,38 @@
+{
+	"parent": "custom:storage/sophisticated_1",
+	"criteria": {
+		"chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["sophisticatedstorage:copper_chest"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"You can either upgrade to Copper or Iron. Iron is a tier above Copper, but Copper is cheaper to make. You can upgrade it to Iron afterwards for a few less iron ingots than directly upgrading from the chest to an iron chest. Craft a ",
+			{
+				"text": "Copper Chest",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "sophisticatedstorage:copper_chest"
+		},
+		"show_toast": true,
+		"title": "Copper Storage"
+	},
+	"requirements": [
+		[
+			"chest"
+		]
+	]
+}

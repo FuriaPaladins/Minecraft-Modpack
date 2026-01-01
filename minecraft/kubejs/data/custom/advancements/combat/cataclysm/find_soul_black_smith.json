@@ -1,0 +1,47 @@
+{
+  "parent": "custom:combat/cataclysm/root",
+  "criteria": {
+    "blacksmith": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "cataclysm:soul_black_smith"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "You can craft an ",
+      {
+        "text": "Eye of Monstrous",
+        "color": "white",
+        "bold": true
+      },
+      " to help you locate the Soul Forge, a Nether structure which houses the Netherite Monstrosity.\n\nNote: Unlike Eyes from other mods, Cataclysm's eye are reuseable, so you don't need to craft multiple."
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "cataclysm:monstrous_eye"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.cataclysm.find_soul_black_smith.title"
+    }
+  },
+  "requirements": [
+    [
+      "blacksmith"
+    ]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "cataclysm:strange_key"
+    },
+    "title": [
+      "Not Apt(rgangr) enough"
+    ],
+    "description": [
+      "Kill Aptrgangr. You need the Strange Key that drops from it to open the door to the main boss.",
+      {
+        "text": "\n\nCO-OP-able Advancement.",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "custom:combat/cataclysm/find_frosted_prison",
+  "criteria": {
+    "endergolem": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

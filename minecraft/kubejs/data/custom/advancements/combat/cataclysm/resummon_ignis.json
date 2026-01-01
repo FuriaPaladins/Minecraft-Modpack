@@ -1,0 +1,48 @@
+{
+  "parent": "custom:combat/cataclysm/kill_ignis",
+  "display": {
+    "icon": {
+      "item": "cs:flame_summon"
+    },
+    "title": [
+        "Ignited Vengeance"
+    ],
+    "description": [
+        "You can craft an ",
+        {
+            "text": "Ignis Summoner",
+            "color": "white",
+            "bold": true
+        },
+        ", and use it in the ",
+        {
+            "text": "Burning Arena",
+            "color": "white",
+            "bold": true
+        }, 
+        " to re-summon the boss.",
+        "\n\nNote: This item is not necessarily required, you can re-summon the boss using the Burning Ashes like you did to initially summon the boss. This is probably recommended as using the Summoner item will respawn the boss right on top of you"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": ["cs:flame_summon"]
+                }
+            ]
+        }
+    }
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

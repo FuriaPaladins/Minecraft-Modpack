@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "alexscaves:tectonic_shard"
+    },
+    "title": {
+      "translate": "advancements.alexscaves.defeat_luxtructosaurus.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.alexscaves.defeat_luxtructosaurus.desc"
+      },
+      {
+        "text": "\n\nCO-OP-able Advancement.",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "alexscaves:alexscaves/summon_luxtructosaurus",
+  "criteria": {
+    "killed": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

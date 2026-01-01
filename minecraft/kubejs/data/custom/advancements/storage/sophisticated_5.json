@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/sophisticated_4",
+	"criteria": {
+		"chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"sophisticatedstorage:netherite_chest"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"The Chest to beat all chests. Craft a ",
+			{
+				"text": "Netherite Chest",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "goal",
+		"hidden": false,
+		"icon": {
+			"item": "sophisticatedstorage:netherite_chest"
+		},
+		"show_toast": true,
+		"title": "Netherite Storage"
+	},
+	"requirements": [
+		[
+			"chest"
+		]
+	]
+}

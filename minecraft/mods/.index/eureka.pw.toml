@@ -1,16 +1,16 @@
-filename = 'eureka-1201-1.5.1-beta.3.jar'
+filename = 'eureka-1201-1.5.2-beta.3.jar'
 name = 'Eureka! Ships! for Valkyrien Skies (Forge/Fabric)'
 side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = '614b47e312cf7a8d2aaa6f005e805a3ca35347123552d442d3b4d36ac3304bda2a85ef3823300eae0d6b66e35a10f0345ac44654bea6bd24a0e1be78196f2869'
+hash = '2dffe4aeae5cbe8d92784c999bb94fb69014d6fd2b1b18ebf7d0327e5b5d23ac2181e6a9e5786644ed7a058dfde66e695567e083d0bd5aad71ad277e23759735'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/EO8aSHxh/versions/sXx5EPib/eureka-1201-1.5.1-beta.3.jar'
+url = 'https://cdn.modrinth.com/data/EO8aSHxh/versions/4ndrYYeb/eureka-1201-1.5.2-beta.3.jar'
 
 [update.modrinth]
 mod-id = 'EO8aSHxh'
-version = 'sXx5EPib'
+version = '4ndrYYeb'

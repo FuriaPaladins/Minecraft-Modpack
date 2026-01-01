@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/enchanting/updated_table",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["experienceobelisk:experience_obelisk"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"An ",
+			{
+				"text": "Experience Obelisk",
+				"color": "white",
+				"bold": true
+			},
+			" lets you store experience points for later use. Also the entire @Cognition mod is focused around enchanting and experience related stuff and worth checking out!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "experienceobelisk:experience_obelisk"
+		},
+		"show_toast": true,
+		"title": "An endless supply of experience"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

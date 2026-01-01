@@ -1,0 +1,16 @@
+filename = 'create-balancedflight-1.20.1_v2.4.5.jar'
+name = 'Create: BalancedFlight'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'b5a3fb6636d02a4be334a3ab56332beb5cc9607b0515e3092806a5603950263ab4ee740c0d964f3848ef0760dba79a1793d5ea2adb27242895cbaeccc7047a27'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pBBeKStC/versions/uLPQUyjq/create-balancedflight-1.20.1_v2.4.5.jar'
+
+[update.modrinth]
+mod-id = 'pBBeKStC'
+version = 'uLPQUyjq'

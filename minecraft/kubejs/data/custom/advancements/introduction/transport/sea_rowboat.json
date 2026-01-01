@@ -1,0 +1,44 @@
+{
+	"parent": "custom:introduction/transport/transport",
+	"criteria": {
+		"criterion": {
+			"trigger": "alekiships:sloop_completed"
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"In order to create a ",
+			{
+				"text": "Sloop",
+				"color": "white",
+				"bold": true
+			},
+			" you need to create a 2x3 of ",
+			{
+				"text": "Sloped Shipwright's Scaffolding",
+				"color": "white",
+				"bold": true
+			},
+            " and then fill it with your choice of wood, and then 1 ",
+			{
+				"text": "Oarlock",
+				"color": "white",
+				"bold": true
+			},
+			" on each side. It should then convert into a completed Rowboat that you can add chests, furnaces to, and customise to your liking!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "alekiships:rowboat_icon_only"
+		},
+		"show_toast": true,
+		"title": "A humble Rowboat"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

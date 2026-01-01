@@ -1,0 +1,16 @@
+filename = 'TheOuterEnd-1.0.11.jar'
+name = 'The Outer End'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3611b6dd57d4f0bb6dccbc80b120c7eb3034b0a14cca0405d783c9e1a91194bc21129e1e23dcf2307adc57a014980683e0c0353fbfa21f8ab5978e0d3f1f1842'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/X8s97ySO/versions/bwgiETL9/TheOuterEnd-1.0.11.jar'
+
+[update.modrinth]
+mod-id = 'X8s97ySO'
+version = 'bwgiETL9'

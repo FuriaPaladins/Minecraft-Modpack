@@ -1,0 +1,47 @@
+{
+  "parent": "custom:combat/mowzies/frostmaw_kill",
+  "display": {
+    "icon": {
+      "item": "mowzie_respawner:frost_nectar"
+    },
+    "title": [
+        "Chilly Nectar"
+    ],
+    "description": [
+        "You can craft a ",
+        {
+            "text": "Frost Nectar",
+            "color": "white",
+            "bold": true
+        },
+        ", and use it in a ",
+        {
+            "text": "Cold Biome",
+            "color": "white",
+            "bold": true
+        }, 
+        " to re-summon the boss."
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": ["mowzie_respawner:frost_nectar"]
+                }
+            ]
+        }
+    }
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

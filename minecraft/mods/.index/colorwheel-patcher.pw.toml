@@ -1,0 +1,16 @@
+filename = 'colorwheel_patcher-forge-1.0.1+mc1.20.1.jar'
+name = 'Colorwheel Patcher'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '96d07e76dc5e95d17799eb24bd8ebab1995c55514dabd6766e517619ded4108e89b630f02db19b259721112ce8d09f915d4d804d39259e370fb6ee1e50b247b8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KPsw5jDu/versions/wTDhQqca/colorwheel_patcher-forge-1.0.1%2Bmc1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'KPsw5jDu'
+version = 'wTDhQqca'

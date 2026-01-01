@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "title": {
+      "translate": "advancements.cataclysm.kill_scylla.title"
+    },
+    "description": {
+      "translate": "advancements.cataclysm.kill_scylla.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "custom:combat/cataclysm/kill_clawdian",
+  "criteria": {
+    "ignis": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

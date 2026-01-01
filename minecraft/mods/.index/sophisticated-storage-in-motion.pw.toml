@@ -1,0 +1,16 @@
+filename = 'sophisticatedstorageinmotion-1.20.1-0.10.19.120.jar'
+name = 'Sophisticated Storage in Motion'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cb65d1760c7d6220e86d7b9ab5ef8dd6c5285517e9030d6970e0d21a93b82381872567249a0f5446357c5537efc723409480a1b2db46c9649f39abe4f5b60424'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6vtFbyaJ/versions/S19ifqIF/sophisticatedstorageinmotion-1.20.1-0.10.19.120.jar'
+
+[update.modrinth]
+mod-id = '6vtFbyaJ'
+version = 'S19ifqIF'

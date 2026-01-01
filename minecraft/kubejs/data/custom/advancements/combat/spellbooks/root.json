@@ -1,0 +1,21 @@
+{
+  "parent": "custom:combat/root",
+  "display": {
+    "icon": {
+      "item": "irons_spellbooks:legendary_spell_book"
+    },
+    "title": [
+      "Iron's Spells (& Addons) Bosses."
+    ],
+    "description": [
+      "This path includes bosses from Iron's Spells & Spellbooks, as well as addons."
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "custom_test_name": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

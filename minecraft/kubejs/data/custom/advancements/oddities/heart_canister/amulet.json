@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/root",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["bhc:heart_amulet"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Heart Amulet",
+				"color": "white",
+				"bold": true
+			},
+			". This amulet holds your heart canisters, which increase your max Health."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "bhc:heart_amulet"
+		},
+		"show_toast": true,
+		"title": "A Hearty Quest"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

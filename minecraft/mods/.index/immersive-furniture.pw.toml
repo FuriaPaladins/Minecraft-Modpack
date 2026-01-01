@@ -1,0 +1,16 @@
+filename = 'immersive_furniture-forge-0.1.1+1.20.1.jar'
+name = 'Immersive Furniture'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1928e598d896ff327f9fc69b9f0e5b90c445fefe5817b07215812b40386d44cc687be0db9278eb7e63a330d0edebfd73ad4c37d91eb6d8edef43693b23981a7d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SvN6UGeF/versions/1eMGdu1C/immersive_furniture-forge-0.1.1%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'SvN6UGeF'
+version = '1eMGdu1C'

@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/root",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["xercapaint:item_palette"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Palette",
+				"color": "white",
+				"bold": true
+			},
+			" using 3 planks and any dyes. The more dyes you add, the more colours your palette will have."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "xercapaint:item_palette"
+		},
+		"show_toast": true,
+		"title": "Channelling your inner artist"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

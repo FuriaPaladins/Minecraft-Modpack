@@ -1,0 +1,16 @@
+filename = 'companions-forge-1.20.1-1.1.1.jar'
+name = 'Companions!'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b6a794e6a07dd1062be13163138474110d156c876a2689f8af71a66b2865b27a85a4d59dbaa27d56a4c6be6f8e4c53e961ce6e4324249a4266dda03658714ff5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ArBFNu9T/versions/FEqviFcN/companions-forge-1.20.1-1.1.1.jar'
+
+[update.modrinth]
+mod-id = 'ArBFNu9T'
+version = 'FEqviFcN'

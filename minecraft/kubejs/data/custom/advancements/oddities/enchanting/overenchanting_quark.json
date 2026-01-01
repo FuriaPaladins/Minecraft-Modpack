@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/enchanting/overenchanting",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["quark:ancient_tome"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"Using an ",
+			{
+				"text": "Ancient Tome",
+				"color": "white",
+				"bold": true
+			},
+			" from Quark, you can over-enchant your gear past the vanilla max level. These can be found in stronghold and dungeons.\n\nNote that this method mostly works for vanilla enchants."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "quark:ancient_tome"
+		},
+		"show_toast": false,
+		"title": "Ancient Tomes of wonder"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/backpacks/sophisticated_2",
+	"criteria": {
+		"backpack": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"sophisticatedbackpacks:gold_backpack"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Gold Backpack",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "sophisticatedbackpacks:gold_backpack"
+		},
+		"show_toast": true,
+		"title": "Gold Backpack"
+	},
+	"requirements": [
+		[
+			"backpack"
+		]
+	]
+}

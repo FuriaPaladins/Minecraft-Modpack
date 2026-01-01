@@ -1,0 +1,16 @@
+filename = 'stateobserver-forge-1.20.1-1.4.3.jar'
+name = 'StateObserver'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '41dbbbe2d00d3e0f9620fcf5bec5bc98b893f74f5912da7e56e4647156aee266ae8ca34825ce5cc6f133f739e01d8750fc4598dc480613657618f2673a8d74a6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/D1lhcTKz/versions/BHMS4baI/stateobserver-forge-1.20.1-1.4.3.jar'
+
+[update.modrinth]
+mod-id = 'D1lhcTKz'
+version = 'BHMS4baI'

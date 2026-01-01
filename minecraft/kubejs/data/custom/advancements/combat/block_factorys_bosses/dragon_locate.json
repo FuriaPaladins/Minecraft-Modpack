@@ -1,0 +1,42 @@
+{
+  "parent": "custom:combat/block_factorys_bosses/sandworm_locate",
+  "display": {
+    "icon": {
+      "item": "block_factorys_bosses:achievement_icons",
+      "nbt": "{icon_index:0}"
+    },
+    "title": [
+      "Locate the Dragon Tower"
+    ],
+    "description": [
+      "You can discover the Dragon Tower in the plains/meadow biomes. You must scale the tower, past the hordes of skeletons, to fight the dragon on top"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "block_factorys_bosses:dragon_tower"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

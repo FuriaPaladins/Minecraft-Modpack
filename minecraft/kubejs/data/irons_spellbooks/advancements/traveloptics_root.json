@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "traveloptics:archive_of_abyssal_secrets"
+    },
+    "title": {
+      "translate": "advancements.traveloptics.root.title"
+    },
+    "description": [
+      {
+      "translate": "advancements.traveloptics.root.description"
+    },
+    "\n\n(This tree contains mostly endgame armor sets that you can collect from the mod T.O Optics.)"
+    ],
+    "background": "minecraft:textures/block/obsidian.png",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "parent": "irons_spellbooks:irons_spellbooks/root",
+  "criteria": {
+    "custom_test_name": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

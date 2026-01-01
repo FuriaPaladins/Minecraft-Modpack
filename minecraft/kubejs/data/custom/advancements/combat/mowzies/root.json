@@ -1,0 +1,21 @@
+{
+  "parent": "custom:combat/root",
+  "display": {
+    "icon": {
+      "item": "mowziesmobs:logo"
+    },
+    "title": [
+      "Mowzie's Mobs Bosses."
+    ],
+    "description": [
+      "This path includes bosses from Mowzie's Mobs. Most of these are intended for the early/mid game."
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "custom_test_name": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

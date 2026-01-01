@@ -1,0 +1,41 @@
+{
+	"parent": "custom:oddities/enchanting/root",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:enchanting_table"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"The ",
+			{
+				"text": "Enchanting Table",
+				"color": "white",
+				"bold": true
+			},
+			" now retains items inside, and you can re-roll enchantments at the cost of some XP. All enchantments that will be applied are also displayed, no more surprises!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:enchanting_table"
+		},
+		"show_toast": true,
+		"title": "You're an enchanter!"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

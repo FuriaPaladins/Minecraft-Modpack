@@ -1,0 +1,16 @@
+filename = 'morerelics-1.4.1-1.20.1.jar'
+name = 'More Relics'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5782e8d5c36176b8c124702981b29d2558362433d0954e3a0cc909b02fe07d17e7b8023b1f031230d7180f68ac29b8932457f20645ebda5d2f1e55be50dc66ed'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NmYBBHLU/versions/wZd3gCT9/morerelics-1.4.1-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'NmYBBHLU'
+version = 'wZd3gCT9'

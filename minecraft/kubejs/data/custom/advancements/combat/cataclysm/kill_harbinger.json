@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "title": {
+      "translate": "advancements.cataclysm.kill_harbinger.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.cataclysm.kill_harbinger.description"
+      },
+      {
+        "text": "\n\nCO-OP-able Advancement.",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "frame": "challenge"
+  },
+  "parent": "custom:combat/cataclysm/find_ancient_factory",
+  "criteria": {
+    "theharbinger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

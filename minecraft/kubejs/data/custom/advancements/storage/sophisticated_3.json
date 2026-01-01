@@ -1,0 +1,38 @@
+{
+	"parent": "custom:storage/sophisticated_2",
+	"criteria": {
+		"chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["sophisticatedstorage:gold_chest"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"The chests keep growing! Craft a ",
+			{
+				"text": "Gold Chest",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "sophisticatedstorage:gold_chest"
+		},
+		"show_toast": true,
+		"title": "Gold Storage"
+	},
+	"requirements": [
+		[
+			"chest"
+		]
+	]
+}

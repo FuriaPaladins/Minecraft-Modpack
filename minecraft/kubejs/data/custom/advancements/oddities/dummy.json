@@ -1,0 +1,41 @@
+{
+	"parent": "custom:oddities/armor_stand",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"dummmmmmy:target_dummy"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Our good ol' friend, the ",
+			{
+				"text": "Target Dummy",
+				"color": "white",
+				"bold": true
+			},
+			" is back and more ready than ever to test all your crazy builds."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "dummmmmmy:target_dummy"
+		},
+		"show_toast": true,
+		"title": "Come here dummy"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "custom:combat/mowzies/umvuthi_kill",
+  "display": {
+    "icon": {
+      "item": "mowzie_respawner:umvuthana_nectar"
+    },
+    "title": [
+        "Solar Reunion"
+    ],
+    "description": [
+        "You can craft an ",
+        {
+            "text": "Umvuthana Nectar",
+            "color": "white",
+            "bold": true
+        },
+        ", and use it in an ",
+        {
+            "text": "Umvuthana Grove",
+            "color": "white",
+            "bold": true
+        }, 
+        " to re-summon the boss."
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": ["mowzie_respawner:umvuthana_nectar"]
+                }
+            ]
+        }
+    }
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

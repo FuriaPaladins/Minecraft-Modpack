@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/transport/air_ring",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["avaritia:infinity_chestplate"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Crafting an ",
+			{
+				"text": "Infinity Chestplate",
+				"color": "white",
+				"bold": true
+			},
+			", grants you super fast free flight. This is probably the hardest item to craft in the entire modpack, so good luck!"
+		],
+		"frame": "challenge",
+		"hidden": false,
+		"icon": {
+			"item": "avaritia:infinity_chestplate"
+		},
+		"show_toast": true,
+		"title": "Infinity..."
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/furnaces/furnace_3",
+	"criteria": {
+		"furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"ironfurnaces:diamond_furnace"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Diamond Furnace",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "ironfurnaces:diamond_furnace"
+		},
+		"show_toast": true,
+		"title": "Diamond Furnace"
+	},
+	"requirements": [
+		[
+			"furnace"
+		]
+	]
+}

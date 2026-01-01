@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/heart_canister/soul_amulet",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["bhc:soul_heart_canister"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Soul Heart Canister",
+				"color": "white",
+				"bold": true
+			},
+			". These are special Canisters that can only be put in a Soul Heart Amulet. They act like a totem of undying, but convert back to blue hearts when used."
+		],
+		"frame": "goal",
+		"hidden": false,
+		"icon": {
+			"item": "bhc:soul_heart_canister"
+		},
+		"show_toast": true,
+		"title": "Hearty Postmortal Protection"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

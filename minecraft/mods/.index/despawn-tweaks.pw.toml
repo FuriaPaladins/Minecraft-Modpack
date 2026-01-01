@@ -1,0 +1,16 @@
+filename = 'despawntweaks-forge-1.0.0-1.20.1.jar'
+name = 'Despawn Tweaks'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6fbd35923e395f7ae398bf3f1d97fa8754119f6db7463fc1e6efa81d40fd7eec6b8911e6b6cbc3d0eaf0359574fb165dd42202255904d94f005c1beb682c501a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ahQrpeXp/versions/AL5vFSzb/despawntweaks-forge-1.0.0-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'ahQrpeXp'
+version = 'AL5vFSzb'

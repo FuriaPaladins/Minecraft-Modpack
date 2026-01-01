@@ -1,0 +1,41 @@
+{
+	"parent": "custom:storage/simple_storage_access",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"storagenetwork:request"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"After crafting a ",
+			{
+				"text": "Storage Request Table",
+				"color": "white",
+				"bold": true
+			},
+			", you can access your network, and also craft using the items in it!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "storagenetwork:request"
+		},
+		"show_toast": true,
+		"title": "Network Access (With Crafting)!"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

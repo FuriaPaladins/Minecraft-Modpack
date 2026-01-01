@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/transport/land_via_ronova",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "create:tracks"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Crafting any ",
+			{
+				"text": "Train Tracks",
+				"color": "white",
+				"bold": true
+			},
+			" is the first step in your Train journey!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "railways:track_oak"
+		},
+		"show_toast": true,
+		"title": "I like trains :)"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

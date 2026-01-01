@@ -1,0 +1,50 @@
+{
+	"parent": "custom:introduction/root",
+	"criteria": {
+		"guide_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["patchouli:guide_book"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"You can search up ",
+			{
+				"text": "@Patchouli",
+				"color": "white"
+			},
+			" to get guide books for a few different mods.\n\nNotably:",
+			{
+				"text": "\n- Simple Storage Network (Network Guide Book)",
+				"color": "white"
+			},
+			{
+				"text": "\n- Enchanted (The 'Witchcraft:' Books)",
+				"color": "white"
+			},
+			{
+				"text": "\n- Iron's Spells and Spellbooks (Iron's Guidebook)",
+				"color": "white"
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "patchouli:guide_book"
+		},
+		"show_toast": true,
+		"title": "Mod Guides!"
+	},
+	"requirements": [
+		[
+			"guide_book"
+		]
+	]
+}

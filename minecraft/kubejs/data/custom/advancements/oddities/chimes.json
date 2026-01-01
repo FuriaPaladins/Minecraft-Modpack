@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/root",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "custom:chimes"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Placing down a ",
+			{
+				"text": "Chime",
+				"color": "white",
+				"bold": true
+			},
+			" scares Phantoms away from it."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "chimes:amethyst_chimes"
+		},
+		"show_toast": true,
+		"title": "My Insomnia!"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

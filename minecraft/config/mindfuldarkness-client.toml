@@ -10,7 +10,7 @@ menu_blacklist = []
 #Begin with '!' to exclude matches, list those exclusions after entries that would otherwise include them.
 paths = ["textures/gui/*", "!minecraft:textures/gui/icons.png", "!minecraft:textures/gui/options_background.png", "!minecraft:textures/gui/book.png", "textures/gui/container/*", "minecraft:textures/gui/container/creative_inventory/*", "trinkets:textures/gui/slots/*", "craftingtweaks:gui.png", "dankstorage:textures/container/gui/*", "ae2:textures/guis/*", "!modmenu:textures/gui/mod_configuration.png", "!dynamiccrosshair:textures/gui/crosshairs.png", "quark:textures/misc/backpack_gui.png", "quark:textures/misc/matrix_enchanting.png", "quark:textures/misc/shulker_widget.png"]
 #Do not add the dark mode toggle buttons to the top of every menu.
-hide_in_game_switcher = false
+hide_in_game_switcher = true
 #Screens to add a dark mode toggle button to, so that toggling is possible outside of inventory menus.
 #Allowed Values: NONE, TITLE_SCREEN, PAUSE_SCREEN, BOTH
 dark_mode_toggle_screens = "BOTH"
@@ -27,3 +27,4 @@ font_brightness = 0.75
 #Algorithm selector for darkening interface pixels.
 #Allowed Values: GRAYSCALE_AND_HSP, HSP, GRAYSCALE_AND_HSL, HSL, GRAYSCALE_AND_LINEAR, LINEAR
 darkening_algorithm = "GRAYSCALE_AND_HSP"
+

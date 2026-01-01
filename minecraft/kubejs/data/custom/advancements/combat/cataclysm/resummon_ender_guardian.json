@@ -1,0 +1,47 @@
+{
+  "parent": "custom:combat/cataclysm/kill_ender_guardian",
+  "display": {
+    "icon": {
+      "item": "cs:void_summon"
+    },
+    "title": [
+        "Reforging the Beast"
+    ],
+    "description": [
+        "You can craft an ",
+        {
+            "text": "Ender Guardian Summoner",
+            "color": "white",
+            "bold": true
+        },
+        ", and use it in a ",
+        {
+            "text": "Ruined Citadel",
+            "color": "white",
+            "bold": true
+        }, 
+        " to re-summon the boss."
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": ["cs:void_summon"]
+                }
+            ]
+        }
+    }
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

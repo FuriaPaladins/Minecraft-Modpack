@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/backpacks/sophisticated_1",
+	"criteria": {
+		"backpack": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"sophisticatedbackpacks:iron_backpack"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft an ",
+			{
+				"text": "Iron Backpack",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "sophisticatedbackpacks:iron_backpack"
+		},
+		"show_toast": true,
+		"title": "Iron Backpack"
+	},
+	"requirements": [
+		[
+			"backpack"
+		]
+	]
+}

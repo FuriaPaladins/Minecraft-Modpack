@@ -1,0 +1,37 @@
+{
+  "parent": "custom:combat/root",
+  "display": {
+    "icon": {
+      "item": "darkdoppelganger:summon_scroll"
+    },
+    "title": {
+      "translate": "Behold the Creator..."
+    },
+    "description": [
+      "Entered a world where a Doppelganger may lurk...",
+      "\n\nIn order to face off against the Doppelganger, you must craft a ",
+      {
+        "text": "Summon Scroll",
+        "color": "white",
+        "bold": true
+      },
+      " and then use it on the ground. Do note, this boss is ridiculously powerful and should not be tackled until you are well prepared. It is the only boss in the pack that does not scale with extra players as it already has 6k health."
+    ],
+    "background": "minecraft:textures/block/end_stone.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "get_scroll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "darkdoppelganger:summon_scroll"
+          }
+        ]
+      }
+    }
+  }
+}

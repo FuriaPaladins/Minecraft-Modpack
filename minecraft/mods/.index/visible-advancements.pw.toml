@@ -1,0 +1,16 @@
+filename = 'visible_advancements-1.0.jar'
+name = 'Visible Advancements'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '23b2c778ab1739cdec12aa75f2f568927bd38092b70a4c35021849d1f9c0a6ef402ad20d82cad2e6d1b50afa0c902a73db35d67ce984103993b392406333abe9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/U5lefUKB/versions/f8HQqine/visible_advancements-1.0.jar'
+
+[update.modrinth]
+mod-id = 'U5lefUKB'
+version = 'f8HQqine'

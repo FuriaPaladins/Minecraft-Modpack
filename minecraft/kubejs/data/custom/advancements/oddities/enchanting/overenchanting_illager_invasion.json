@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/enchanting/overenchanting",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["illagerinvasion:imbuing_table"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"After defeating an Invoker, you can craft an ",
+			{
+				"text": "Imbuing Table",
+				"color": "white",
+				"bold": true
+			},
+			" which allows you to over-enchant your gear.\n\nYou put the max level enchanting book in the left slot, the item you wish to enchant in the middle, and Hallowed Gems in the right slot."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "illagerinvasion:imbuing_table"
+		},
+		"show_toast": false,
+		"title": "With great imbuing power comes..."
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"parent": "custom:storage/root",
+	"criteria": {
+		"backpack": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"sophisticatedbackpacks:backpack"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Backpack",
+				"color": "white",
+				"bold": true
+			}
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "sophisticatedbackpacks:backpack"
+		},
+		"show_toast": true,
+		"title": "Backpack"
+	},
+	"requirements": [
+		[
+			"backpack"
+		]
+	]
+}

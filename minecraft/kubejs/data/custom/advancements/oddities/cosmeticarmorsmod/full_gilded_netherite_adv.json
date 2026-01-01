@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "cosmeticarmoursmod:gilded_netherite_crown_helmet"
+    },
+    "title": {
+      "translate": "advancements.full_gilded_netherite_adv.title"
+    },
+    "description": {
+      "translate": "advancements.full_gilded_netherite_adv.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "full_gilded_netherite_adv_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "custom:oddities/cosmeticarmorsmod/netherite_crown_achievement"
+}

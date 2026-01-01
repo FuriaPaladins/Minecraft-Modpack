@@ -1,0 +1,41 @@
+{
+  "parent": "create:brass",
+  "criteria": {
+    "criterion": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createmechanicalcompanion:mechanical_wolf_link"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "In order to get your mechanical companion, you will need to craft a ",
+      {
+        "text": "Mechanical Wolf Link",
+        "color": "white",
+        "bold": true
+     },
+      ".\n\nI also recommend looking at the @mechanicalcompanion mod in EMI to see all the upgrades you can give to your robo-companion!"
+    ],
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "createmechanicalcompanion:tab_icon"
+    },
+    "show_toast": true,
+    "title": "Mechanically linked Doggo"
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

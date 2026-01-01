@@ -1,0 +1,39 @@
+#show endless inventory view when opening a menu.
+attachingMenuScreen = true
+#Default rows of EndInv view, 0 for auto.
+#Range: > 0
+rows = 0
+#Default columns of EndInv view, 0 for auto.
+#Range: > 0
+columns = 9
+#auto suit in columns if GUI Size is too big.
+auto_suit_column = true
+#Texture mode of EndInv view, transparent or vanilla menu style
+#FROM_RESOURCE uses vanilla textures, grid is minecraft:textures/gui/container/generic_54.png, tab is minecraft:textures/gui/advancements/tabs.png.
+#DEDICATED_LOCATION allows using custom texture in resource packs, to use refer such locations: 
+#grid: endless_inventory:textures/gui/item_grid.png, tab: endless_inventory:textures/gui/tabs.png, item_entry: endless_inventory:textures/gui/item_entry.png
+#Allowed Values: FROM_RESOURCE, TRANSPARENT, DEDICATED_LOCATION
+texture_mode = "FROM_RESOURCE"
+#Press F3 in screen can show some information of menu screen
+enable_debug = false
+#Range: 1 ~ 255
+max_page_bars = 10
+
+[hide_pages]
+	#Hide page: all_items
+	all_items = false
+	#Hide page: block_items
+	block_items = false
+	#Hide page: weapons
+	weapons = false
+	#Hide page: tools
+	tools = false
+	#Hide page: equipments
+	equipments = false
+	#Hide page: consumable
+	consumable = false
+	#Hide page: enchanted_books
+	enchanted_books = false
+	#Hide page: bookmark
+	bookmark = false
+

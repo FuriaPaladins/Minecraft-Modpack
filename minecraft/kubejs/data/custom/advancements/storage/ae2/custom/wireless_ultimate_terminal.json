@@ -1,0 +1,42 @@
+{
+  "parent": "custom:storage/ae2/custom/wireless_crafting",
+  "criteria": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ae2wtlib:wireless_universal_terminal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "Crafting a ",
+      {
+				"text": "Wireless Universal Terminal",
+				"color": "white",
+				"bold": true
+			},
+      " allows you to link all the other terminals you may craft into one easy to access item."
+    ],
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "ae2wtlib:wireless_universal_terminal"
+    },
+    "show_toast": true,
+    "title": "Ultimated Administration... on the go."
+  },
+  "requirements": [
+    [
+      "certus"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "create:stress_to_power",
+  "criteria": {
+    "criterion": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createaddition:connector"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "Any type of ",
+      {
+				"text": "Connector",
+				"color": "white",
+				"bold": true
+			},
+      " lets you transfer power between machines via the different ",
+      {
+				"text": "Spools",
+				"color": "white",
+				"bold": true
+			}
+    ],
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "createaddition:connector"
+    },
+    "show_toast": true,
+    "title": "Connected!"
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

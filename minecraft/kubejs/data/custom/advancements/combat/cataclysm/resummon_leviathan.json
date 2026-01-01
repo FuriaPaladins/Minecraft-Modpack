@@ -1,0 +1,48 @@
+{
+  "parent": "custom:combat/cataclysm/kill_leviathan",
+  "display": {
+    "icon": {
+      "item": "cs:abyss_summon"
+    },
+    "title": [
+        "Abyssal Fishies"
+    ],
+    "description": [
+        "You can craft a ",
+        {
+            "text": "Leviathan Summoner",
+            "color": "white",
+            "bold": true
+        },
+        ", and use it in a ",
+        {
+            "text": "Sunken City",
+            "color": "white",
+            "bold": true
+        }, 
+        " to re-summon the boss.",
+        "\n\nNote: This item is not necessarily required, you can re-summon the boss using the sacrifice like you did to initially summon the boss"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "criterion": {
+      "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": ["cs:abyss_summon"]
+                }
+            ]
+        }
+    }
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ]
+}

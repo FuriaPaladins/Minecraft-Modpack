@@ -1,0 +1,16 @@
+filename = 'nethers_exorcism_reborn-1.1.2Beta.jar'
+name = "Nether's Exorcism Reborn"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'b551b3b72a8ad4a91f0f7d9a135d9b2aff546db1dd3a1d95d6149490ad91e952eb777bbdd05bba6265903a8c3a4d240fa9931693d23c89124fb01fc408c76a97'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8LbrWrCF/versions/HDtEygzm/nethers_exorcism_reborn-1.1.2Beta.jar'
+
+[update.modrinth]
+mod-id = '8LbrWrCF'
+version = 'HDtEygzm'

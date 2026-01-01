@@ -1,0 +1,20 @@
+{
+  "name": "stall",
+  "author": "MindFaer",
+  "description": "I hope this works",
+  "emote":{
+    "isLoop": "false",
+    "returnTick": 0,
+    "beginTick":0,
+    "endTick":0,
+    "stopTick":0,
+    "degrees":false,
+    "moves":[
+
+      {
+        "tick":0,
+        "easing": "EASEINOUTQUAD"
+        }
+    ]
+  }
+}

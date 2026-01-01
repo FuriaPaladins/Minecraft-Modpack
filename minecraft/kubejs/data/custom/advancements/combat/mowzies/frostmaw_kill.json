@@ -1,0 +1,35 @@
+{
+	"parent": "custom:combat/mowzies/frostmaw_locate",
+	"display": {
+		"icon": {
+			"item": "mowziesmobs:ice_crystal"
+		},
+        "title": {
+            "translate": "advancements.mowziesmobs.kill_frostmaw.title"
+        },
+            "description": [
+            {
+                "translate": "advancements.mowziesmobs.kill_frostmaw.description"
+            },
+            {
+				"text": "\n\nCO-OP-able Advancement.",
+				"color": "gold",
+				"bold": true
+			}
+        ],
+        "frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

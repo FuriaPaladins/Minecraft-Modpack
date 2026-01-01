@@ -1,0 +1,33 @@
+{
+	"parent": "custom:combat/aquamirae/root",
+	"display": {
+		"icon": {
+			"item": "aquamirae:abyssal_amethyst"
+		},
+        "title": [
+			"Mother of the Maze"
+		],
+            "description": [
+            "You can find the Mother of the Maze in the Ice Maze biomes. You will receive a chat message stating that you feel vibrations under the ice when it spawns",
+            {
+				"text": "\n\nCO-OP-able Advancement.",
+				"color": "gold",
+				"bold": true
+			}
+        ],
+        "frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

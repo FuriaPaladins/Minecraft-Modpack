@@ -1,0 +1,16 @@
+filename = 'Darker Depths-1.20.1-2.0.5.jar'
+name = 'Darker Depths'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'feb5487f0b859673eb2f1baa830045778d9a0bf21818b5ce0ef96ee0ba9b568bbf280059c530e54acf6d6eaa90abdb408b07b4d54af00d3839623b744b8b361b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wCbFXJKH/versions/aO5eOJGh/Darker Depths-1.20.1-2.0.5.jar'
+
+[update.modrinth]
+mod-id = 'wCbFXJKH'
+version = 'aO5eOJGh'

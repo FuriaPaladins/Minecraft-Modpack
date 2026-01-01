@@ -1,0 +1,42 @@
+{
+  "parent": "create:brass",
+  "criteria": {
+    "criterion": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createcobblestone:mechanical_generator"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "Creating a ",
+      {
+				"text": "Mechanical Generator",
+				"color": "white",
+				"bold": true
+			},
+      " lets you generate: Limestone (Create's), Basalt, Scoria, Stone and Cobblestone by placing them in the filter slot of the block."
+    ],
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "createcobblestone:mechanical_generator"
+    },
+    "show_toast": true,
+    "title": "Efficient Generators"
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

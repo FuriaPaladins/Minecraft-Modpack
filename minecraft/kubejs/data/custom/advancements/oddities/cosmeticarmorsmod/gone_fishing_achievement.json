@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "cosmeticarmoursmod:fishermans_bucket_hat_helmet"
+    },
+    "title": {
+      "translate": "advancements.gone_fishing_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.gone_fishing_achievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gone_fishing_achievement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "custom:oddities/cosmeticarmorsmod/agricultural_apprentice_achievement"
+}

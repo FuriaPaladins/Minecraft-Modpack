@@ -1,0 +1,41 @@
+{
+	"parent": "custom:storage/simple_storage_root",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"storagenetwork:inventory"
+						]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Now you can access the storage network, using a ",
+			{
+				"text": "Storage Inventory",
+				"color": "white",
+				"bold": true
+			},
+			"."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "storagenetwork:inventory"
+		},
+		"show_toast": true,
+		"title": "Network Access!"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

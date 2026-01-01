@@ -1,0 +1,21 @@
+{
+  "parent": "custom:combat/root",
+  "display": {
+    "icon": {
+      "item": "aquamirae:rune_of_the_storm"
+    },
+    "title": [
+      "Aquamirae Bosses."
+    ],
+    "description": [
+      "This path includes one boss and miniboss from Aquamirae. These can all be found within the Ice Maze biomes/"
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "custom_test_name": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/root",
+	"criteria": {
+		"campfire": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:campfire"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"Standing within 3 blocks of a campfire gives you the ",
+			{
+				"text": "Comfort",
+				"color": "green",
+				"bold": true
+			},
+			" effect, which lets your health regenerate even if you're hungry. This works on all types of campfires."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "minecraft:campfire"
+		},
+		"show_toast": true,
+		"title": "Cozy Campfires"
+	},
+	"requirements": [
+		[
+			"campfire"
+		]
+	]
+}

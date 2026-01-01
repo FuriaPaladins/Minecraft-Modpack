@@ -1,0 +1,33 @@
+{
+	"parent": "custom:introduction/keybinds/dodge_roll",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"description": [
+			"Click the ",
+			{
+				"keybind": "key.personality.sit",
+				"bold": true,
+				"color": "white"
+			},
+			" key to sit down. Take a break!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "refurbished_furniture:oak_chair"
+		},
+		"show_toast": false,
+		"title": "I'm sat."
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	],
+	"sends_telemetry_event": false
+}

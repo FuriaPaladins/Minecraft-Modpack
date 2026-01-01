@@ -1,0 +1,16 @@
+filename = 'create_ltab-3.0.0.jar'
+name = 'Create: Let The Adventure Begin'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c781a2c15b6d2a160a1777b1beaf1eb65de4b5518126c7a86d071d425d2854f20caa2648ca176e9326f3e05ec93cb4ec6091874427bbdaca018eb23dfd924f90'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fUa6OtBG/versions/kVmzI42k/create_ltab-3.0.0.jar'
+
+[update.modrinth]
+mod-id = 'fUa6OtBG'
+version = 'kVmzI42k'

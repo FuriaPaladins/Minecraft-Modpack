@@ -1,0 +1,33 @@
+{
+	"parent": "custom:combat/aquamirae/find_ship",
+	"display": {
+		"icon": {
+			"item": "aquamirae:three_bolt_helmet"
+		},
+		"title": [
+			"Ghastly Captain"
+		],
+		"description": [
+			"Put the Captain to rest...",
+			{
+				"text": "\n\nCO-OP-able Advancement.",
+				"color": "gold",
+				"bold": true
+			}
+		],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

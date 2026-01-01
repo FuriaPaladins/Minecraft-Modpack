@@ -1,0 +1,39 @@
+{
+	"parent": "custom:introduction/transport/sea_copper_fin",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:started_riding",
+			"conditions": {
+				"player": {
+					"vehicle": {
+						"type": "alexscaves:submarine"
+					}
+				}
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"You're able to construct a ",
+			{
+				"text": "Submarine",
+				"color": "white",
+				"bold": true
+			},
+			" multiblock structure. The submarine is a very fast way of traversing underwater, and is bigger than the Copper Fin. You can view how to construct it by pondering the 'submarine' item."
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "alexscaves:submarine"
+		},
+		"show_toast": true,
+		"title": "In my little submarine"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

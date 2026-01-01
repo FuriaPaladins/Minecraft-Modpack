@@ -1,0 +1,39 @@
+{
+	"parent": "custom:oddities/heart_canister/blue",
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["bhc:soul_heart_amulet"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Soul Heart Amulet",
+				"color": "white",
+				"bold": true
+			},
+			". This amulet also holds your Heart Canisters, but is now capable of storing Soul Heart Canisters"
+		],
+		"frame": "goal",
+		"hidden": false,
+		"icon": {
+			"item": "bhc:soul_heart_amulet"
+		},
+		"show_toast": true,
+		"title": "Soul-y Amulet"
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

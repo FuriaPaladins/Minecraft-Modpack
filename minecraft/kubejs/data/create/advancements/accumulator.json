@@ -1,0 +1,42 @@
+{
+  "parent": "create:stress_to_power",
+  "criteria": {
+    "criterion": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "createaddition:modular_accumulator"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": [
+      "Creating a ",
+      {
+				"text": "Accumulator",
+				"color": "white",
+				"bold": true
+			},
+      " multiblock lets you store excess energy for future use."
+    ],
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "createaddition:modular_accumulator"
+    },
+    "show_toast": true,
+    "title": "Conserve Energy for the Planet"
+  },
+  "requirements": [
+    [
+      "criterion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

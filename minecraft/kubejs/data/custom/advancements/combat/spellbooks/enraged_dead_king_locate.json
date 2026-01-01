@@ -1,0 +1,45 @@
+{
+	"parent": "custom:combat/spellbooks/catacomobs_locate",
+	"display": {
+		"icon": {
+			"item": "irons_spellbooks:scroll",
+			"nbt": "{ISB_Spells:{data:[{level:1,id:\"traveloptics:call_forth_the_dead_king\",index:0,locked:1b}],maxSpells:1}}"
+		},
+		"title": [
+			"The Mad King"
+		],
+		"description": [
+			"Whilst adventuring in the Catacombs, treasure chests have a chance to include a ",
+			{
+				"text": "Call Forth The Dead King Scroll",
+				"color": "white",
+				"bold": true
+			},
+			", which lets you summon the Enraged Dead King, a more powerful version of the Dead King found in the structure"
+		],
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"criterion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"irons_spellbooks:scroll"
+						],
+						"nbt": "{ISB_Spells:{data:[{level:1,id:\"traveloptics:call_forth_the_dead_king\",index:0,locked:1b}],maxSpells:1}}"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"criterion"
+		]
+	]
+}

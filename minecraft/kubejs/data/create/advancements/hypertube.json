@@ -1,0 +1,39 @@
+{
+	"parent": "create:brass",
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["create_hypertube:hypertube_entrance"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"description": [
+			"Craft a ",
+			{
+				"text": "Hypertube Entrance",
+				"color": "white",
+				"bold": true
+			},
+			". This block, paired with Hypertube Blocks lets you travel around in tubes, how cool!"
+		],
+		"frame": "task",
+		"hidden": false,
+		"icon": {
+			"item": "create_hypertube:hypertube_entrance"
+		},
+		"show_toast": true,
+		"title": "ZOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOM"
+	},
+	"requirements": [
+		[
+			"criteria"
+		]
+	]
+}
